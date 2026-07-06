@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://leg0e8417gi"]
+
+[ext_resource type="Texture2D" uid="uid://j3rf0m1yhvcl" path="res://Asset/Background/Brown.png" id="1_ftydy"]
+
+[node name="MainMenu" type="Node" unique_id=2128577933]
+
+[node name="Background" type="Node2D" parent="." unique_id=331839309]
+
+[node name="Area2D" type="Area2D" parent="Background" unique_id=382432522]
+position = Vector2(-1, 2)
+
+[node name="TextureRect" type="TextureRect" parent="Background/Area2D" unique_id=629553894]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -1.0
+offset_top = -4.0
+offset_right = 1158.0
+offset_bottom = 648.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_ftydy")
+stretch_mode = 1
