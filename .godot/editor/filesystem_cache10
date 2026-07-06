@@ -20,5 +20,8 @@ Run (32x32).png::CompressedTexture2D::3288614432320482862::1783328073::178332807
 Wall Jump (32x32).png::CompressedTexture2D::6013829749313438905::1783328073::1783328074::1::::<><><>0<>0<>1b8f7465a2de4f79fed1cafc42b7f848<>res://.godot/imported/Wall Jump (32x32).png-04754cd963a99fd8661805c578d54fe4.ctex::
 ::res://Asset/TileMap/::1783328091
 Terrain (16x16).png::CompressedTexture2D::8863088087138013925::1783328082::1783328091::1::::<><><>0<>0<>b522c0daeed91a29cca8fa90ab0ea6d6<>res://.godot/imported/Terrain (16x16).png-000b28127c34f4b0bb13a28bab8f8ee8.ctex::
-::res://Scene/::1783328010
+::res://Scene/::1783328697
+characterr.tscn::PackedScene::4532286502041021266::1783328750::0::1::::<><><>0<>0<><>::uid://du6j4i7n6ttbw::::res://Scene/characterr.gd<>uid://ct1xdbprpf5xo::::res://Asset/Character/Idle (32x32).png
+level_1.tscn::PackedScene::1160281731344498769::1783328734::0::1::::<><><>0<>0<><>::uid://dyjl1bmhn015j::::res://Asset/TileMap/Terrain (16x16).png<>uid://b5tqdjtmfmsmc::::res://Scene/characterr.tscn
 ::res://Script/::1783327629
+characterr.gd::GDScript::8627633345427342252::1783328750::0::1::::<>CharacterBody2D<><>0<>0<><>::

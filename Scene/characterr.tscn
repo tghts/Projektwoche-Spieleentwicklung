@@ -1,5 +1,6 @@
 [gd_scene format=3 uid="uid://b5tqdjtmfmsmc"]
 
+[ext_resource type="Script" uid="uid://du6j4i7n6ttbw" path="res://Script/characterr.gd" id="1_fpegf"]
 [ext_resource type="Texture2D" uid="uid://ct1xdbprpf5xo" path="res://Asset/Character/Idle (32x32).png" id="1_mw3mi"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_fpegf"]
@@ -91,6 +92,7 @@ animations = [{
 size = Vector2(22.5, 26)
 
 [node name="Node2D" type="CharacterBody2D" unique_id=983975606]
+script = ExtResource("1_fpegf")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1485759793]
 texture_filter = 1

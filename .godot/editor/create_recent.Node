@@ -1,7 +1,8 @@
+TextureRect
+TextEdit
 AnimatedSprite2D
 CollisionShape2D
 CharacterBody2D
 TileMap
 Node2D
 Node
-TextureRect
