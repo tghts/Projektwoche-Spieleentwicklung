@@ -1,0 +1,14 @@
+78098b89c88a74ebe8c20117b8754620
+::res://::1783326068
+::res://Asset/::1783326062
+::res://Asset/Background/::1783326049
+Green.png::CompressedTexture2D::8779869214036026717::1783323415::1783326049::1::::<><><>0<>0<>b2941da2d021f2391046d125e1a97e28<>res://.godot/imported/Green.png-a14435a3526a0733e689a131077ad73e.ctex::
+::res://Asset/Character/::1783326068
+Idle (32x32).png::CompressedTexture2D::7917543491640131883::1783323524::1783326068::1::::<><><>0<>0<>9ff64d342860f12c377bb2523f4435f5<>res://.godot/imported/Idle (32x32).png-582430a2ae8d874e238afe241052bd21.ctex::
+::res://Asset/Tilemap/::1783326039
+Terrain (16x16).png::CompressedTexture2D::5502670381510428814::1783323375::1783326039::1::::<><><>0<>0<>a1a48763a7bd9f4fba5fce6ef4c2d74b<>res://.godot/imported/Terrain (16x16).png-c963e89216f61b56f56df732d705997f.ctex::
+::res://Scene/::1783326068
+main_character.tscn::PackedScene::4684718281995012143::1783326068::0::1::::<><><>0<>0<><>::uid://dk2k1w6sxmmbj::::res://Asset/Character/Idle (32x32).png<>uid://c2l2sfx2qvmfs::::res://Scripts/main_character.gd
+::res://Scripts/::1783326049
+level1.tscn::PackedScene::4021349112804194394::1783326049::0::1::::<><><>0<>0<><>::uid://dxdbfswolse3v::::res://Asset/Background/Green.png<>uid://cknsga48g5fcg::::res://Asset/Tilemap/Terrain (16x16).png<>uid://b70kvji5bsred::::res://Scene/main_character.tscn
+main_character.gd::GDScript::6692320103398946228::1783323695::0::1::::<>CharacterBody2D<><>0<>0<><>::
