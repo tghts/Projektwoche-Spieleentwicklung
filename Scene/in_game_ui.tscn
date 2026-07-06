@@ -6,14 +6,15 @@
 
 [node name="Panel" type="Panel" parent="." unique_id=773247067]
 anchors_preset = -1
-anchor_left = 0.039
+anchor_left = 0.731
 anchor_top = 0.093
-anchor_right = 0.26000002
-anchor_bottom = 0.224
-offset_left = 0.071998596
-offset_top = -0.26399994
-offset_right = -0.52001953
-offset_bottom = -0.15200806
+anchor_right = 0.95100003
+anchor_bottom = 0.19900002
+offset_left = -0.11199951
+offset_top = -16.264
+offset_right = 0.44799805
+offset_bottom = 0.04798889
+metadata/_edit_group_ = true
 
 [node name="HBoxContainer" type="HBoxContainer" parent="Panel" unique_id=1972383159]
 texture_filter = 1

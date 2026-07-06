@@ -273,4 +273,4 @@ position = Vector2(64, 16)
 
 [node name="Camera2D" type="Camera2D" parent="Character" unique_id=1093177048]
 
-[node name="InGameUI" parent="Character/Camera2D" unique_id=1082638675 instance=ExtResource("4_6544n")]
+[node name="InGameUI" parent="." unique_id=1082638675 instance=ExtResource("4_6544n")]
