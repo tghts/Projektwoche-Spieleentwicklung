@@ -266,10 +266,17 @@ texture_filter = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
+<<<<<<< HEAD
 offset_left = -120.0
 offset_top = -120.0
 offset_right = 13233.0
 offset_bottom = 671.0
+=======
+offset_left = -213.0
+offset_top = -187.0
+offset_right = 13140.0
+offset_bottom = 604.0
+>>>>>>> d4ed35729b94670aef6255cda4018e86f50cf9d6
 grow_horizontal = 2
 grow_vertical = 2
 texture = ExtResource("1_5exfe")
