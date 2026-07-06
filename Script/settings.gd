@@ -5,3 +5,14 @@ func _on_back_pressed() -> void:
 	click_02.play()
 	await get_tree().create_timer(0.2).timeout #wait-methode für 0.2 sekunden
 	get_tree().change_scene_to_file("res://Scene/main_menu.tscn")
+
+func _on_fullscreen_pressed() -> void:
+	fullscreen()
+
+
+
+func fullscreen():
+	DisplayServer.window_set_mode(DisplayServer.WINDOW_MODE_FULLSCREEN)
+	
+func windowed():
+	DisplayServer.window_set_mode(DisplayServer.WINDOW_MODE_WINDOWED)

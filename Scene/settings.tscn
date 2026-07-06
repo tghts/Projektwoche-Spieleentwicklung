@@ -1,6 +1,6 @@
 [gd_scene format=4 uid="uid://l6ex3u2xwoq4"]
 
-[ext_resource type="Script" uid="uid://bgrmr6spsyqtw" path="res://Scene/settings.gd" id="1_mvx5f"]
+[ext_resource type="Script" uid="uid://bgrmr6spsyqtw" path="res://Script/settings.gd" id="1_mvx5f"]
 [ext_resource type="Texture2D" uid="uid://j3rf0m1yhvcl" path="res://Asset/Background/Brown.png" id="1_qampi"]
 [ext_resource type="FontFile" uid="uid://dfhwqbc3g0qpu" path="res://Asset/Fonts/GravityRegular5.ttf" id="2_mvx5f"]
 
@@ -16,6 +16,7 @@ tags = {
 script = ExtResource("1_mvx5f")
 
 [node name="TextureRect" type="TextureRect" parent="." unique_id=2076855017]
+texture_filter = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
@@ -27,6 +28,7 @@ stretch_mode = 1
 metadata/_edit_use_anchors_ = true
 
 [node name="Hauptmenü Name" type="Label" parent="." unique_id=1954962361]
+texture_filter = 1
 offset_left = 128.0
 offset_top = 48.0
 offset_right = 1024.0
@@ -42,6 +44,7 @@ vertical_alignment = 1
 metadata/_edit_use_anchors_ = true
 
 [node name="TextureRect" type="TextureRect" parent="Hauptmenü Name" unique_id=1140192240]
+texture_filter = 1
 layout_mode = 1
 anchors_preset = -1
 offset_right = 40.0
@@ -49,6 +52,7 @@ offset_bottom = 40.0
 metadata/_edit_use_anchors_ = true
 
 [node name="Fullscreen" type="Button" parent="." unique_id=609171311]
+texture_filter = 1
 offset_left = 422.0
 offset_top = 236.0
 offset_right = 726.0
@@ -59,6 +63,7 @@ text = "Fullscreen"
 metadata/_edit_use_anchors_ = true
 
 [node name="Settingknopf" type="Button" parent="." unique_id=644468879]
+texture_filter = 1
 offset_left = 424.0
 offset_top = 312.0
 offset_right = 728.0
@@ -69,6 +74,7 @@ text = "Setting2"
 metadata/_edit_use_anchors_ = true
 
 [node name="Setting3" type="Button" parent="." unique_id=887439438]
+texture_filter = 1
 offset_left = 424.0
 offset_top = 392.0
 offset_right = 728.0
@@ -79,6 +85,7 @@ text = "Setting3"
 metadata/_edit_use_anchors_ = true
 
 [node name="Back" type="Button" parent="." unique_id=326929855]
+texture_filter = 1
 offset_left = 424.0
 offset_top = 472.0
 offset_right = 568.0
@@ -95,5 +102,6 @@ process_priority = 1
 stream = SubResource("AudioStreamWAV_cmh6x")
 volume_db = 10.321
 
+[connection signal="pressed" from="Fullscreen" to="." method="_on_fullscreen_pressed"]
 [connection signal="pressed" from="Settingknopf" to="." method="_on_settingknopf_pressed"]
 [connection signal="pressed" from="Back" to="." method="_on_back_pressed"]

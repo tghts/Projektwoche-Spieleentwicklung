@@ -16,6 +16,7 @@ tags = {
 script = ExtResource("1_hii65")
 
 [node name="TextureRect" type="TextureRect" parent="." unique_id=629553894]
+texture_filter = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
@@ -27,6 +28,7 @@ stretch_mode = 1
 metadata/_edit_use_anchors_ = true
 
 [node name="Hauptmenü Name" type="Label" parent="." unique_id=537921175]
+texture_filter = 1
 offset_left = 128.0
 offset_top = 48.0
 offset_right = 1024.0
@@ -42,6 +44,7 @@ vertical_alignment = 1
 metadata/_edit_use_anchors_ = true
 
 [node name="TextureRect" type="TextureRect" parent="Hauptmenü Name" unique_id=2113492234]
+texture_filter = 1
 layout_mode = 1
 anchors_preset = -1
 offset_right = 40.0
@@ -49,6 +52,7 @@ offset_bottom = 40.0
 metadata/_edit_use_anchors_ = true
 
 [node name="Startknopf" type="Button" parent="." unique_id=600721941]
+texture_filter = 1
 offset_left = 424.0
 offset_top = 192.0
 offset_right = 728.0
@@ -59,6 +63,7 @@ text = "Start Game"
 metadata/_edit_use_anchors_ = true
 
 [node name="Exitknopf" type="Button" parent="." unique_id=1947137217]
+texture_filter = 1
 offset_left = 424.0
 offset_top = 472.0
 offset_right = 568.0
@@ -69,6 +74,7 @@ text = "Exit"
 metadata/_edit_use_anchors_ = true
 
 [node name="Settingknopf" type="Button" parent="." unique_id=2009033904]
+texture_filter = 1
 offset_left = 424.0
 offset_top = 312.0
 offset_right = 728.0
@@ -79,6 +85,7 @@ text = "Settings"
 metadata/_edit_use_anchors_ = true
 
 [node name="Credits" type="Button" parent="." unique_id=1987049026]
+texture_filter = 1
 offset_left = 424.0
 offset_top = 392.0
 offset_right = 728.0
@@ -89,6 +96,7 @@ text = "Credits"
 metadata/_edit_use_anchors_ = true
 
 [node name="Abc" type="Button" parent="." unique_id=326948932]
+texture_filter = 1
 offset_left = 584.0
 offset_top = 472.0
 offset_right = 728.0
