@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://4cdeqxttvemn"]
 
-[ext_resource type="Texture2D" uid="uid://chxi4wvqo8dx2" path="res://Asset/Background/Gray.png" id="1_5exfe"]
+[ext_resource type="Texture2D" uid="uid://d1knc4pbmx005" path="res://Asset/Background/KI_City.png" id="1_5exfe"]
 [ext_resource type="Texture2D" uid="uid://dyjl1bmhn015j" path="res://Asset/TileMap/Terrain (16x16).png" id="1_8ko5r"]
 [ext_resource type="PackedScene" uid="uid://b5tqdjtmfmsmc" path="res://Scene/characterr.tscn" id="2_au1pm"]
 
@@ -254,10 +254,9 @@ sources/0 = SubResource("TileSetAtlasSource_ihfcg")
 
 [node name="TextureRect" type="TextureRect" parent="Background" unique_id=271568022]
 texture_filter = 1
-offset_left = -296.0
-offset_top = -248.0
-offset_right = 1944.0
-offset_bottom = 392.0
+offset_top = -448.0
+offset_right = 4304.0
+offset_bottom = 102.0
 texture = ExtResource("1_5exfe")
 stretch_mode = 1
 
