@@ -1,11 +1,11 @@
 [gd_scene format=3 uid="uid://lcuj62xiwkng"]
 
-[ext_resource type="Texture2D" path="res://Asset/Background/Green.png" id="1_trmlm"]
-[ext_resource type="Texture2D" path="res://Asset/Tilemap/Terrain (16x16).png" id="2_dqon2"]
-[ext_resource type="PackedScene" path="res://Scene/main_character.tscn" id="3_4pijs"]
+[ext_resource type="Texture2D" path="res://Asset/Background/Green.png" id="1_5qbr2"]
+[ext_resource type="Texture2D" path="res://Asset/Tilemap/Terrain (16x16).png" id="2_h7qqv"]
+[ext_resource type="PackedScene" uid="uid://bnjajwigywk0u" path="res://Scene/main_character.tscn" id="3_rn6oc"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_dopym"]
-texture = ExtResource("2_dqon2")
+texture = ExtResource("2_h7qqv")
 0:0/0 = 0
 1:0/0 = 0
 2:0/0 = 0
@@ -176,7 +176,7 @@ offset_right = 1578.0
 offset_bottom = 991.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("1_trmlm")
+texture = ExtResource("1_5qbr2")
 stretch_mode = 1
 
 [node name="TileMap" type="TileMap" parent="Background" unique_id=316390345]
@@ -184,5 +184,5 @@ tile_set = SubResource("TileSet_7emdm")
 format = 2
 layer_0/tile_data = PackedInt32Array(655360, 393216, 0, 655361, 458752, 0, 655362, 458752, 0, 655363, 458752, 0, 655364, 458752, 0, 655365, 458752, 0, 655366, 458752, 0, 655367, 458752, 0, 655368, 458752, 0, 655369, 458752, 0, 655370, 458752, 0, 655371, 458752, 0, 655372, 458752, 0, 655373, 458752, 0, 655374, 458752, 0, 655375, 458752, 0, 655376, 458752, 0, 655377, 458752, 0, 655378, 458752, 0, 655379, 458752, 0, 655380, 458752, 0, 720917, 458752, 2, 720918, 458752, 2, 720919, 458752, 2, 720920, 458752, 2, 720921, 458752, 2, 720922, 458752, 2, 720923, 458752, 2, 720924, 458752, 2, 720925, 458752, 2, 720926, 458752, 2, 720927, 458752, 2, 720928, 458752, 2, 720929, 458752, 2, 655381, 458752, 0, 655382, 458752, 0, 655383, 458752, 0, 655384, 458752, 0, 655385, 458752, 0, 655386, 458752, 0, 655387, 458752, 0, 655388, 458752, 0, 655389, 458752, 0, 655390, 458752, 0, 655391, 458752, 0, 655392, 458752, 0, 655393, 458752, 0, 655394, 524288, 0, 720930, 524288, 2, 720916, 458752, 2, 720915, 458752, 2, 720914, 458752, 2, 720913, 458752, 2, 720912, 458752, 2, 720911, 458752, 2, 720910, 458752, 2, 720909, 458752, 2, 720908, 458752, 2, 720907, 458752, 2, 720906, 458752, 2, 720898, 458752, 2, 720899, 458752, 2, 720900, 458752, 2, 720901, 458752, 2, 720902, 458752, 2, 720903, 458752, 2, 720904, 458752, 2, 720905, 458752, 2, 720896, 393216, 2, 720897, 458752, 2)
 
-[node name="Main_Character" parent="." unique_id=382809336 instance=ExtResource("3_4pijs")]
+[node name="Main_Character" parent="." unique_id=382809336 instance=ExtResource("3_rn6oc")]
 position = Vector2(52, 130)
