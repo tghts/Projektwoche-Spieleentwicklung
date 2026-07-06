@@ -1,6 +1,8 @@
 [gd_scene format=3 uid="uid://dcqdrsq728l6i"]
 
-[node name="InGameUI" type="Node" unique_id=1082638675]
+[ext_resource type="Texture2D" uid="uid://cqktjsgoft8cs" path="res://Asset/UI/Heart_full.png" id="1_mmx1g"]
+
+[node name="InGameUI" type="CanvasLayer" unique_id=750196476]
 
 [node name="Panel" type="Panel" parent="." unique_id=773247067]
 anchors_preset = -1
@@ -12,3 +14,28 @@ offset_left = 0.071998596
 offset_top = -0.26399994
 offset_right = -0.52001953
 offset_bottom = -0.15200806
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Panel" unique_id=1972383159]
+texture_filter = 1
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+alignment = 1
+
+[node name="Heart" type="TextureRect" parent="Panel/HBoxContainer" unique_id=735849211]
+layout_mode = 2
+texture = ExtResource("1_mmx1g")
+expand_mode = 3
+
+[node name="Heart2" type="TextureRect" parent="Panel/HBoxContainer" unique_id=1242265972]
+layout_mode = 2
+texture = ExtResource("1_mmx1g")
+expand_mode = 3
+
+[node name="Heart3" type="TextureRect" parent="Panel/HBoxContainer" unique_id=1930319260]
+layout_mode = 2
+texture = ExtResource("1_mmx1g")
+expand_mode = 3

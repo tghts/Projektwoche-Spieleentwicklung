@@ -1,7 +1,7 @@
 [gd_scene format=4 uid="uid://leg0e8417gi"]
 
 [ext_resource type="Texture2D" uid="uid://j3rf0m1yhvcl" path="res://Asset/Background/Brown.png" id="1_ftydy"]
-[ext_resource type="Script" uid="uid://t83jqkge7xgq" path="res://Scene/main_menu.gd" id="1_hii65"]
+[ext_resource type="Script" uid="uid://t83jqkge7xgq" path="res://Script/main_menu.gd" id="1_hii65"]
 [ext_resource type="FontFile" uid="uid://dfhwqbc3g0qpu" path="res://Asset/Fonts/GravityRegular5.ttf" id="2_87ipw"]
 
 [sub_resource type="AudioStreamWAV" id="AudioStreamWAV_hii65"]

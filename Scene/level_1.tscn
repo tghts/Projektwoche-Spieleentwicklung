@@ -3,6 +3,7 @@
 [ext_resource type="Texture2D" uid="uid://d1knc4pbmx005" path="res://Asset/Background/KI_City.png" id="1_5exfe"]
 [ext_resource type="Texture2D" uid="uid://dyjl1bmhn015j" path="res://Asset/TileMap/Terrain (16x16).png" id="1_8ko5r"]
 [ext_resource type="PackedScene" uid="uid://b5tqdjtmfmsmc" path="res://Scene/characterr.tscn" id="2_au1pm"]
+[ext_resource type="PackedScene" uid="uid://dcqdrsq728l6i" path="res://Scene/in_game_ui.tscn" id="4_6544n"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ihfcg"]
 texture = ExtResource("1_8ko5r")
@@ -254,10 +255,10 @@ sources/0 = SubResource("TileSetAtlasSource_ihfcg")
 
 [node name="TextureRect" type="TextureRect" parent="Background" unique_id=271568022]
 texture_filter = 1
-offset_left = -16.0
-offset_top = -440.0
-offset_right = 1484.0
-offset_bottom = 110.0
+offset_left = 8.0
+offset_top = -488.0
+offset_right = 1508.0
+offset_bottom = 62.0
 texture = ExtResource("1_5exfe")
 stretch_mode = 1
 
@@ -271,3 +272,5 @@ layer_0/tile_data = PackedInt32Array(196608, 393216, 0, 262144, 393216, 1, 32768
 position = Vector2(64, 16)
 
 [node name="Camera2D" type="Camera2D" parent="Character" unique_id=1093177048]
+
+[node name="InGameUI" parent="Character/Camera2D" unique_id=1082638675 instance=ExtResource("4_6544n")]
