@@ -7,3 +7,4 @@ res://Scene/level_1.tscn
 res://Scene/characterr.tscn
 res://Scene/characterr.gd
 res://Scene/main_menu.tscn
+res://Script/characterr.gd
