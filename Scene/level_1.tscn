@@ -248,16 +248,32 @@ texture = ExtResource("1_8ko5r")
 physics_layer_0/collision_layer = 1
 sources/0 = SubResource("TileSetAtlasSource_ihfcg")
 
+<<<<<<< HEAD
 [node name="Level1" type="Node2D" unique_id=1804354702]
 
 [node name="Background" type="Node2D" parent="." unique_id=551553587]
+=======
+[node name="Level1" type="Node2D" unique_id=229117390]
+>>>>>>> parent of cbabcde (Healtbar)
 
 [node name="TextureRect" type="TextureRect" parent="Background" unique_id=271568022]
 texture_filter = 1
+<<<<<<< HEAD
 offset_left = -296.0
 offset_top = -248.0
 offset_right = 1944.0
 offset_bottom = 392.0
+=======
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -198.0
+offset_top = -100.0
+offset_right = 13155.0
+offset_bottom = 691.0
+grow_horizontal = 2
+grow_vertical = 2
+>>>>>>> parent of cbabcde (Healtbar)
 texture = ExtResource("1_5exfe")
 stretch_mode = 1
 
@@ -269,4 +285,8 @@ layer_0/tile_data = PackedInt32Array(196608, 393216, 0, 262144, 393216, 1, 32768
 [node name="Character" parent="." unique_id=983975606 instance=ExtResource("2_au1pm")]
 position = Vector2(64, 16)
 
+<<<<<<< HEAD
 [node name="Camera2D" type="Camera2D" parent="Character" unique_id=1093177048]
+=======
+[node name="Camera2D" type="Camera2D" parent="Node2D" unique_id=302903841]
+>>>>>>> parent of cbabcde (Healtbar)
