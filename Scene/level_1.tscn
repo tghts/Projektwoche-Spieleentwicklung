@@ -262,10 +262,10 @@ texture_filter = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = -264.0
-offset_top = -79.0
-offset_right = 1035.0
-offset_bottom = 712.0
+offset_left = -175.0
+offset_top = -129.0
+offset_right = 1124.0
+offset_bottom = 662.0
 grow_horizontal = 2
 grow_vertical = 2
 texture = ExtResource("1_5exfe")
@@ -278,3 +278,5 @@ layer_0/tile_data = PackedInt32Array(786432, 393216, 0, 786433, 458752, 0, 78643
 
 [node name="Node2D" parent="." unique_id=983975606 instance=ExtResource("2_au1pm")]
 position = Vector2(40, 161)
+
+[node name="Camera2D" type="Camera2D" parent="Node2D" unique_id=302903841]
