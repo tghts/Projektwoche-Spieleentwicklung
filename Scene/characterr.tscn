@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://b5tqdjtmfmsmc"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_7emdm"]
+
+[node name="Node2D" type="CharacterBody2D" unique_id=983975606]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1179163459]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1485759793]
+sprite_frames = SubResource("SpriteFrames_7emdm")
