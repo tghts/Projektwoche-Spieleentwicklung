@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="ProjektWocheSpiel"
-run/main_scene="uid://qsbw2hdr3sld"
+run/main_scene="uid://leg0e8417gi"
 config/features=PackedStringArray("4.7", "Forward Plus")
 
 [display]

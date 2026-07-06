@@ -1,23 +1,87 @@
 [gd_scene format=3 uid="uid://leg0e8417gi"]
 
 [ext_resource type="Texture2D" uid="uid://j3rf0m1yhvcl" path="res://Asset/Background/Brown.png" id="1_ftydy"]
+[ext_resource type="Script" uid="uid://t83jqkge7xgq" path="res://Scene/main_menu.gd" id="1_hii65"]
+[ext_resource type="FontFile" uid="uid://dfhwqbc3g0qpu" path="res://Asset/Fonts/GravityRegular5.ttf" id="2_87ipw"]
 
 [node name="MainMenu" type="Node" unique_id=2128577933]
+script = ExtResource("1_hii65")
 
-[node name="Background" type="Node2D" parent="." unique_id=331839309]
-
-[node name="Area2D" type="Area2D" parent="Background" unique_id=382432522]
-position = Vector2(-1, 2)
-
-[node name="TextureRect" type="TextureRect" parent="Background/Area2D" unique_id=629553894]
+[node name="TextureRect" type="TextureRect" parent="." unique_id=629553894]
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = -1.0
-offset_top = -4.0
-offset_right = 1158.0
-offset_bottom = 648.0
 grow_horizontal = 2
 grow_vertical = 2
+size_flags_horizontal = 0
 texture = ExtResource("1_ftydy")
 stretch_mode = 1
+
+[node name="Hauptmenü Name" type="Label" parent="." unique_id=537921175]
+offset_left = 128.0
+offset_top = 48.0
+offset_right = 1024.0
+offset_bottom = 168.0
+theme_override_colors/font_color = Color(0, 0.73006314, 1, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_87ipw")
+theme_override_font_sizes/font_size = 34
+text = "Projektwoche AI & Epochen"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextureRect" type="TextureRect" parent="Hauptmenü Name" unique_id=2113492234]
+layout_mode = 1
+anchors_preset = -1
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Startknopf" type="Button" parent="." unique_id=600721941]
+offset_left = 424.0
+offset_top = 192.0
+offset_right = 728.0
+offset_bottom = 296.0
+theme_override_fonts/font = ExtResource("2_87ipw")
+theme_override_font_sizes/font_size = 27
+text = "Start Game"
+
+[node name="Exitknopf" type="Button" parent="." unique_id=1947137217]
+offset_left = 424.0
+offset_top = 472.0
+offset_right = 568.0
+offset_bottom = 536.0
+theme_override_fonts/font = ExtResource("2_87ipw")
+theme_override_font_sizes/font_size = 28
+text = "Exit"
+
+[node name="Settingknopf" type="Button" parent="." unique_id=2009033904]
+offset_left = 424.0
+offset_top = 312.0
+offset_right = 728.0
+offset_bottom = 376.0
+theme_override_fonts/font = ExtResource("2_87ipw")
+theme_override_font_sizes/font_size = 24
+text = "Settings"
+
+[node name="Credits" type="Button" parent="." unique_id=1987049026]
+offset_left = 424.0
+offset_top = 392.0
+offset_right = 728.0
+offset_bottom = 456.0
+theme_override_fonts/font = ExtResource("2_87ipw")
+theme_override_font_sizes/font_size = 28
+text = "Credits"
+
+[node name="Abc" type="Button" parent="." unique_id=326948932]
+offset_left = 584.0
+offset_top = 472.0
+offset_right = 728.0
+offset_bottom = 536.0
+theme_override_fonts/font = ExtResource("2_87ipw")
+theme_override_font_sizes/font_size = 28
+text = "abc"
+
+[connection signal="pressed" from="Startknopf" to="." method="_on_startknopf_pressed"]
+[connection signal="pressed" from="Exitknopf" to="." method="_on_exitknopf_pressed"]
+[connection signal="pressed" from="Settingknopf" to="." method="_on_settingknopf_pressed"]
