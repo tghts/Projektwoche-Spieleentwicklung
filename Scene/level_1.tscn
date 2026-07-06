@@ -3,8 +3,6 @@
 [ext_resource type="Texture2D" uid="uid://b0fvcgnidmbeo" path="res://Asset/Background/Blue.png" id="1_5exfe"]
 [ext_resource type="Texture2D" uid="uid://dyjl1bmhn015j" path="res://Asset/TileMap/Terrain (16x16).png" id="1_8ko5r"]
 [ext_resource type="PackedScene" uid="uid://b5tqdjtmfmsmc" path="res://Scene/characterr.tscn" id="2_au1pm"]
-[ext_resource type="Script" uid="uid://dggwekfgnal4e" path="res://Scene/panel.gd" id="4_poeaa"]
-[ext_resource type="Texture2D" uid="uid://251g7vf2uc3f" path="res://Asset/UI/Sprite-0001.png" id="5_ufara"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_au1pm"]
 texture = ExtResource("1_8ko5r")
@@ -255,8 +253,6 @@ texture = ExtResource("1_8ko5r")
 physics_layer_0/collision_layer = 1
 sources/0 = SubResource("TileSetAtlasSource_au1pm")
 
-[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_e23sl"]
-
 [node name="Level1" type="Node2D" unique_id=229117390]
 
 [node name="Background" type="Node2D" parent="." unique_id=1047704973]
@@ -266,6 +262,7 @@ texture_filter = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
+<<<<<<< HEAD
 <<<<<<< HEAD
 offset_left = -120.0
 offset_top = -120.0
@@ -277,6 +274,12 @@ offset_top = -187.0
 offset_right = 13140.0
 offset_bottom = 604.0
 >>>>>>> d4ed35729b94670aef6255cda4018e86f50cf9d6
+=======
+offset_left = -198.0
+offset_top = -100.0
+offset_right = 13155.0
+offset_bottom = 691.0
+>>>>>>> parent of cbabcde (Healtbar)
 grow_horizontal = 2
 grow_vertical = 2
 texture = ExtResource("1_5exfe")
@@ -291,23 +294,3 @@ layer_0/tile_data = PackedInt32Array(786432, 393216, 0, 786433, 458752, 0, 78643
 position = Vector2(29, 176)
 
 [node name="Camera2D" type="Camera2D" parent="Node2D" unique_id=302903841]
-
-[node name="Panel" type="Panel" parent="." unique_id=583732946]
-offset_left = 16.0
-offset_top = 16.0
-offset_right = 516.0
-offset_bottom = 56.0
-theme_override_styles/panel = SubResource("StyleBoxEmpty_e23sl")
-script = ExtResource("4_poeaa")
-
-[node name="TextureRect" type="TextureRect" parent="Panel" unique_id=72991416]
-texture_filter = 1
-layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_right = -80.0
-grow_horizontal = 2
-grow_vertical = 2
-texture = ExtResource("5_ufara")
-stretch_mode = 1
