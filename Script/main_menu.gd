@@ -12,4 +12,6 @@ func _on_exitknopf_pressed() -> void:
 
 
 func _on_settingknopf_pressed() -> void:
-	pass # Replace with function body.
+	click_02.play()
+	await get_tree().create_timer(0.2).timeout #wait-methode für 0.2 sekunden
+	get_tree().change_scene_to_file("res://Scene/settings.tscn")
