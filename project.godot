@@ -23,6 +23,10 @@ GameData="*uid://chm3gew0a6rkx"
 window/stretch/mode="canvas_items"
 window/stretch/aspect="expand"
 
+[gui]
+
+theme/custom_font="uid://cdgbji8mdwkub"
+
 [input]
 
 down={
