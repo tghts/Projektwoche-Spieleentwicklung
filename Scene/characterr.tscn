@@ -59,13 +59,13 @@ animations = [{
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_8ko5r"]
 size = Vector2(66, 122)
 
-[node name="Node2D" type="CharacterBody2D" unique_id=983975606]
+[node name="Character" type="CharacterBody2D" unique_id=983975606]
 script = ExtResource("1_fpegf")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1485759793]
 texture_filter = 1
 sprite_frames = SubResource("SpriteFrames_7emdm")
-animation = &"fall"
+animation = &"idle"
 autoplay = "idle"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1179163459]
