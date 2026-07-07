@@ -1,6 +1,6 @@
 extends CharacterBody2D
 
-
+@export var healt_points:int = 3
 const SPEED = 300.0
 const JUMP_VELOCITY = -400.0
 var jump_counter = 0

@@ -1,10 +1,15 @@
 [gd_scene format=3 uid="uid://dcqdrsq728l6i"]
 
 [ext_resource type="Texture2D" uid="uid://cqktjsgoft8cs" path="res://Asset/UI/Heart_full.png" id="1_mmx1g"]
+[ext_resource type="Script" uid="uid://y0735dvq6m4x" path="res://Scene/in_game_ui.gd" id="1_ol85y"]
 
-[node name="InGameUI" type="CanvasLayer" unique_id=750196476]
+[node name="InGameUI" type="Node" unique_id=422732831 node_paths=PackedStringArray("hearts")]
+script = ExtResource("1_ol85y")
+hearts = [NodePath("CanvasLayer/Panel/HBoxContainer/Heart"), NodePath("CanvasLayer/Panel/HBoxContainer/Heart2"), NodePath("CanvasLayer/Panel/HBoxContainer/Heart3")]
 
-[node name="Panel" type="Panel" parent="." unique_id=773247067]
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1724532123]
+
+[node name="Panel" type="Panel" parent="CanvasLayer" unique_id=773247067]
 anchors_preset = -1
 anchor_left = 0.731
 anchor_top = 0.093
@@ -16,7 +21,7 @@ offset_right = 0.44799805
 offset_bottom = 0.04798889
 metadata/_edit_group_ = true
 
-[node name="HBoxContainer" type="HBoxContainer" parent="Panel" unique_id=1972383159]
+[node name="HBoxContainer" type="HBoxContainer" parent="CanvasLayer/Panel" unique_id=1972383159]
 texture_filter = 1
 layout_mode = 1
 anchors_preset = 15
@@ -26,17 +31,17 @@ grow_horizontal = 2
 grow_vertical = 2
 alignment = 1
 
-[node name="Heart" type="TextureRect" parent="Panel/HBoxContainer" unique_id=735849211]
+[node name="Heart" type="TextureRect" parent="CanvasLayer/Panel/HBoxContainer" unique_id=735849211]
 layout_mode = 2
 texture = ExtResource("1_mmx1g")
 expand_mode = 3
 
-[node name="Heart2" type="TextureRect" parent="Panel/HBoxContainer" unique_id=1242265972]
+[node name="Heart2" type="TextureRect" parent="CanvasLayer/Panel/HBoxContainer" unique_id=1242265972]
 layout_mode = 2
 texture = ExtResource("1_mmx1g")
 expand_mode = 3
 
-[node name="Heart3" type="TextureRect" parent="Panel/HBoxContainer" unique_id=1930319260]
+[node name="Heart3" type="TextureRect" parent="CanvasLayer/Panel/HBoxContainer" unique_id=1930319260]
 layout_mode = 2
 texture = ExtResource("1_mmx1g")
 expand_mode = 3
