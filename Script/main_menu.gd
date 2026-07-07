@@ -1,5 +1,5 @@
 extends Node
-@onready var click_02: AudioStreamPlayer = $AudioStreamPlayer/Click02
+@onready var click_02: AudioStreamPlayer = $AudioStreamPlayer/Click
 
 func _on_startknopf_pressed() -> void:
 	click_02.play()
