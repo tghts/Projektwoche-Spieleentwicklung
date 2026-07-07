@@ -252,7 +252,7 @@ texture = ExtResource("2_830qh")
 physics_layer_0/collision_layer = 1
 sources/0 = SubResource("TileSetAtlasSource_nb8bt")
 
-[node name="level4" type="Node2D" unique_id=543989263]
+[node name="Level4" type="Node2D" unique_id=543989263]
 
 [node name="Background" type="Node2D" parent="." unique_id=1316054504]
 position = Vector2(-4, 84)
