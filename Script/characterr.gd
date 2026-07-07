@@ -38,8 +38,3 @@ func _physics_process(delta: float) -> void:
 		animated_sprite_2d.flip_h = false
 	if (direction < 0):
 		animated_sprite_2d.flip_h = true
-		
-	if Input.is_action_just_pressed("down"):
-		fall()
-func fall():
-	animated_sprite_2d.animation = "fall"
