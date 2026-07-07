@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://dcqdrsq728l6i"]
 
 [ext_resource type="Texture2D" uid="uid://cqktjsgoft8cs" path="res://Asset/UI/Heart_full.png" id="1_mmx1g"]
-[ext_resource type="Script" uid="uid://y0735dvq6m4x" path="res://Scene/in_game_ui.gd" id="1_ol85y"]
+[ext_resource type="Script" uid="uid://y0735dvq6m4x" path="res://Script/in_game_ui.gd" id="1_ol85y"]
 
 [node name="InGameUI" type="Node" unique_id=422732831 node_paths=PackedStringArray("hearts")]
 script = ExtResource("1_ol85y")

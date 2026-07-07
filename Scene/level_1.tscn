@@ -261,7 +261,6 @@ offset_right = 1500.0
 offset_bottom = 62.0
 texture = ExtResource("1_5exfe")
 stretch_mode = 1
-metadata/_edit_use_anchors_ = true
 
 [node name="TileMap" type="TileMap" parent="." unique_id=2045800992]
 texture_filter = 1
