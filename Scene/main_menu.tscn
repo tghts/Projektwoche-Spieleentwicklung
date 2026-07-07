@@ -57,9 +57,10 @@ offset_left = 424.0
 offset_top = 192.0
 offset_right = 728.0
 offset_bottom = 296.0
+scale = Vector2(0.9989862, 0.9898471)
 theme_override_fonts/font = ExtResource("2_87ipw")
-theme_override_font_sizes/font_size = 27
-text = "Start Game"
+theme_override_font_sizes/font_size = 48
+text = "Play"
 metadata/_edit_use_anchors_ = true
 
 [node name="Exitknopf" type="Button" parent="." unique_id=1947137217]
@@ -103,7 +104,7 @@ offset_right = 728.0
 offset_bottom = 536.0
 theme_override_fonts/font = ExtResource("2_87ipw")
 theme_override_font_sizes/font_size = 28
-text = "abc"
+text = "404"
 metadata/_edit_use_anchors_ = true
 
 [node name="AudioStreamPlayer" type="Node" parent="." unique_id=305910721]
