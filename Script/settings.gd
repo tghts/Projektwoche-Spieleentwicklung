@@ -26,10 +26,10 @@ func windowed() -> void:
 
 func _on_sound_effects_value_changed(value: float) -> void:
 	GameData.sound_effects_volume = value
-	var bus_index = AudioServer.get_bus_index("SoundEffects")
+	var bus_index := AudioServer.get_bus_index("SoundEffects")
 	AudioServer.set_bus_volume_db(bus_index, linear_to_db(value))
 
 func _on_music_value_changed(value: float) -> void:
 	GameData.music_volume = value
-	var bus_index = AudioServer.get_bus_index("Music")
+	var bus_index := AudioServer.get_bus_index("Music")
 	AudioServer.set_bus_volume_db(bus_index, linear_to_db(value))
