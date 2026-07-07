@@ -43,44 +43,32 @@ horizontal_alignment = 1
 vertical_alignment = 1
 metadata/_edit_use_anchors_ = true
 
-[node name="TextureRect" type="TextureRect" parent="Hauptmenü Name" unique_id=1140192240]
-texture_filter = 1
-layout_mode = 1
-anchors_preset = -1
-offset_right = 40.0
-offset_bottom = 40.0
-metadata/_edit_use_anchors_ = true
-
 [node name="Fullscreen" type="Button" parent="." unique_id=609171311]
 texture_filter = 1
-offset_left = 425.0
-offset_top = 390.0
-offset_right = 729.0
-offset_bottom = 454.0
+anchors_preset = -1
+anchor_left = 0.0069444445
+anchor_right = 0.0069444445
+offset_left = 416.0
+offset_top = 392.0
+offset_right = 720.0
+offset_bottom = 456.0
 theme_override_fonts/font = ExtResource("2_mvx5f")
 theme_override_font_sizes/font_size = 24
+toggle_mode = true
 text = "Fullscreen"
-metadata/_edit_use_anchors_ = true
-
-[node name="Settingknopf" type="Button" parent="." unique_id=644468879]
-texture_filter = 1
-offset_left = 424.0
-offset_top = 312.0
-offset_right = 728.0
-offset_bottom = 376.0
-theme_override_fonts/font = ExtResource("2_mvx5f")
-theme_override_font_sizes/font_size = 24
-text = "Nothing"
 metadata/_edit_use_anchors_ = true
 
 [node name="Back" type="Button" parent="." unique_id=326929855]
 texture_filter = 1
-offset_left = 424.0
+anchors_preset = -1
+anchor_left = 0.0069444445
+anchor_right = 0.0069444445
+offset_left = 416.0
 offset_top = 472.0
-offset_right = 568.0
+offset_right = 560.0
 offset_bottom = 536.0
 theme_override_fonts/font = ExtResource("2_mvx5f")
-theme_override_font_sizes/font_size = 28
+theme_override_font_sizes/font_size = 24
 text = "Back"
 metadata/_edit_use_anchors_ = true
 
@@ -91,24 +79,46 @@ process_priority = 1
 stream = SubResource("AudioStreamWAV_cmh6x")
 volume_db = 10.321
 
-[node name="HSlider" type="HSlider" parent="." unique_id=603689461]
+[node name="Music" type="HSlider" parent="." unique_id=603689461]
 offset_left = 424.0
-offset_top = 240.0
+offset_top = 352.0
 offset_right = 728.0
-offset_bottom = 298.0
+offset_bottom = 368.0
+max_value = 1.0
+step = 0.01
 
-[node name="TextureRect2" type="TextureRect" parent="HSlider" unique_id=901368586]
-layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 6.0
-offset_top = -164.0
-offset_right = 2.0
-offset_bottom = -164.0
-grow_horizontal = 2
-grow_vertical = 2
+[node name="SoundEffects" type="HSlider" parent="." unique_id=1372904606]
+offset_left = 424.0
+offset_top = 272.0
+offset_right = 728.0
+offset_bottom = 288.0
+max_value = 1.0
+step = 0.01
+
+[node name="MusicLabel" type="Label" parent="." unique_id=256801958]
+offset_left = 424.0
+offset_top = 232.0
+offset_right = 728.0
+offset_bottom = 256.0
+theme_override_fonts/font = ExtResource("2_mvx5f")
+theme_override_font_sizes/font_size = 24
+text = "Music Volume"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="SoundEffectsLabel" type="Label" parent="." unique_id=180252469]
+offset_left = 424.0
+offset_top = 312.0
+offset_right = 728.0
+offset_bottom = 336.0
+theme_override_fonts/font = ExtResource("2_mvx5f")
+theme_override_font_sizes/font_size = 24
+text = "SFX Volume"
+horizontal_alignment = 1
+vertical_alignment = 1
 
 [connection signal="pressed" from="Fullscreen" to="." method="_on_fullscreen_pressed"]
-[connection signal="pressed" from="Settingknopf" to="." method="_on_settingknopf_pressed"]
+[connection signal="toggled" from="Fullscreen" to="." method="_on_fullscreen_toggled"]
 [connection signal="pressed" from="Back" to="." method="_on_back_pressed"]
+[connection signal="drag_ended" from="Music" to="." method="_on_music_drag_ended"]
+[connection signal="drag_ended" from="SoundEffects" to="." method="_on_sound_effects_drag_ended"]
