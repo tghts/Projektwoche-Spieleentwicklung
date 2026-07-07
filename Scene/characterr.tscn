@@ -1,13 +1,38 @@
 [gd_scene format=3 uid="uid://b5tqdjtmfmsmc"]
 
 [ext_resource type="Script" uid="uid://du6j4i7n6ttbw" path="res://Script/characterr.gd" id="1_fpegf"]
+[ext_resource type="Texture2D" uid="uid://0xpg6xj0ugg1" path="res://Asset/Character/00 KI_Epoche character (fallen).svg" id="2_8x63l"]
 [ext_resource type="Texture2D" uid="uid://c8ehxobkgc0ia" path="res://Asset/Character/KI_Epoche character (frontview).svg" id="2_dclga"]
 [ext_resource type="Texture2D" uid="uid://bhbe6kxptof26" path="res://Asset/Character/00-KI_Epoche-character-(laufen).png" id="3_agsgx"]
 [ext_resource type="Texture2D" uid="uid://bwsh105nah01e" path="res://Asset/Character/KI_Epoche character (sideview).svg" id="3_l6bjj"]
+[ext_resource type="Texture2D" uid="uid://dc6rnlwbldlcu" path="res://Asset/Character/01 KI_Epoche character (fallen).svg" id="3_otdvn"]
+[ext_resource type="Texture2D" uid="uid://bxig2rq61xh0e" path="res://Asset/Character/02 KI_Epoche character (fallen).svg" id="4_6uxg5"]
 [ext_resource type="Texture2D" uid="uid://d3kexttbved12" path="res://Asset/Character/01-KI_Epoche-character-(laufen).png" id="4_dclga"]
+[ext_resource type="Texture2D" uid="uid://b86xwe1hq01p5" path="res://Asset/Character/03 KI_Epoche character (fallen).svg" id="5_afjve"]
+[ext_resource type="Texture2D" uid="uid://y2l6ih7of681" path="res://Asset/Character/04 KI_Epoche character (fallen).svg" id="6_f7ihl"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_7emdm"]
 animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_8x63l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_otdvn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_6uxg5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_afjve")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_f7ihl")
+}],
+"loop": 1,
+"name": &"fall",
+"speed": 9.0
+}, {
 "frames": [{
 "duration": 1.0,
 "texture": ExtResource("2_dclga")
@@ -40,10 +65,10 @@ script = ExtResource("1_fpegf")
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1485759793]
 texture_filter = 1
 sprite_frames = SubResource("SpriteFrames_7emdm")
-animation = &"idle"
+animation = &"fall"
 autoplay = "idle"
+frame_progress = 0.430629
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1179163459]
-visible = false
 position = Vector2(0, -2)
 shape = SubResource("RectangleShape2D_8ko5r")
