@@ -26,7 +26,7 @@ texture = ExtResource("1_ftydy")
 stretch_mode = 1
 metadata/_edit_use_anchors_ = true
 
-[node name="Hauptmenü Name" type="Label" parent="." unique_id=537921175]
+[node name="MainMenuLabel" type="Label" parent="." unique_id=537921175]
 texture_filter = 1
 offset_left = 128.0
 offset_top = 48.0
@@ -41,7 +41,7 @@ horizontal_alignment = 1
 vertical_alignment = 1
 metadata/_edit_use_anchors_ = true
 
-[node name="TextureRect" type="TextureRect" parent="Hauptmenü Name" unique_id=2113492234]
+[node name="TextureRect" type="TextureRect" parent="MainMenuLabel" unique_id=2113492234]
 texture_filter = 1
 layout_mode = 1
 anchors_preset = -1
@@ -56,6 +56,9 @@ offset_top = 192.0
 offset_right = 728.0
 offset_bottom = 296.0
 scale = Vector2(0.9989862, 0.9898471)
+focus_neighbor_bottom = NodePath("../Settingknopf")
+focus_next = NodePath("../Settingknopf")
+focus_previous = NodePath("../Abc")
 theme_override_font_sizes/font_size = 48
 text = "Play"
 metadata/_edit_use_anchors_ = true
@@ -66,7 +69,11 @@ offset_left = 424.0
 offset_top = 472.0
 offset_right = 568.0
 offset_bottom = 536.0
-theme_override_font_sizes/font_size = 28
+focus_neighbor_top = NodePath("../Credits")
+focus_neighbor_right = NodePath("../Abc")
+focus_next = NodePath("../Abc")
+focus_previous = NodePath("../Credits")
+theme_override_font_sizes/font_size = 24
 text = "Exit"
 metadata/_edit_use_anchors_ = true
 
@@ -76,6 +83,10 @@ offset_left = 424.0
 offset_top = 312.0
 offset_right = 728.0
 offset_bottom = 376.0
+focus_neighbor_top = NodePath("../Startknopf")
+focus_neighbor_bottom = NodePath("../Credits")
+focus_next = NodePath("../Credits")
+focus_previous = NodePath("../Startknopf")
 theme_override_font_sizes/font_size = 24
 text = "Settings"
 metadata/_edit_use_anchors_ = true
@@ -86,7 +97,11 @@ offset_left = 424.0
 offset_top = 392.0
 offset_right = 728.0
 offset_bottom = 456.0
-theme_override_font_sizes/font_size = 28
+focus_neighbor_top = NodePath("../Settingknopf")
+focus_neighbor_bottom = NodePath("../Exitknopf")
+focus_next = NodePath("../Exitknopf")
+focus_previous = NodePath("../Settingknopf")
+theme_override_font_sizes/font_size = 24
 text = "Credits"
 metadata/_edit_use_anchors_ = true
 
@@ -96,7 +111,11 @@ offset_left = 584.0
 offset_top = 472.0
 offset_right = 728.0
 offset_bottom = 536.0
-theme_override_font_sizes/font_size = 28
+focus_neighbor_left = NodePath("../Exitknopf")
+focus_neighbor_top = NodePath("../Credits")
+focus_next = NodePath("../Startknopf")
+focus_previous = NodePath("../Exitknopf")
+theme_override_font_sizes/font_size = 24
 text = "404"
 metadata/_edit_use_anchors_ = true
 

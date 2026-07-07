@@ -1,14 +1,19 @@
 extends Node
-@onready var click_02: AudioStreamPlayer = $AudioStreamPlayer/Click
+@onready var click: AudioStreamPlayer = $AudioStreamPlayer/Click
 @onready var music: HSlider = $Music
 @onready var sound_effects: HSlider = $SoundEffects
 
 func _ready() -> void:
+	$Music.grab_focus()
 	music.value = GameData.music_volume
 	sound_effects.value = GameData.sound_effects_volume
 
+func _unhandled_input(event):
+	if event.is_action_pressed("ui_cancel"):
+		_on_back_pressed()
+
 func _on_back_pressed() -> void:
-	click_02.play()
+	click.play()
 	await get_tree().create_timer(0.2).timeout # wait-methode für 0.2 sekunden
 	get_tree().change_scene_to_file("res://Scene/main_menu.tscn")
 
