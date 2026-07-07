@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_1" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 101.48 39.56">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: aqua;
+      }
+
+      .cls-3 {
+        fill: #29abe2;
+      }
+
+      .cls-4, .cls-2, .cls-5 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-4, .cls-6 {
+        fill: #b3b3b3;
+      }
+
+      .cls-4, .cls-5 {
+        stroke: #999;
+      }
+
+      .cls-2 {
+        font-family: MyriadPro-Regular, 'Myriad Pro';
+        font-size: 10px;
+        stroke: #fff;
+      }
+
+      .cls-7, .cls-5 {
+        fill: #999;
+      }
+
+      .cls-8 {
+        fill: #000505;
+      }
+    </style>
+  </defs>
+  <g>
+    <rect class="cls-1" x="3.77" y="7.88" width="86.99" height="20.85"/>
+    <path d="M90.27,8.38v19.85H4.27V8.38h85.99M91.27,7.38H3.27v21.85h87.99V7.38h0Z"/>
+  </g>
+  <g>
+    <rect x="6.33" y="10.64" width="81.28" height="15.34"/>
+    <path d="M87.12,11.14v14.34H6.83v-14.34h80.28M88.12,10.14H5.83v16.34h82.28V10.14h0Z"/>
+  </g>
+  <g>
+    <path class="cls-6" d="M87.58,14.47c-3.14,0-5.7-2.52-5.7-5.61s2.56-5.61,5.7-5.61,5.7,2.52,5.7,5.61-2.56,5.61-5.7,5.61Z"/>
+    <path class="cls-7" d="M87.58,3.75c2.87,0,5.2,2.29,5.2,5.11s-2.33,5.11-5.2,5.11-5.2-2.29-5.2-5.11,2.33-5.11,5.2-5.11M87.58,2.75c-3.42,0-6.2,2.73-6.2,6.11s2.78,6.11,6.2,6.11,6.2-2.73,6.2-6.11-2.78-6.11-6.2-6.11h0Z"/>
+  </g>
+  <polygon class="cls-4" points="89.26 3.26 90.75 .69 92.48 1.74 93.35 2.25 91.9 4.49 89.26 3.26"/>
+  <polygon class="cls-4" points="93.39 6.91 96.35 7.08 96.19 9.1 96.13 10.11 93.48 9.82 93.39 6.91"/>
+  <polygon class="cls-4" points="94.52 14.07 92.38 16.13 91.01 14.63 90.32 13.91 92.33 12.16 94.52 14.07"/>
+  <polygon class="cls-4" points="82.45 15.68 83.93 13.12 85.67 14.16 86.54 14.67 85.09 16.91 82.45 15.68"/>
+  <polygon class="cls-4" points="79.3 12.31 78.63 9.42 80.62 9 81.59 8.78 82.07 11.4 79.3 12.31"/>
+  <polygon class="cls-4" points="80.85 2.72 83.34 1.1 84.41 2.83 84.95 3.67 82.65 5.01 80.85 2.72"/>
+  <ellipse class="cls-5" cx="87.69" cy="8.75" rx="1.57" ry="1.66"/>
+  <text class="cls-2" transform="translate(9.85 22.14)"><tspan x="0" y="0">KI-Epoche - 3000. </tspan></text>
+  <g>
+    <rect class="cls-3" x="2.61" y="5.52" width="9.46" height="7.61"/>
+    <path class="cls-8" d="M11.57,6.02v6.61H3.11v-6.61h8.46M12.57,5.02H2.11v8.61h10.46V5.02h0Z"/>
+  </g>
+  <g>
+    <rect class="cls-1" x=".5" y="4.38" width="4.03" height="3.33"/>
+    <path class="cls-8" d="M4.03,4.88v2.33H1v-2.33h3.03M5.03,3.88H0v4.33h5.03V3.88h0Z"/>
+  </g>
+  <g>
+    <rect class="cls-1" x="4" y="10.29" width="4.41" height="4.34"/>
+    <path class="cls-8" d="M7.91,10.79v3.34h-3.41v-3.34h3.41M8.91,9.79H3.5v5.34h5.41v-5.34h0Z"/>
+  </g>
+  <g>
+    <rect class="cls-1" x="8.38" y="2.43" width="5.85" height="5.5"/>
+    <path class="cls-8" d="M13.73,2.93v4.5h-4.85V2.93h4.85M14.73,1.93h-6.85v6.5h6.85V1.93h0Z"/>
+  </g>
+  <g>
+    <rect class="cls-3" x="71.52" y="24.94" width="18.14" height="12.9"/>
+    <path class="cls-8" d="M89.15,25.44v11.9h-17.14v-11.9h17.14M90.15,24.44h-19.14v13.9h19.14v-13.9h0Z"/>
+  </g>
+  <g>
+    <rect class="cls-1" x="74.13" y="29.98" width="5.85" height="5.5"/>
+    <path class="cls-8" d="M79.48,30.48v4.5h-4.85v-4.5h4.85M80.48,29.48h-6.85v6.5h6.85v-6.5h0Z"/>
+  </g>
+  <g>
+    <rect class="cls-1" x="70.28" y="34.72" width="4.41" height="4.34"/>
+    <path class="cls-8" d="M74.18,35.22v3.34h-3.41v-3.34h3.41M75.18,34.22h-5.41v5.34h5.41v-5.34h0Z"/>
+  </g>
+  <g>
+    <rect class="cls-1" x="86.67" y="27.41" width="5.85" height="5.5"/>
+    <path class="cls-8" d="M92.02,27.91v4.5h-4.85v-4.5h4.85M93.02,26.91h-6.85v6.5h6.85v-6.5h0Z"/>
+  </g>
+  <g>
+    <rect class="cls-1" x="71.44" y="24.06" width="4.03" height="3.33"/>
+    <path class="cls-8" d="M74.97,24.56v2.33h-3.03v-2.33h3.03M75.97,23.56h-5.03v4.33h5.03v-4.33h0Z"/>
+  </g>
+</svg>

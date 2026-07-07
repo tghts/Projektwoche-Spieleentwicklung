@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_1" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100.89 45.5">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: MyriadPro-Regular, 'Myriad Pro';
+        font-size: 10px;
+        stroke: #000;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        stroke: #fff;
+      }
+
+      .cls-6, .cls-3 {
+        fill: #c69c6d;
+      }
+
+      .cls-3 {
+        stroke: #c69c6d;
+      }
+
+      .cls-7 {
+        letter-spacing: .01em;
+      }
+
+      .cls-8 {
+        letter-spacing: 0em;
+      }
+
+      .cls-4 {
+        fill: red;
+        stroke: #c63311;
+      }
+
+      .cls-9 {
+        fill: #fbb03b;
+      }
+
+      .cls-10 {
+        fill: #8c6239;
+      }
+
+      .cls-5 {
+        fill: #603813;
+        stroke: #754c24;
+      }
+    </style>
+  </defs>
+  <g>
+    <rect class="cls-6" x="3.18" y="8.26" width="86.99" height="20.85"/>
+    <path d="M89.67,8.76v19.85H3.68V8.76h85.99M90.67,7.76H2.68v21.85h87.99V7.76h0Z"/>
+  </g>
+  <g>
+    <rect class="cls-10" x="5.74" y="11.01" width="81.28" height="15.34"/>
+    <path class="cls-10" d="M86.52,11.51v14.34H6.24v-14.34h80.28M87.52,10.51H5.24v16.34h82.28V10.51h0Z"/>
+  </g>
+  <text class="cls-1" transform="translate(9.26 22.51)"><tspan class="cls-7" x="0" y="0">M</tspan><tspan x="8.16" y="0">it</tspan><tspan class="cls-8" x="13.81" y="0">t</tspan><tspan x="17.06" y="0">elal</tspan><tspan class="cls-8" x="31.61" y="0">t</tspan><tspan x="34.86" y="0" xml:space="preserve">er  - 1200. </tspan></text>
+  <path class="cls-4" d="M77.77,29.97l.33,14.2,4.23-4.34,4.55,4.45s-.33-14.42,0-14.53-9.11.22-9.11.22Z"/>
+  <path class="cls-9" d="M79.29,29.92l.22,9.84,2.82-3.01,3.03,3.08s-.22-9.99,0-10.07-6.07.15-6.07.15Z"/>
+  <circle class="cls-3" cx="27.48" cy="13.19" r="1.14"/>
+  <path class="cls-3" d="M27.6,12.04h6.58-6.58Z"/>
+  <path class="cls-3" d="M26.59,14.07h-5.71,5.71Z"/>
+  <path class="cls-3" d="M36.42,25.06l10.19-.07-10.19.07Z"/>
+  <path class="cls-3" d="M46.04,25.78l8.82.07-8.82-.07Z"/>
+  <path class="cls-3" d="M46.83,13.63l9.61.07-9.61-.07Z"/>
+  <path class="cls-4" d="M5.23,9.37c-1.97.11-4.26-1.09-4.66-3.04-.28-1.36.37-3.08,1.41-3.47.76-.28,1.23.33,2.28,0,.93-.29.94-.9,1.73-1.08.99-.23,2.05.47,2.6,1.08.95,1.06,1.02,2.58.65,3.69-.6,1.79-2.44,2.73-4.01,2.82Z"/>
+  <path class="cls-5" d="M4.04,2.54L3.28.15l.76,2.39Z"/>
+  <path class="cls-2" d="M2.84,4.06c-.58.03-1.29,1.45-.83,2.31.26.48.84.71.94.61.11-.12-.57-.6-.51-1.27.07-.72.94-1.08.8-1.45-.06-.14-.25-.23-.4-.22Z"/>
+  <line class="cls-3" x1="67.07" y1="12.55" x2="75.24" y2="12.55"/>
+  <path class="cls-3" d="M74.52,13.42l6.72-.07-6.72.07Z"/>
+</svg>
