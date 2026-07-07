@@ -15,15 +15,17 @@ func _physics_process(delta: float) -> void:
 	# Add the gravity.
 	if not is_on_floor():
 		velocity += get_gravity() * delta
-		#animated_sprite_2d.animation = "walking"
+		animated_sprite_2d.animation = "jumping"
 
 	# Handle jump.
 	if Input.is_action_just_pressed("jump") and is_on_floor():
 		velocity.y = JUMP_VELOCITY
 		jump_counter += 1
+		
 	if Input.is_action_just_pressed("jump") and !is_on_floor() and jump_counter !=0:
 		velocity.y = JUMP_VELOCITY
 		jump_counter = 0
+		
 	# Get the input direction and handle the movement/deceleration.
 	# As good practice, you should replace UI actions with custom gameplay actions.
 	var direction := Input.get_axis("left", "right")

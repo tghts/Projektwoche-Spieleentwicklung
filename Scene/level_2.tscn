@@ -258,14 +258,14 @@ sources/0 = SubResource("TileSetAtlasSource_a5oyc")
 [node name="Dorf" type="TextureRect" parent="Background" unique_id=114101848]
 offset_left = -2.0
 offset_top = -456.0
-offset_right = 4641.247
+offset_right = 6442.066
 offset_bottom = 94.0
 scale = Vector2(0.9773333, 1)
 texture = ExtResource("1_yiryk")
 stretch_mode = 1
 
 [node name="Portal" parent="Background" unique_id=179838961 instance=ExtResource("2_7sdqy")]
-position = Vector2(1357, -89)
+position = Vector2(1401, -92)
 target_level = ExtResource("3_43cbn")
 
 [node name="TileMap" type="TileMap" parent="." unique_id=294961684]
