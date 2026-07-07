@@ -271,7 +271,7 @@ layer_0/tile_data = PackedInt32Array(196608, 393216, 0, 262144, 393216, 1, 32768
 
 [node name="Character" parent="." unique_id=983975606 instance=ExtResource("2_au1pm")]
 unique_name_in_owner = true
-position = Vector2(64, 16)
+position = Vector2(64, -8)
 
 [node name="Camera2D" type="Camera2D" parent="Character" unique_id=1093177048]
 
