@@ -4,6 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://dyjl1bmhn015j" path="res://Asset/TileMap/Terrain (16x16).png" id="1_8ko5r"]
 [ext_resource type="PackedScene" uid="uid://b5tqdjtmfmsmc" path="res://Scene/characterr.tscn" id="2_au1pm"]
 [ext_resource type="PackedScene" uid="uid://b64qd23yt107h" path="res://Scene/portal.tscn" id="2_ufara"]
+[ext_resource type="PackedScene" uid="uid://c2yunqt0fsnhb" path="res://Scene/level_2.tscn" id="3_ws63c"]
 [ext_resource type="PackedScene" uid="uid://dcqdrsq728l6i" path="res://Scene/in_game_ui.tscn" id="4_6544n"]
 [ext_resource type="PackedScene" uid="uid://cx6ji3kuf78j8" path="res://Scene/test_enemy.tscn" id="5_poeaa"]
 
@@ -255,7 +256,7 @@ sources/0 = SubResource("TileSetAtlasSource_ihfcg")
 
 [node name="Background" type="Node2D" parent="." unique_id=551553587]
 
-[node name="TextureRect" type="TextureRect" parent="Background" unique_id=271568022]
+[node name="KI_Stadt" type="TextureRect" parent="Background" unique_id=271568022]
 texture_filter = 1
 offset_top = -488.0
 offset_right = 1500.0
@@ -265,7 +266,7 @@ stretch_mode = 1
 
 [node name="Portal" parent="Background" unique_id=179838961 instance=ExtResource("2_ufara")]
 position = Vector2(1384, -96)
-nextScene = "res://Scene/level_2.tscn"
+target_level = ExtResource("3_ws63c")
 
 [node name="TileMap" type="TileMap" parent="." unique_id=2045800992]
 texture_filter = 1
