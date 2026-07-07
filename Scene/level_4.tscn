@@ -4,6 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://dyjl1bmhn015j" path="res://Asset/TileMap/Terrain (16x16).png" id="2_830qh"]
 [ext_resource type="PackedScene" uid="uid://b5tqdjtmfmsmc" path="res://Scene/characterr.tscn" id="3_kxdlq"]
 [ext_resource type="PackedScene" uid="uid://b64qd23yt107h" path="res://Scene/portal.tscn" id="4_830qh"]
+[ext_resource type="PackedScene" uid="uid://dcqdrsq728l6i" path="res://Scene/in_game_ui.tscn" id="5_kxdlq"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_nb8bt"]
 texture = ExtResource("2_830qh")
@@ -279,3 +280,5 @@ position = Vector2(150, -198)
 
 [node name="Portal" parent="." unique_id=179838961 instance=ExtResource("4_830qh")]
 position = Vector2(1458, -275)
+
+[node name="InGameUI" parent="." unique_id=422732831 instance=ExtResource("5_kxdlq")]
