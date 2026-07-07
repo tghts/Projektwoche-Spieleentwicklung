@@ -263,7 +263,7 @@ texture = ExtResource("1_yiryk")
 stretch_mode = 1
 
 [node name="Portal" parent="Background" unique_id=179838961 instance=ExtResource("2_7sdqy")]
-position = Vector2(1367, -93)
+position = Vector2(1376, -87)
 nextScene = "res://Scene/level_3.tscn"
 
 [node name="TileMap" type="TileMap" parent="." unique_id=294961684]
