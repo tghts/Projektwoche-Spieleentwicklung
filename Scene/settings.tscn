@@ -53,10 +53,10 @@ metadata/_edit_use_anchors_ = true
 
 [node name="Fullscreen" type="Button" parent="." unique_id=609171311]
 texture_filter = 1
-offset_left = 422.0
-offset_top = 236.0
-offset_right = 726.0
-offset_bottom = 300.0
+offset_left = 425.0
+offset_top = 390.0
+offset_right = 729.0
+offset_bottom = 454.0
 theme_override_fonts/font = ExtResource("2_mvx5f")
 theme_override_font_sizes/font_size = 24
 text = "Fullscreen"
@@ -70,18 +70,7 @@ offset_right = 728.0
 offset_bottom = 376.0
 theme_override_fonts/font = ExtResource("2_mvx5f")
 theme_override_font_sizes/font_size = 24
-text = "Setting2"
-metadata/_edit_use_anchors_ = true
-
-[node name="Setting3" type="Button" parent="." unique_id=887439438]
-texture_filter = 1
-offset_left = 424.0
-offset_top = 392.0
-offset_right = 728.0
-offset_bottom = 456.0
-theme_override_fonts/font = ExtResource("2_mvx5f")
-theme_override_font_sizes/font_size = 28
-text = "Setting3"
+text = "Nothing"
 metadata/_edit_use_anchors_ = true
 
 [node name="Back" type="Button" parent="." unique_id=326929855]
@@ -101,6 +90,24 @@ metadata/_edit_use_anchors_ = true
 process_priority = 1
 stream = SubResource("AudioStreamWAV_cmh6x")
 volume_db = 10.321
+
+[node name="HSlider" type="HSlider" parent="." unique_id=603689461]
+offset_left = 424.0
+offset_top = 240.0
+offset_right = 728.0
+offset_bottom = 298.0
+
+[node name="TextureRect2" type="TextureRect" parent="HSlider" unique_id=901368586]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 6.0
+offset_top = -164.0
+offset_right = 2.0
+offset_bottom = -164.0
+grow_horizontal = 2
+grow_vertical = 2
 
 [connection signal="pressed" from="Fullscreen" to="." method="_on_fullscreen_pressed"]
 [connection signal="pressed" from="Settingknopf" to="." method="_on_settingknopf_pressed"]
