@@ -1,5 +1,11 @@
 extends Node
 @onready var click_02: AudioStreamPlayer = $AudioStreamPlayer/Click02
+@onready var music: HSlider = $Music
+@onready var sound_effects: HSlider = $SoundEffects
+
+func _ready() -> void:
+	music.value = GameData.music_volume
+	sound_effects.value = GameData.sound_effects_volume
 
 func _on_back_pressed() -> void:
 	click_02.play()
@@ -18,10 +24,12 @@ func fullscreen() -> void:
 func windowed() -> void:
 	DisplayServer.window_set_mode(DisplayServer.WINDOW_MODE_WINDOWED)
 
-func _on_music_drag_ended(value_changed: bool) -> void:
-	var bus_index = AudioServer.get_bus_index("Music")
-	AudioServer.set_bus_volume_db(bus_index, linear_to_db(value_changed))
-
-func _on_sound_effects_drag_ended(value_changed: bool) -> void:
+func _on_sound_effects_value_changed(value: float) -> void:
+	GameData.sound_effects_volume = value
 	var bus_index = AudioServer.get_bus_index("SoundEffects")
-	AudioServer.set_bus_volume_db(bus_index, linear_to_db(value_changed))
+	AudioServer.set_bus_volume_db(bus_index, linear_to_db(value))
+
+func _on_music_value_changed(value: float) -> void:
+	GameData.music_volume = value
+	var bus_index = AudioServer.get_bus_index("Music")
+	AudioServer.set_bus_volume_db(bus_index, linear_to_db(value))
