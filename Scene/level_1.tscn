@@ -3726,9 +3726,6 @@ position = Vector2(143, -82)
 
 [node name="Camera2D" type="Camera2D" parent="Character" unique_id=1093177048]
 
-[node name="InGameUI" parent="." unique_id=1082638675 instance=ExtResource("4_6544n")]
-unique_name_in_owner = true
-
 [node name="EscMenue" parent="." unique_id=1580422525 instance=ExtResource("8_3rcer")]
 visible = false
 offset_left = 1.0
@@ -3743,5 +3740,8 @@ gravity_scale = 0.0
 
 [node name="Neanderkaren" parent="." unique_id=2103646498 instance=ExtResource("10_246mo")]
 position = Vector2(314, -98)
+
+[node name="InGameUI" parent="." unique_id=1082638675 instance=ExtResource("4_6544n")]
+unique_name_in_owner = true
 
 [connection signal="body_entered" from="Background/Portal" to="Background/Portal" method="_on_body_entered"]

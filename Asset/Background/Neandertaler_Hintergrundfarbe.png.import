@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d20qvt0y034m3"
-path="res://.godot/imported/The End Text Schild 02.svg-e8fd4c4f8f3d5f0f19225137a463b7cd.ctex"
+uid="uid://ca5c86gfl0qyb"
+path="res://.godot/imported/Neandertaler_Hintergrundfarbe.png-20892b99105da4b4753360ce37a4428c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Asset/Background/The End Text Schild 02.svg"
-dest_files=["res://.godot/imported/The End Text Schild 02.svg-e8fd4c4f8f3d5f0f19225137a463b7cd.ctex"]
+source_file="res://Asset/Background/Neandertaler_Hintergrundfarbe.png"
+dest_files=["res://.godot/imported/Neandertaler_Hintergrundfarbe.png-20892b99105da4b4753360ce37a4428c.ctex"]
 
 [params]
 
@@ -38,6 +38,3 @@ process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
 detect_3d/compress_to=1
-svg/scale=7.0
-editor/scale_with_editor_scale=false
-editor/convert_colors_with_editor_theme=false
