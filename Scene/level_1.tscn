@@ -276,6 +276,7 @@ position = Vector2(64, 16)
 [node name="Camera2D" type="Camera2D" parent="Character" unique_id=1093177048]
 
 [node name="InGameUI" parent="." unique_id=1082638675 instance=ExtResource("4_6544n")]
+unique_name_in_owner = true
 
 [node name="TestEnemy" parent="." unique_id=832224424 instance=ExtResource("5_poeaa")]
 texture_filter = 1
