@@ -3,6 +3,7 @@
 [ext_resource type="Texture2D" uid="uid://dfjv3dm0av1bm" path="res://Asset/Background/Desert.png" id="1_wjlks"]
 [ext_resource type="Texture2D" uid="uid://dyjl1bmhn015j" path="res://Asset/TileMap/Terrain (16x16).png" id="2_7x2t2"]
 [ext_resource type="PackedScene" uid="uid://b5tqdjtmfmsmc" path="res://Scene/characterr.tscn" id="3_c5qca"]
+[ext_resource type="PackedScene" uid="uid://b64qd23yt107h" path="res://Scene/portal.tscn" id="4_7x2t2"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_3a2ac"]
 texture = ExtResource("2_7x2t2")
@@ -273,3 +274,7 @@ unique_name_in_owner = true
 position = Vector2(60, 76)
 
 [node name="Camera2D" type="Camera2D" parent="Character" unique_id=823645452]
+
+[node name="Portal" parent="." unique_id=179838961 instance=ExtResource("4_7x2t2")]
+position = Vector2(1374, -5)
+nextScene = "res://Scene/level_4.tscn"

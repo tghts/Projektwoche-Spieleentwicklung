@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://c2yunqt0fsnhb"]
 
 [ext_resource type="Texture2D" uid="uid://c3ddwis3cnyqx" path="res://Asset/Background/DORF.png" id="1_yiryk"]
+[ext_resource type="PackedScene" uid="uid://b64qd23yt107h" path="res://Scene/portal.tscn" id="2_7sdqy"]
 [ext_resource type="Texture2D" uid="uid://dyjl1bmhn015j" path="res://Asset/TileMap/Terrain (16x16).png" id="2_louwq"]
 [ext_resource type="PackedScene" uid="uid://b5tqdjtmfmsmc" path="res://Scene/characterr.tscn" id="3_7sdqy"]
 
@@ -260,6 +261,10 @@ offset_bottom = 94.0
 scale = Vector2(0.9773333, 1)
 texture = ExtResource("1_yiryk")
 stretch_mode = 1
+
+[node name="Portal" parent="Background" unique_id=179838961 instance=ExtResource("2_7sdqy")]
+position = Vector2(1367, -93)
+nextScene = "res://Scene/level_3.tscn"
 
 [node name="TileMap" type="TileMap" parent="." unique_id=294961684]
 texture_filter = 1

@@ -56,7 +56,9 @@ expand_mode = 3
 [node name="Label" type="Label" parent="CanvasLayer/Panel" unique_id=182933892]
 texture_filter = 1
 layout_mode = 0
-offset_right = 271.0
-offset_bottom = 57.0
+offset_left = 7.0
+offset_top = 14.0
+offset_right = 278.0
+offset_bottom = 83.0
 theme_override_font_sizes/font_size = 50
 text = "Punkte: "

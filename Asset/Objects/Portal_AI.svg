@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_1" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 125.94 232.63">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #b42aff;
+      }
+
+      .cls-2 {
+        fill: #26002a;
+      }
+
+      .cls-3 {
+        fill: #70a;
+      }
+
+      .cls-4 {
+        fill: #e07fff;
+      }
+    </style>
+  </defs>
+  <path class="cls-2" d="M.08,117.97C-1.62,66.01,23.68,1.89,56.97.04c33.41-1.86,66.63,59.47,68.85,112.97,2.29,55.05-27.5,119.53-61.11,119.61C31.61,232.71,1.79,170.29.08,117.97Z"/>
+  <ellipse class="cls-3" cx="60.81" cy="115.73" rx="53.37" ry="107.26" transform="translate(-5.36 2.98) rotate(-2.69)"/>
+  <ellipse class="cls-1" cx="59.76" cy="115.78" rx="44.92" ry="96.35" transform="translate(-5.36 2.93) rotate(-2.69)"/>
+  <ellipse class="cls-4" cx="62.48" cy="117.47" rx="34.88" ry="84.84" transform="translate(-5.44 3.06) rotate(-2.69)"/>
+  <ellipse class="cls-3" cx="64.09" cy="118" rx="28.01" ry="74.53" transform="translate(-5.46 3.14) rotate(-2.69)"/>
+  <ellipse class="cls-1" cx="66.38" cy="119.18" rx="22.52" ry="59.92" transform="translate(-5.52 3.24) rotate(-2.69)"/>
+  <ellipse class="cls-4" cx="69.41" cy="119.55" rx="16.33" ry="43.47" transform="translate(-5.53 3.39) rotate(-2.69)"/>
+  <ellipse class="cls-3" cx="71.58" cy="120.75" rx="12.11" ry="35.08" transform="translate(-5.58 3.49) rotate(-2.69)"/>
+  <ellipse class="cls-1" cx="72.62" cy="120.95" rx="8.91" ry="23.72" transform="translate(-5.59 3.54) rotate(-2.69)"/>
+  <ellipse class="cls-4" cx="74.18" cy="120.29" rx="7.33" ry="19.5" transform="translate(-5.56 3.61) rotate(-2.69)"/>
+  <ellipse class="cls-3" cx="74.72" cy="120.51" rx="4.69" ry="12.47" transform="translate(-5.57 3.64) rotate(-2.69)"/>
+</svg>
