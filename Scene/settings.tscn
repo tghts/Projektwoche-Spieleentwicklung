@@ -74,10 +74,11 @@ metadata/_edit_use_anchors_ = true
 
 [node name="AudioStreamPlayer" type="Node" parent="." unique_id=679826154]
 
-[node name="Click02" type="AudioStreamPlayer" parent="AudioStreamPlayer" unique_id=2072903764]
+[node name="Click" type="AudioStreamPlayer" parent="AudioStreamPlayer" unique_id=2072903764]
 process_priority = 1
 stream = SubResource("AudioStreamWAV_cmh6x")
-volume_db = 10.321
+volume_db = 10.0
+bus = &"SoundEffects"
 
 [node name="Music" type="HSlider" parent="." unique_id=603689461]
 offset_left = 424.0

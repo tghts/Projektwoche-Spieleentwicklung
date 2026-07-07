@@ -109,10 +109,11 @@ metadata/_edit_use_anchors_ = true
 
 [node name="AudioStreamPlayer" type="Node" parent="." unique_id=305910721]
 
-[node name="Click02" type="AudioStreamPlayer" parent="AudioStreamPlayer" unique_id=1719931465]
+[node name="Click" type="AudioStreamPlayer" parent="AudioStreamPlayer" unique_id=1719931465]
 process_priority = 1
 stream = SubResource("AudioStreamWAV_hii65")
-volume_db = 10.321
+volume_db = 10.0
+bus = &"SoundEffects"
 
 [connection signal="pressed" from="Startknopf" to="." method="_on_startknopf_pressed"]
 [connection signal="pressed" from="Exitknopf" to="." method="_on_exitknopf_pressed"]

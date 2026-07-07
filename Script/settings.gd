@@ -1,5 +1,5 @@
 extends Node
-@onready var click_02: AudioStreamPlayer = $AudioStreamPlayer/Click02
+@onready var click_02: AudioStreamPlayer = $AudioStreamPlayer/Click
 @onready var music: HSlider = $Music
 @onready var sound_effects: HSlider = $SoundEffects
 
