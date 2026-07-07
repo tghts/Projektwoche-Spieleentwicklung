@@ -1,0 +1,49 @@
+[gd_scene format=3 uid="uid://b0020un1odtv8"]
+
+[ext_resource type="PackedScene" uid="uid://diyk3jovtitqb" path="res://Scene/enemy.tscn" id="1_8e63s"]
+[ext_resource type="Texture2D" uid="uid://c3iuh6qwacf15" path="res://Asset/Enemy/DRACHE.png" id="2_85y56"]
+[ext_resource type="Texture2D" uid="uid://c1ovvwae0a474" path="res://Asset/Enemy/DRACHE_2.png" id="3_g2uo6"]
+[ext_resource type="Texture2D" uid="uid://cqtipgirh1mka" path="res://Asset/Enemy/DRACHE_3.png" id="4_mn6e4"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_3rcer"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_85y56")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_g2uo6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_mn6e4")
+}],
+"loop": 1,
+"name": &"flying",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_2ceuy"]
+radius = 74.0152
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_246mo"]
+radius = 70.0
+
+[node name="dragon" unique_id=1833400236 instance=ExtResource("1_8e63s")]
+
+[node name="AnimatedSprite2D" parent="." index="0" unique_id=30176725]
+sprite_frames = SubResource("SpriteFrames_3rcer")
+animation = &"flying"
+autoplay = "flying"
+frame_progress = 0.49926862
+
+[node name="CollisionShape2D" parent="." index="1" unique_id=1914392600]
+position = Vector2(-11, 19)
+rotation = -0.26703537
+scale = Vector2(1, 2)
+shape = SubResource("CircleShape2D_2ceuy")
+
+[node name="CollisionShape2D" parent="Damage_zone" parent_id_path=PackedInt32Array(97676153) index="0" unique_id=2013183307]
+position = Vector2(-10, 13)
+rotation = -0.30543262
+scale = Vector2(1, 2)
+shape = SubResource("CircleShape2D_246mo")
