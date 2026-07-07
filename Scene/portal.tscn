@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://b64qd23yt107h"]
 
-[ext_resource type="Script" uid="uid://bc2o5i4fdqtdl" path="res://portal.gd" id="1_2k267"]
+[ext_resource type="Script" uid="uid://bc2o5i4fdqtdl" path="res://Script/portal.gd" id="1_2k267"]
 [ext_resource type="Texture2D" uid="uid://bowoor6qctohh" path="res://Asset/Objects/Portal_AI.svg" id="2_xmf61"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_e23sl"]
