@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://bvn0m5uswyiqq"]
+
+[ext_resource type="Texture2D" uid="uid://dw87gnedstpwb" path="res://Asset/Enemy/FEUER_DRACHE.png" id="1_co11f"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_7emdm"]
+radius = 21.00595
+
+[node name="Fire_breath" type="RigidBody2D" unique_id=860787431]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1238193636]
+texture_filter = 1
+texture = ExtResource("1_co11f")
+
+[node name="damage_zone" type="Area2D" parent="." unique_id=1876731572]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="damage_zone" unique_id=1362195630]
+position = Vector2(-26, -21)
+rotation = -0.017453292
+scale = Vector2(1, 2)
+shape = SubResource("CircleShape2D_7emdm")

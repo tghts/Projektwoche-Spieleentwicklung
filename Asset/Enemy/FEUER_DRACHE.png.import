@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://6c1xfvx78hl3"
-path="res://.godot/imported/Mushroom-Idle.png-2b8c10c71b67ff28379edf98d9859d83.ctex"
+uid="uid://dw87gnedstpwb"
+path="res://.godot/imported/FEUER_DRACHE.png-8b32f69892f48c83a0b0e5b661185668.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Asset/Enemy/Mushroom-Idle.png"
-dest_files=["res://.godot/imported/Mushroom-Idle.png-2b8c10c71b67ff28379edf98d9859d83.ctex"]
+source_file="res://Asset/Enemy/FEUER_DRACHE.png"
+dest_files=["res://.godot/imported/FEUER_DRACHE.png-8b32f69892f48c83a0b0e5b661185668.ctex"]
 
 [params]
 
