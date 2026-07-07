@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://dcqdrsq728l6i"]
 
 [ext_resource type="Script" uid="uid://y0735dvq6m4x" path="res://Script/in_game_ui.gd" id="1_ol85y"]
+[ext_resource type="Texture2D" uid="uid://csphr2qslqe2" path="res://Asset/UI/Textschild KI-Epoche 02.svg" id="2_ol85y"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_quy4v"]
 
@@ -62,3 +63,22 @@ offset_right = 287.0
 offset_bottom = 223.0
 theme_override_font_sizes/font_size = 50
 text = "Punkte: "
+
+[node name="TextureRect" type="TextureRect" parent="CanvasLayer/Panel" unique_id=805721806]
+layout_mode = 0
+offset_left = 4.0
+offset_top = 1.0
+offset_right = 317.0
+offset_bottom = 120.0
+texture = ExtResource("2_ol85y")
+
+[node name="Panel" type="Label" parent="CanvasLayer/Panel/TextureRect" unique_id=223000526]
+layout_mode = 0
+offset_left = 24.0
+offset_top = 35.0
+offset_right = 267.0
+offset_bottom = 75.0
+theme_override_font_sizes/font_size = 20
+text = "Ki-Epoche - 3000"
+horizontal_alignment = 1
+vertical_alignment = 1

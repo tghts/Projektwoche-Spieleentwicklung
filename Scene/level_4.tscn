@@ -1,9 +1,10 @@
 [gd_scene format=3 uid="uid://c6c0ikup3br8l"]
 
 [ext_resource type="Texture2D" uid="uid://bxjpibrwqrwav" path="res://Asset/Background/Neanderthaler_Hintergrund.png" id="1_5mtfs"]
+[ext_resource type="Texture2D" uid="uid://ca5c86gfl0qyb" path="res://Asset/Background/Neandertaler_Hintergrundfarbe.png" id="1_ewc76"]
 [ext_resource type="Texture2D" uid="uid://dyjl1bmhn015j" path="res://Asset/TileMap/Terrain (16x16).png" id="2_830qh"]
 [ext_resource type="PackedScene" uid="uid://b5tqdjtmfmsmc" path="res://Scene/character.tscn" id="3_kxdlq"]
-[ext_resource type="PackedScene" uid="uid://leg0e8417gi" path="res://Scene/main_menu.tscn" id="3_nb8bt"]
+[ext_resource type="PackedScene" uid="uid://cd0mwib2ujctc" path="res://Scene/end_screen.tscn" id="3_nb8bt"]
 [ext_resource type="PackedScene" uid="uid://b64qd23yt107h" path="res://Scene/portal.tscn" id="4_830qh"]
 [ext_resource type="PackedScene" uid="uid://dcqdrsq728l6i" path="res://Scene/in_game_ui.tscn" id="5_kxdlq"]
 
@@ -251,16 +252,23 @@ texture = ExtResource("2_830qh")
 physics_layer_0/collision_layer = 1
 sources/0 = SubResource("TileSetAtlasSource_nb8bt")
 
-[node name="level4" type="Node2D" unique_id=543989263]
+[node name="Level4" type="Node2D" unique_id=543989263]
 
 [node name="Background" type="Node2D" parent="." unique_id=1316054504]
 position = Vector2(-4, 84)
 
+[node name="TextureRect2" type="TextureRect" parent="Background" unique_id=676707576]
+offset_left = 49.0
+offset_top = -1744.0
+offset_right = 8167.0
+offset_bottom = -289.0
+texture = ExtResource("1_ewc76")
+
 [node name="TextureRect" type="TextureRect" parent="Background" unique_id=1880871138]
 texture_filter = 1
-offset_left = 67.0
+offset_left = 85.0
 offset_top = -709.0
-offset_right = 7511.0
+offset_right = 8167.0
 offset_bottom = -159.0
 texture = ExtResource("1_5mtfs")
 expand_mode = 1
@@ -281,6 +289,7 @@ layer_0/tile_data = PackedInt32Array(196608, 393216, 0, 262144, 393216, 1, 32768
 position = Vector2(150, -198)
 
 [node name="Camera2D" type="Camera2D" parent="Character" unique_id=313231061]
+position = Vector2(-9, 3)
 
 [node name="InGameUI" parent="." unique_id=422732831 instance=ExtResource("5_kxdlq")]
 
