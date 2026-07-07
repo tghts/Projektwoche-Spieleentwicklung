@@ -2,7 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://d1knc4pbmx005" path="res://Asset/Background/KI_City.png" id="1_5exfe"]
 [ext_resource type="Texture2D" uid="uid://dyjl1bmhn015j" path="res://Asset/TileMap/Terrain (16x16).png" id="1_8ko5r"]
-[ext_resource type="PackedScene" uid="uid://b5tqdjtmfmsmc" path="res://Scene/characterr.tscn" id="2_au1pm"]
+[ext_resource type="PackedScene" uid="uid://b5tqdjtmfmsmc" path="res://Scene/character.tscn" id="2_au1pm"]
 [ext_resource type="PackedScene" uid="uid://b64qd23yt107h" path="res://Scene/portal.tscn" id="2_ufara"]
 [ext_resource type="PackedScene" uid="uid://c2yunqt0fsnhb" path="res://Scene/level_2.tscn" id="3_ws63c"]
 [ext_resource type="PackedScene" uid="uid://dcqdrsq728l6i" path="res://Scene/in_game_ui.tscn" id="4_6544n"]

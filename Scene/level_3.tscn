@@ -3,7 +3,7 @@
 [ext_resource type="Texture2D" uid="uid://dfjv3dm0av1bm" path="res://Asset/Background/Desert.png" id="1_wjlks"]
 [ext_resource type="Texture2D" uid="uid://dyjl1bmhn015j" path="res://Asset/TileMap/Terrain (16x16).png" id="2_7x2t2"]
 [ext_resource type="PackedScene" uid="uid://c6c0ikup3br8l" path="res://Scene/level_4.tscn" id="3_3a2ac"]
-[ext_resource type="PackedScene" uid="uid://b5tqdjtmfmsmc" path="res://Scene/characterr.tscn" id="3_c5qca"]
+[ext_resource type="PackedScene" uid="uid://b5tqdjtmfmsmc" path="res://Scene/character.tscn" id="3_c5qca"]
 [ext_resource type="PackedScene" uid="uid://b64qd23yt107h" path="res://Scene/portal.tscn" id="4_7x2t2"]
 [ext_resource type="PackedScene" uid="uid://dcqdrsq728l6i" path="res://Scene/in_game_ui.tscn" id="5_c5qca"]
 
@@ -258,11 +258,6 @@ texture_filter = 1
 texture_filter = 1
 position = Vector2(-4, 84)
 
-[node name="Portal" parent="Background" unique_id=179838961 instance=ExtResource("4_7x2t2")]
-texture_filter = 1
-position = Vector2(1377, -99)
-target_level = ExtResource("3_3a2ac")
-
 [node name="TextureRect" type="TextureRect" parent="Background" unique_id=1249697703]
 texture_filter = 1
 offset_left = -1.0
@@ -273,9 +268,9 @@ texture = ExtResource("1_wjlks")
 stretch_mode = 1
 metadata/_edit_use_anchors_ = true
 
-[node name="Portal" parent="." unique_id=1073236693 instance=ExtResource("4_7x2t2")]
+[node name="Portal" parent="Background" unique_id=179838961 instance=ExtResource("4_7x2t2")]
 texture_filter = 1
-position = Vector2(1364, -18)
+position = Vector2(1377, -99)
 target_level = ExtResource("3_3a2ac")
 
 [node name="TileMap" type="TileMap" parent="." unique_id=2006174816]
@@ -291,3 +286,5 @@ position = Vector2(85, 51)
 [node name="Camera2D" type="Camera2D" parent="Character" unique_id=1033740084]
 
 [node name="InGameUI" parent="." unique_id=422732831 instance=ExtResource("5_c5qca")]
+
+[connection signal="body_entered" from="Background/Portal" to="Background/Portal" method="_on_body_entered"]

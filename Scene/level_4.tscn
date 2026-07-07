@@ -2,7 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://bxjpibrwqrwav" path="res://Asset/Background/Neanderthaler_Hintergrund.png" id="1_5mtfs"]
 [ext_resource type="Texture2D" uid="uid://dyjl1bmhn015j" path="res://Asset/TileMap/Terrain (16x16).png" id="2_830qh"]
-[ext_resource type="PackedScene" uid="uid://b5tqdjtmfmsmc" path="res://Scene/characterr.tscn" id="3_kxdlq"]
+[ext_resource type="PackedScene" uid="uid://b5tqdjtmfmsmc" path="res://Scene/character.tscn" id="3_kxdlq"]
 [ext_resource type="PackedScene" uid="uid://leg0e8417gi" path="res://Scene/main_menu.tscn" id="3_nb8bt"]
 [ext_resource type="PackedScene" uid="uid://b64qd23yt107h" path="res://Scene/portal.tscn" id="4_830qh"]
 [ext_resource type="PackedScene" uid="uid://dcqdrsq728l6i" path="res://Scene/in_game_ui.tscn" id="5_kxdlq"]
@@ -283,3 +283,5 @@ position = Vector2(150, -198)
 [node name="Camera2D" type="Camera2D" parent="Character" unique_id=313231061]
 
 [node name="InGameUI" parent="." unique_id=422732831 instance=ExtResource("5_kxdlq")]
+
+[connection signal="body_entered" from="Background/Portal" to="Background/Portal" method="_on_body_entered"]
