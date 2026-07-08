@@ -9,7 +9,7 @@
 [ext_resource type="PackedScene" uid="uid://dcqdrsq728l6i" path="res://Scene/in_game_ui.tscn" id="4_6544n"]
 [ext_resource type="Texture2D" uid="uid://dubeosyicm6py" path="res://Asset/TileMap/KI_Tilemap.svg" id="4_ws63c"]
 [ext_resource type="Texture2D" uid="uid://b38p8h73d5j02" path="res://Asset/TileMap/Metalkiste.svg" id="6_246mo"]
-[ext_resource type="PackedScene" uid="uid://cutlnvu1q812f" path="res://Scene/Trampolin.tscn" id="8_2ceuy"]
+[ext_resource type="PackedScene" uid="uid://cutlnvu1q812f" path="res://Scene/trampolin.tscn" id="8_2ceuy"]
 [ext_resource type="PackedScene" uid="uid://bx76ksx71qebo" path="res://Scene/esc_menu.tscn" id="8_3rcer"]
 [ext_resource type="PackedScene" uid="uid://c2cs65pqgro3e" path="res://Scene/zahnrad.tscn" id="11_sq6mb"]
 [ext_resource type="Script" uid="uid://bulrxfk4b2a0q" path="res://Scene/deathzone.gd" id="13_a6c3k"]

@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" uid="uid://ctmryfq4q40t0" path="res://Script/end_screen.gd" id="1_wgtx4"]
 [ext_resource type="Texture2D" uid="uid://d20qvt0y034m3" path="res://Asset/Background/The End Text Schild 02.svg" id="1_xe5h7"]
-[ext_resource type="AudioStream" uid="uid://m5oy0r11fe1c" path="res://Asset/Sounds/SpielGewonnen.mp3" id="3_n0t6i"]
+[ext_resource type="AudioStream" uid="uid://m5oy0r11fe1c" path="res://Asset/Sounds/victory.mp3" id="3_n0t6i"]
 
 [node name="EndScreen" type="Node" unique_id=1556613398]
 script = ExtResource("1_wgtx4")
