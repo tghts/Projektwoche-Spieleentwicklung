@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://c2yunqt0fsnhb"]
 
 [ext_resource type="Texture2D" uid="uid://dxs02ihew18v1" path="res://Asset/Background/Black_background.png" id="1_43cbn"]
+[ext_resource type="Texture2D" uid="uid://cah6useqyjs27" path="res://Asset/Background/Dorf Hintergrundfarbe.svg" id="1_jte5b"]
 [ext_resource type="Texture2D" uid="uid://c3ddwis3cnyqx" path="res://Asset/Background/DORF.png" id="1_yiryk"]
 [ext_resource type="PackedScene" uid="uid://b64qd23yt107h" path="res://Scene/portal.tscn" id="2_7sdqy"]
 [ext_resource type="PackedScene" uid="uid://b5tqdjtmfmsmc" path="res://Scene/character.tscn" id="3_7sdqy"]
@@ -3915,11 +3916,18 @@ sources/0 = SubResource("TileSetAtlasSource_43cbn")
 
 [node name="Background" type="Node2D" parent="." unique_id=230959665]
 
+[node name="TextureRect" type="TextureRect" parent="Background" unique_id=657570047]
+offset_left = -1865.0
+offset_top = -1652.0
+offset_right = 12292.0
+offset_bottom = 86.0
+texture = ExtResource("1_jte5b")
+
 [node name="Schwarzer Hintergrund" type="TextureRect" parent="Background" unique_id=2074260305]
-offset_left = -2725.0
-offset_top = 36.0
-offset_right = 10740.0
-offset_bottom = 1570.0
+offset_left = -2509.0
+offset_top = 68.0
+offset_right = 10956.0
+offset_bottom = 1602.0
 texture = ExtResource("1_43cbn")
 stretch_mode = 1
 
