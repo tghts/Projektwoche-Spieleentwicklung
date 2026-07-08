@@ -2,6 +2,7 @@
 
 [ext_resource type="Script" uid="uid://dixtre20w6svo" path="res://Script/zahnrad.gd" id="1_68fbu"]
 [ext_resource type="Texture2D" uid="uid://lxx2hes64j1h" path="res://Asset/Anderes/Kaputes Zahnrad.svg" id="1_uy602"]
+[ext_resource type="AudioStream" uid="uid://cmvhkgglp8iok" path="res://Asset/Sounds/collect.wav" id="3_u061t"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_7emdm"]
 radius = 30.016663
@@ -18,5 +19,9 @@ texture = ExtResource("1_uy602")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=693291288]
 position = Vector2(21, 1)
 shape = SubResource("CircleShape2D_7emdm")
+
+[node name="Collect" type="AudioStreamPlayer" parent="." unique_id=958016905]
+stream = ExtResource("3_u061t")
+bus = &"SoundEffects"
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]

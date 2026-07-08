@@ -1,0 +1,28 @@
+extends Node
+
+var sounds := {
+	"appear": preload("res://Asset/Sounds//appear.wav"),
+	"click": preload("res://Asset/Sounds//click.wav"),
+	"collect": preload("res://Asset/Sounds//collect.wav"),
+	"disappear": preload("res://Asset/Sounds//disappear.wav"),
+	"pause": preload("res://Asset/Sounds//pause.wav"),
+	"slider": preload("res://Asset/Sounds//slider.wav"),
+	"trampolin": preload("res://Asset/Sounds//trampolin.wav"),
+	"victory": preload("res://Asset/Sounds//victory.mp3"),
+}
+
+func play(sound_name: String, volume: float = 1.0, bus: String = "SoundEffects") -> void:
+	var stream = sounds.get(sound_name)
+
+	if stream == null:
+		push_error("Unknown sound: %s" % sound_name)
+		return
+
+	var player := AudioStreamPlayer.new()
+	player.bus = bus
+	player.stream = stream
+	player.volume_db = linear_to_db(volume)
+	add_child(player)
+
+	player.play()
+	player.finished.connect(player.queue_free)
