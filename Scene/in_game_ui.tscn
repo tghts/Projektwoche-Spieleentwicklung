@@ -54,16 +54,6 @@ layout_mode = 2
 texture = SubResource("CompressedTexture2D_quy4v")
 expand_mode = 3
 
-[node name="Label" type="Label" parent="CanvasLayer/Panel" unique_id=182933892]
-texture_filter = 1
-layout_mode = 0
-offset_left = 16.0
-offset_top = 154.0
-offset_right = 287.0
-offset_bottom = 223.0
-theme_override_font_sizes/font_size = 50
-text = "Punkte: "
-
 [node name="TextureRect" type="TextureRect" parent="CanvasLayer/Panel" unique_id=805721806]
 layout_mode = 0
 offset_left = 4.0
