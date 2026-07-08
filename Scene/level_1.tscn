@@ -11,7 +11,7 @@
 [ext_resource type="Texture2D" uid="uid://b38p8h73d5j02" path="res://Asset/TileMap/Metalkiste.svg" id="6_246mo"]
 [ext_resource type="PackedScene" uid="uid://145kyaugrqbn" path="res://Scene/trampolin.tscn" id="8_2ceuy"]
 [ext_resource type="PackedScene" uid="uid://c2cs65pqgro3e" path="res://Scene/zahnrad.tscn" id="11_sq6mb"]
-[ext_resource type="Script" uid="uid://bulrxfk4b2a0q" path="res://Scene/deathzone.gd" id="13_a6c3k"]
+[ext_resource type="Script" uid="uid://bulrxfk4b2a0q" path="res://Script/deathzone.gd" id="13_a6c3k"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_q8blv"]
 size = Vector2(2893.5, 71)
@@ -8396,6 +8396,9 @@ metadata/_edit_use_anchors_ = true
 position = Vector2(5980, -132)
 target_level = ExtResource("3_ws63c")
 
+[node name="Trampolin" parent="Background" unique_id=1495864686 instance=ExtResource("8_2ceuy")]
+position = Vector2(4701, -37)
+
 [node name="Deathzone" type="Area2D" parent="." unique_id=1862987757]
 script = ExtResource("13_a6c3k")
 
@@ -8418,7 +8421,7 @@ position = Vector2(376, -28)
 [node name="Trampolin4" parent="Trampoline Collection" unique_id=1265420410 instance=ExtResource("8_2ceuy")]
 position = Vector2(3658, -542)
 
-[node name="Trampolin" parent="Trampoline Collection" unique_id=1495864686 instance=ExtResource("8_2ceuy")]
+[node name="Trampolin" parent="Trampoline Collection" unique_id=1324462394 instance=ExtResource("8_2ceuy")]
 position = Vector2(1263, -355)
 
 [node name="Trampolin2" parent="Trampoline Collection" unique_id=1389886837 instance=ExtResource("8_2ceuy")]

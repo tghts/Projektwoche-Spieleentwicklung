@@ -8,6 +8,7 @@
 [ext_resource type="PackedScene" uid="uid://b64qd23yt107h" path="res://Scene/portal.tscn" id="4_830qh"]
 [ext_resource type="PackedScene" uid="uid://dcqdrsq728l6i" path="res://Scene/in_game_ui.tscn" id="5_kxdlq"]
 [ext_resource type="Texture2D" uid="uid://yhyvu40vms5w" path="res://Asset/TileMap/Altsteinzeit_Tilemap.svg" id="6_3frc5"]
+[ext_resource type="PackedScene" uid="uid://cef4tqi1snam7" path="res://Scene/neanderkaren.tscn" id="9_1sdim"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ewc76"]
 texture = ExtResource("6_3frc5")
@@ -2539,5 +2540,8 @@ position = Vector2(150, -198)
 position = Vector2(-9, 3)
 
 [node name="InGameUI" parent="." unique_id=422732831 instance=ExtResource("5_kxdlq")]
+
+[node name="Neanderkaren" parent="." unique_id=1833400236 instance=ExtResource("9_1sdim")]
+position = Vector2(7011, -189)
 
 [connection signal="body_entered" from="Background/Portal" to="Background/Portal" method="_on_body_entered"]
