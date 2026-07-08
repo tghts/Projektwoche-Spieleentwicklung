@@ -1,4 +1,25 @@
 extends Node
 
+signal character_hp_changed(count: int)
+signal zahnrad_count_changed(count: int)
+
 var music_volume := 1.0
 var sound_effects_volume := 1.0
+var character_hp := 4
+var zahnrad_count := 0
+
+func reduce_character_hp():
+	character_hp -= 1
+	character_hp_changed.emit(zahnrad_count)
+
+func reset_character_hp():
+	character_hp = 5
+	character_hp_changed.emit(zahnrad_count)
+
+func add_zahnrad():
+	zahnrad_count += 1
+	zahnrad_count_changed.emit(zahnrad_count)
+
+func reset_zahnrad():
+	zahnrad_count = 0
+	zahnrad_count_changed.emit(zahnrad_count)

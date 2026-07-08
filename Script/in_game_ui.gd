@@ -1,6 +1,6 @@
 extends Node
 @onready var texture_rect: TextureRect = $CanvasLayer/Panel/TextureRect
-@onready var herz_ramen: TextureRect = $CanvasLayer/Panel/Herz_ramen
+@onready var herz_rahmen: TextureRect = $CanvasLayer/Panel/HerzRahmen
 
 # Lädt die Bilder in diesen Variabeln. Diese haben den Typ Texture2D
 var KI_Epoche := load("res://Asset/UI/Textschild KI-Epoche 02.svg")
@@ -19,35 +19,84 @@ func _ready() -> void:
 	var current_scene: String = get_tree().current_scene.name # Holt sich den Namen des obersten Nodes aus der Scene.
 	print(get_tree().current_scene.name) # Debugin Zeugs
 	
+	# Zahnrad-Zähler
+	$CanvasLayer/Panel/ZahnradCount.text = str(GameData.zahnrad_count)
+	GameData.zahnrad_count_changed.connect(_on_zahnrad_count_changed)
+	
+	# Character-HP-Zähler
+	change_character_hp(GameData.character_hp)
+	GameData.character_hp_changed.connect(_on_character_hp_changed)
+	
 	#Es wird geschaut in welchen Level man ist und das Designe und der Text ändern sich entsprechend.
 	if(current_scene == "Level1"): 
-		herz_ramen.texture = KI_Epoche_heartbar
+		herz_rahmen.texture = KI_Epoche_heartbar
 		change_text("Ki-Epoche")
-		change_textschildDesigne(KI_Epoche)
+		change_textschildDesign(KI_Epoche)
 		
 	if (current_scene == "Level2"):
-		herz_ramen.texture = Mittelalter_heartbar
+		herz_rahmen.texture = Mittelalter_heartbar
 		change_text("Mittelalter")
-		change_textschildDesigne(Mittelalter)
+		change_textschildDesign(Mittelalter)
 		
 	if (current_scene == "Level3"):
-		herz_ramen.texture = Ägypten_heartbar
+		herz_rahmen.texture = Ägypten_heartbar
 		change_text("Ägypten")
-		change_textschildDesigne(Ägypten)
+		change_textschildDesign(Ägypten)
 		
 	if (current_scene == "Level4"):
-		herz_ramen.texture = Altsteinzeit_heartbar
+		herz_rahmen.texture = Altsteinzeit_heartbar
 		change_text("Altsteinzeit")
-		change_textschildDesigne(Altsteinzeit)
+		change_textschildDesign(Altsteinzeit)
 
 #Ruft das übergebene Bild auf und lädt es in die TextureRect Node.
-func change_textschildDesigne(image: Texture2D):
+func change_textschildDesign(image: Texture2D):
 	texture_rect.texture = image
 	
 #Holt die erste ChildNode von TextureRect und ersetzt dann den Text vom Panel.
 func change_text(text: String):
 	texture_rect.get_child(0).text = text
-	
-	
-	
-	
+
+func change_character_hp(hp: int):
+	match hp:
+		0:
+			$CanvasLayer/Panel/Heart1.hide()
+			$CanvasLayer/Panel/Heart2.hide()
+			$CanvasLayer/Panel/Heart3.hide()
+			$CanvasLayer/Panel/Heart4.hide()
+			$CanvasLayer/Panel/Heart5.hide()
+		1:
+			$CanvasLayer/Panel/Heart1.show()
+			$CanvasLayer/Panel/Heart2.hide()
+			$CanvasLayer/Panel/Heart3.hide()
+			$CanvasLayer/Panel/Heart4.hide()
+			$CanvasLayer/Panel/Heart5.hide()
+		2:
+			$CanvasLayer/Panel/Heart1.show()
+			$CanvasLayer/Panel/Heart2.show()
+			$CanvasLayer/Panel/Heart3.hide()
+			$CanvasLayer/Panel/Heart4.hide()
+			$CanvasLayer/Panel/Heart5.hide()
+		3:
+			$CanvasLayer/Panel/Heart1.show()
+			$CanvasLayer/Panel/Heart2.show()
+			$CanvasLayer/Panel/Heart3.show()
+			$CanvasLayer/Panel/Heart4.hide()
+			$CanvasLayer/Panel/Heart5.hide()
+		4:
+			$CanvasLayer/Panel/Heart1.show()
+			$CanvasLayer/Panel/Heart2.show()
+			$CanvasLayer/Panel/Heart3.show()
+			$CanvasLayer/Panel/Heart4.show()
+			$CanvasLayer/Panel/Heart5.hide()
+		5:
+			$CanvasLayer/Panel/Heart1.show()
+			$CanvasLayer/Panel/Heart2.show()
+			$CanvasLayer/Panel/Heart3.show()
+			$CanvasLayer/Panel/Heart4.show()
+			$CanvasLayer/Panel/Heart5.show()
+
+func _on_zahnrad_count_changed(count: int):
+	$CanvasLayer/Panel/ZahnradCount.text = str(count)
+
+func _on_character_hp_changed(hp: int):
+	change_character_hp(hp)

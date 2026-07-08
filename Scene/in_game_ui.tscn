@@ -4,6 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://d0cm6uc6vycss" path="res://Asset/UI/KI_heartbar.svg" id="2_fcixt"]
 [ext_resource type="Texture2D" uid="uid://csphr2qslqe2" path="res://Asset/UI/Textschild KI-Epoche 02.svg" id="2_ol85y"]
 [ext_resource type="Texture2D" uid="uid://w4ipji7io2sp" path="res://Asset/UI/Heart.svg" id="3_tkk48"]
+[ext_resource type="Texture2D" uid="uid://lxx2hes64j1h" path="res://Asset/Anderes/Kaputes Zahnrad.svg" id="5_tkk48"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_quy4v"]
 
@@ -20,7 +21,7 @@ grow_horizontal = 2
 grow_vertical = 2
 theme_override_styles/panel = SubResource("StyleBoxEmpty_quy4v")
 
-[node name="Herz_ramen" type="TextureRect" parent="CanvasLayer/Panel" unique_id=774498417]
+[node name="HerzRahmen" type="TextureRect" parent="CanvasLayer/Panel" unique_id=774498417]
 layout_mode = 0
 offset_left = 727.0
 offset_top = -1.0
@@ -28,45 +29,6 @@ offset_right = 1150.0
 offset_bottom = 103.0
 texture = ExtResource("2_fcixt")
 expand_mode = 1
-
-[node name="HBoxContainer" type="HBoxContainer" parent="CanvasLayer/Panel" unique_id=419266860]
-layout_mode = 0
-offset_left = 738.0
-offset_top = 23.0
-offset_right = 1139.0
-offset_bottom = 85.0
-alignment = 1
-metadata/_edit_group_ = true
-
-[node name="Herat1" type="TextureRect" parent="CanvasLayer/Panel/HBoxContainer" unique_id=218490990]
-texture_filter = 1
-layout_mode = 2
-texture = ExtResource("3_tkk48")
-expand_mode = 3
-
-[node name="Herat2" type="TextureRect" parent="CanvasLayer/Panel/HBoxContainer" unique_id=1541449146]
-texture_filter = 1
-layout_mode = 2
-texture = ExtResource("3_tkk48")
-expand_mode = 3
-
-[node name="Heart3" type="TextureRect" parent="CanvasLayer/Panel/HBoxContainer" unique_id=809671410]
-texture_filter = 1
-layout_mode = 2
-texture = ExtResource("3_tkk48")
-expand_mode = 3
-
-[node name="Heart4" type="TextureRect" parent="CanvasLayer/Panel/HBoxContainer" unique_id=237545152]
-texture_filter = 1
-layout_mode = 2
-texture = ExtResource("3_tkk48")
-expand_mode = 3
-
-[node name="Heart5" type="TextureRect" parent="CanvasLayer/Panel/HBoxContainer" unique_id=941026251]
-texture_filter = 1
-layout_mode = 2
-texture = ExtResource("3_tkk48")
-expand_mode = 3
 
 [node name="TextureRect" type="TextureRect" parent="CanvasLayer/Panel" unique_id=805721806]
 layout_mode = 0
@@ -86,3 +48,72 @@ theme_override_font_sizes/font_size = 20
 text = "Ki-Epoche - 3000"
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Zahnrad" type="TextureRect" parent="CanvasLayer/Panel" unique_id=512499756]
+layout_mode = 0
+offset_left = 196.0
+offset_top = -75.0
+offset_right = 716.0
+offset_bottom = 186.0
+offset_transform_enabled = true
+offset_transform_scale = Vector2(0.3, 0.3)
+texture = ExtResource("5_tkk48")
+
+[node name="ZahnradCount" type="Label" parent="CanvasLayer/Panel" unique_id=1118406291]
+layout_mode = 0
+offset_left = 558.0
+offset_top = 35.0
+offset_right = 699.0
+offset_bottom = 77.0
+theme_override_font_sizes/font_size = 28
+text = "0"
+
+[node name="Heart1" type="TextureRect" parent="CanvasLayer/Panel" unique_id=218490990]
+texture_filter = 1
+layout_mode = 0
+offset_left = 743.0
+offset_top = 23.0
+offset_right = 818.0
+offset_bottom = 85.0
+texture = ExtResource("3_tkk48")
+expand_mode = 3
+
+[node name="Heart2" type="TextureRect" parent="CanvasLayer/Panel" unique_id=1541449146]
+texture_filter = 1
+layout_mode = 0
+offset_left = 822.0
+offset_top = 23.0
+offset_right = 897.0
+offset_bottom = 85.0
+texture = ExtResource("3_tkk48")
+expand_mode = 3
+
+[node name="Heart3" type="TextureRect" parent="CanvasLayer/Panel" unique_id=809671410]
+texture_filter = 1
+layout_mode = 0
+offset_left = 901.0
+offset_top = 23.0
+offset_right = 976.0
+offset_bottom = 85.0
+texture = ExtResource("3_tkk48")
+expand_mode = 3
+
+[node name="Heart4" type="TextureRect" parent="CanvasLayer/Panel" unique_id=237545152]
+texture_filter = 1
+layout_mode = 0
+offset_left = 980.0
+offset_top = 23.0
+offset_right = 1055.0
+offset_bottom = 85.0
+texture = ExtResource("3_tkk48")
+expand_mode = 3
+
+[node name="Heart5" type="TextureRect" parent="CanvasLayer/Panel" unique_id=941026251]
+texture_filter = 1
+layout_mode = 0
+offset_left = 1059.0
+offset_top = 23.0
+offset_right = 1134.0
+offset_bottom = 85.0
+texture = ExtResource("3_tkk48")
+expand_mode = 3
