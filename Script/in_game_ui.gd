@@ -1,6 +1,7 @@
 extends Node
 @onready var texture_rect: TextureRect = $CanvasLayer/Panel/TextureRect
 @onready var herz_rahmen: TextureRect = $CanvasLayer/Panel/HerzRahmen
+@onready var pause_menu: Panel = $CanvasLayer/PauseMenu
 
 # Lädt die Bilder in diesen Variabeln. Diese haben den Typ Texture2D
 var KI_Epoche := load("res://Asset/UI/Textschild KI-Epoche 02.svg")
@@ -13,7 +14,13 @@ var Mittelalter_heartbar := load("res://Asset/UI/Mittelalter_heartbar.svg")
 var Ägypten_heartbar := load("res://Asset/UI/Ägypten_heartbar.svg")
 var Altsteinzeit_heartbar := load("res://Asset/UI/Altsteinzeit_heartbar.svg")
 
-
+func _process(delta: float) -> void:
+	if (Input.is_action_just_pressed("esc")):
+		get_tree().paused = true
+		pause_menu.show()
+		
+		
+		
 # Diese Methode wird immer bei Start einer Scene einmal genutzt.
 func _ready() -> void:
 	var current_scene: String = get_tree().current_scene.name # Holt sich den Namen des obersten Nodes aus der Scene.
@@ -100,3 +107,19 @@ func _on_zahnrad_count_changed(count: int):
 
 func _on_character_hp_changed(hp: int):
 	change_character_hp(hp)
+
+
+func _on_resume_pressed() -> void:
+	get_tree().paused = false
+	pause_menu.hide()
+
+
+func _on_settings_pressed() -> void:
+	get_tree().change_scene_to_file("res://Scene/settings.tscn")
+	get_tree().paused = false
+	pause_menu.hide()
+	
+func _on_back_to_start_pressed() -> void:
+	get_tree().paused = false
+	get_tree().change_scene_to_file("res://Scene/main_menu.tscn")
+	pause_menu.hide()

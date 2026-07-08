@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b26nrukae8n4t"
-path="res://.godot/imported/Stachel 1.svg-163d030f65994bd49da28a67f9c4041b.ctex"
+uid="uid://bwcik0e4e34x0"
+path="res://.godot/imported/Altsteinzeit_stein.svg-152a44c47f8a8f628fa811dc2c01598c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Asset/Objects/Stachel 1.svg"
-dest_files=["res://.godot/imported/Stachel 1.svg-163d030f65994bd49da28a67f9c4041b.ctex"]
+source_file="res://Asset/Objects/Altsteinzeit_stein.svg"
+dest_files=["res://.godot/imported/Altsteinzeit_stein.svg-152a44c47f8a8f628fa811dc2c01598c.ctex"]
 
 [params]
 
@@ -38,6 +38,6 @@ process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
 detect_3d/compress_to=1
-svg/scale=6.0
+svg/scale=1.0
 editor/scale_with_editor_scale=false
 editor/convert_colors_with_editor_theme=false

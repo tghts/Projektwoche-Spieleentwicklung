@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://s67u0h3i8f4d"]
+
+[ext_resource type="Script" uid="uid://4lvp08ng8nsr" path="res://Script/spikes.gd" id="1_rclxw"]
+[ext_resource type="Texture2D" uid="uid://b26nrukae8n4t" path="res://Asset/Objects/Stachel 1.svg" id="2_hvh0p"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_yem5q"]
+size = Vector2(32, 37.5)
+
+[node name="Spikes" type="Area2D" unique_id=2114205352]
+script = ExtResource("1_rclxw")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1427078555]
+position = Vector2(1, -1)
+scale = Vector2(0.12958717, 0.116421506)
+texture = ExtResource("2_hvh0p")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=85139122]
+position = Vector2(2, 4)
+shape = SubResource("RectangleShape2D_yem5q")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

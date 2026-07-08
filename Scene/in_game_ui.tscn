@@ -5,6 +5,7 @@
 [ext_resource type="Texture2D" uid="uid://csphr2qslqe2" path="res://Asset/UI/Textschild KI-Epoche 02.svg" id="2_ol85y"]
 [ext_resource type="Texture2D" uid="uid://w4ipji7io2sp" path="res://Asset/UI/Heart.svg" id="3_tkk48"]
 [ext_resource type="Texture2D" uid="uid://lxx2hes64j1h" path="res://Asset/Anderes/Kaputes Zahnrad.svg" id="5_tkk48"]
+[ext_resource type="Script" uid="uid://dqccjm2p2luw5" path="res://Script/pause_menu.gd" id="6_o5tdw"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_quy4v"]
 
@@ -117,3 +118,46 @@ offset_right = 1134.0
 offset_bottom = 85.0
 texture = ExtResource("3_tkk48")
 expand_mode = 3
+
+[node name="PauseMenu" type="Panel" parent="CanvasLayer" unique_id=147681151]
+visible = false
+offset_right = 1149.0
+offset_bottom = 646.0
+script = ExtResource("6_o5tdw")
+
+[node name="Back to Start" type="Button" parent="CanvasLayer/PauseMenu" unique_id=1761268704]
+layout_mode = 0
+offset_left = 14.0
+offset_top = 568.0
+offset_right = 121.0
+offset_bottom = 636.0
+text = "Back to Start"
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer/PauseMenu" unique_id=517132756]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.34600002
+anchor_top = 0.28500003
+anchor_right = 0.652
+anchor_bottom = 0.56
+offset_left = 0.4459839
+offset_top = -0.11001587
+offset_right = -0.14801025
+offset_bottom = 0.23999023
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Resume" type="Button" parent="CanvasLayer/PauseMenu/VBoxContainer" unique_id=222142745]
+process_mode = 3
+layout_mode = 2
+theme_override_font_sizes/font_size = 25
+text = "Resume"
+
+[node name="Settings" type="Button" parent="CanvasLayer/PauseMenu/VBoxContainer" unique_id=168545611]
+layout_mode = 2
+theme_override_font_sizes/font_size = 25
+text = "Settings"
+
+[connection signal="pressed" from="CanvasLayer/PauseMenu/Back to Start" to="." method="_on_back_to_start_pressed"]
+[connection signal="pressed" from="CanvasLayer/PauseMenu/VBoxContainer/Resume" to="." method="_on_resume_pressed"]
+[connection signal="pressed" from="CanvasLayer/PauseMenu/VBoxContainer/Settings" to="." method="_on_settings_pressed"]
