@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://c2cs65pqgro3e"]
+
+[ext_resource type="Script" uid="uid://dixtre20w6svo" path="res://Script/zahnrad.gd" id="1_68fbu"]
+[ext_resource type="Texture2D" uid="uid://lxx2hes64j1h" path="res://Asset/Anderes/Kaputes Zahnrad.svg" id="1_uy602"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_7emdm"]
+radius = 30.016663
+
+[node name="Zahnrad" type="Area2D" unique_id=1281547793]
+script = ExtResource("1_68fbu")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=347048437]
+texture_filter = 1
+position = Vector2(-0.9999999, 1)
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("1_uy602")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=693291288]
+position = Vector2(21, 1)
+shape = SubResource("CircleShape2D_7emdm")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
