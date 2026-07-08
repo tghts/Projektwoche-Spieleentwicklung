@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://8onsuk4eobcv"
-path="res://.godot/imported/Fall (32x32).png-8b295d14d6f3553615a3979ab186d4af.ctex"
+uid="uid://ckors8ugj0lxj"
+path="res://.godot/imported/Stachel 2.svg-5cbaac7f847b5b717e8236982b89fbba.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Asset/Character/Fall (32x32).png"
-dest_files=["res://.godot/imported/Fall (32x32).png-8b295d14d6f3553615a3979ab186d4af.ctex"]
+source_file="res://Asset/Objects/Stachel 2.svg"
+dest_files=["res://.godot/imported/Stachel 2.svg-5cbaac7f847b5b717e8236982b89fbba.ctex"]
 
 [params]
 
@@ -38,3 +38,6 @@ process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
 detect_3d/compress_to=1
+svg/scale=1.0
+editor/scale_with_editor_scale=false
+editor/convert_colors_with_editor_theme=false

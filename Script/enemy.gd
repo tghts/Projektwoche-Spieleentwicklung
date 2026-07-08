@@ -8,7 +8,7 @@ extends RigidBody2D
 @export var health_ponits: int = 3 
 @export var atack_damage: int = 1  
 
-func _process(delta: float) -> void:
+func _process(_delta: float) -> void:
 	animated_sprite_2d.animation = "walk"
 	if (character.position.x > position.x):
 		position.x += 3
@@ -17,3 +17,7 @@ func _process(delta: float) -> void:
 	if (character.position.x < position.x):
 		position.x -= 3
 		animated_sprite_2d.flip_h = false
+
+func sprint_angriff():
+	animated_sprite_2d.frame = 30
+	

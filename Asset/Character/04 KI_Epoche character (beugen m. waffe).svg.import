@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://crxe5rlbkmxs0"
-path="res://.godot/imported/Wall Jump (32x32).png-04754cd963a99fd8661805c578d54fe4.ctex"
+uid="uid://bqia7yrrcrlr7"
+path="res://.godot/imported/04 KI_Epoche character (beugen m. waffe).svg-4e6ea9b2492c3d4a17c874dd63bed3e1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Asset/Character/Wall Jump (32x32).png"
-dest_files=["res://.godot/imported/Wall Jump (32x32).png-04754cd963a99fd8661805c578d54fe4.ctex"]
+source_file="res://Asset/Character/04 KI_Epoche character (beugen m. waffe).svg"
+dest_files=["res://.godot/imported/04 KI_Epoche character (beugen m. waffe).svg-4e6ea9b2492c3d4a17c874dd63bed3e1.ctex"]
 
 [params]
 
@@ -38,3 +38,6 @@ process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
 detect_3d/compress_to=1
+svg/scale=1.0
+editor/scale_with_editor_scale=false
+editor/convert_colors_with_editor_theme=false

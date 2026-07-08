@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_1" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56.63 117.95">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #363f4c;
+      }
+
+      .cls-3 {
+        fill: #664b44;
+      }
+
+      .cls-4 {
+        fill: #cc8f85;
+      }
+
+      .cls-5 {
+        fill: #596a82;
+      }
+
+      .cls-6 {
+        fill: #75827b;
+      }
+
+      .cls-7 {
+        fill: #6f8fb2;
+      }
+
+      .cls-8 {
+        fill: #484f5b;
+      }
+
+      .cls-9 {
+        fill: #e8c0af;
+      }
+
+      .cls-10 {
+        fill: #ea5e42;
+      }
+    </style>
+  </defs>
+  <rect class="cls-3" x="45.17" y="16.55" width="11.46" height="30.56"/>
+  <rect class="cls-3" x="1.52" y="30.11" width="52.03" height="25.74"/>
+  <rect class="cls-9" x="32.17" y="83.31" width="7.41" height="29.9"/>
+  <rect class="cls-9" x="20.65" y="83.31" width="7.41" height="29.9"/>
+  <rect class="cls-6" x="15.89" y="44.93" width="26.01" height="30.38"/>
+  <ellipse class="cls-9" cx="9.66" cy="73.64" rx="4.22" ry="3.93"/>
+  <ellipse class="cls-9" cx="48.62" cy="73.64" rx="4.22" ry="3.93" transform="translate(-22.54 21.45) rotate(-20.31)"/>
+  <rect class="cls-7" x="13.74" y="70.39" width="7.93" height="19.83" transform="translate(23.87 -1.7) rotate(16.73)"/>
+  <rect class="cls-7" x="19.06" y="71.99" width="7.93" height="19.83"/>
+  <rect class="cls-7" x="26.99" y="72.41" width="11.14" height="19.83"/>
+  <rect class="cls-7" x="34.16" y="72.41" width="7.93" height="19.83" transform="translate(-16.43 9.83) rotate(-12.11)"/>
+  <rect class="cls-7" x="37.14" y="71.36" width="7.93" height="19.83" transform="translate(-30.79 25.36) rotate(-25.3)"/>
+  <ellipse class="cls-9" cx="28.89" cy="29.37" rx="17.39" ry="16.45"/>
+  <rect x="12.65" y="111.22" width="16.01" height="6.73"/>
+  <rect x="31.58" y="111.22" width="16.01" height="6.73"/>
+  <rect class="cls-3" x="28.06" y="10.91" width="16.37" height="11.07"/>
+  <rect class="cls-3" x="38.13" y="18.01" width="11.23" height="10"/>
+  <rect class="cls-3" x="32.17" y="18.01" width="7.05" height="7.05"/>
+  <rect class="cls-3" x="43.74" y="26.56" width="4.88" height="7.09"/>
+  <rect class="cls-3" x="16.98" y="8" width="11.91" height="10"/>
+  <rect class="cls-3" x="11.06" y="14.92" width="8.01" height="7.07"/>
+  <rect class="cls-3" x="3.88" y="20.74" width="9.1" height="15.1"/>
+  <rect class="cls-3" x="5.44" y="12.92" width="11.54" height="11.54"/>
+  <rect class="cls-3" x="6.94" y="31.65" width="8.95" height="18.74"/>
+  <rect class="cls-3" x="6.94" y="3.82" width="40.12" height="12.63"/>
+  <rect class="cls-3" x="15.89" width="23.7" height="8.91"/>
+  <rect class="cls-3" x="41.1" y="8" width="12.44" height="15.01"/>
+  <rect class="cls-3" y="5.9" width="14.37" height="21.1"/>
+  <rect class="cls-10" x="27.74" y="14.92" width="4.44" height="7.07"/>
+  <rect class="cls-10" x="32.17" y="21.53" width="7.05" height="3.52"/>
+  <rect class="cls-10" x="37.53" y="25.06" width="6.9" height="2.96"/>
+  <rect class="cls-10" x="43.08" y="27" width="3.2" height="6.65"/>
+  <rect class="cls-10" x="32.17" y="18.68" width="3.52" height="2.85"/>
+  <rect class="cls-1" x="17.76" y="28.29" width="8.02" height="2.32"/>
+  <rect class="cls-1" x="32.24" y="28.21" width="8.02" height="2.32"/>
+  <rect x="17.76" y="27" width="8.02" height="1.6"/>
+  <rect x="32.24" y="26.78" width="8.02" height="1.6"/>
+  <rect x="19.77" y="28.29" width="4.01" height="2.32"/>
+  <rect x="34.24" y="28.29" width="4.01" height="2.32"/>
+  <rect x="21.54" y="25.62" width="2.32" height="2.32"/>
+  <rect x="35.43" y="25.4" width="2.32" height="2.32"/>
+  <rect class="cls-4" x="27.53" y="35.84" width="5.17" height="2.15"/>
+  <rect class="cls-6" x="10.61" y="45.39" width="7.1" height="26.56" transform="translate(17.49 -1.59) rotate(16.73)"/>
+  <rect class="cls-6" x="39.53" y="45.39" width="7.1" height="26.56" transform="translate(-17.69 18.6) rotate(-20.31)"/>
+  <rect class="cls-8" x="16.17" y="44.93" width="8.96" height="19.68"/>
+  <rect class="cls-8" x="32.56" y="44.93" width="8.96" height="19.68"/>
+  <rect class="cls-8" x="21.23" y="50.77" width="15.58" height="19.68" transform="translate(-31.59 89.63) rotate(-90)"/>
+  <rect class="cls-5" x="15.4" y="71.5" width="17.9" height="3.27" transform="translate(15.75 -3.47) rotate(12.01)"/>
+  <rect class="cls-5" x="25.44" y="72" width="17.9" height="3.27" transform="translate(-9.13 5) rotate(-7.34)"/>
+  <rect class="cls-1" x="25.79" y="71.99" width="6.92" height="5.57"/>
+  <rect class="cls-1" x="21.61" y="56.13" width="14.82" height="9.55"/>
+  <rect class="cls-2" x="18.29" y="46.86" width="4.72" height="2.35"/>
+  <rect class="cls-2" x="18.29" y="50.9" width="4.72" height="2.35"/>
+  <rect class="cls-2" x="34.68" y="46.65" width="4.72" height="2.35"/>
+  <rect class="cls-2" x="34.68" y="50.64" width="4.72" height="2.35"/>
+  <rect class="cls-2" x="23.66" y="57.85" width="11.02" height="6.76"/>
+  <rect class="cls-2" x="20.65" y="98.26" width="7.41" height="12.95"/>
+  <rect class="cls-2" x="32.17" y="98.26" width="7.41" height="12.95"/>
+</svg>
