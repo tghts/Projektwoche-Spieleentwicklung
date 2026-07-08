@@ -685,13 +685,12 @@ position = Vector2(-4, 84)
 
 [node name="TextureRect" type="TextureRect" parent="Background" unique_id=1249697703]
 texture_filter = 1
-offset_left = -1.0
-offset_top = -498.0
-offset_right = 8928.0
-offset_bottom = 52.0
+offset_left = -2204.0
+offset_top = -450.0
+offset_right = 7647.0
+offset_bottom = 100.0
 texture = ExtResource("1_3a2ac")
 stretch_mode = 1
-metadata/_edit_lock_ = true
 
 [node name="Portal" parent="Background" unique_id=179838961 instance=ExtResource("4_7x2t2")]
 texture_filter = 1
