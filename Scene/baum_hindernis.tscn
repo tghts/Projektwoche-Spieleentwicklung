@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://cclhvs41g83mq"]
+
+[ext_resource type="Texture2D" uid="uid://b2fx4fdxd3puf" path="res://Asset/Objects/Baumstamm.svg" id="1_32a5h"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_2iv5b"]
+size = Vector2(249, 1581)
+
+[node name="Baum_Hindernis" type="RigidBody2D" unique_id=1489725140]
+mass = 1000.0
+gravity_scale = 0.0
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=568188167]
+position = Vector2(5, 3.0517578e-05)
+scale = Vector2(0.9140351, 1.4147983)
+texture = ExtResource("1_32a5h")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=443379799]
+position = Vector2(2.5, 1.5)
+shape = SubResource("RectangleShape2D_2iv5b")

@@ -14,7 +14,7 @@ var Mittelalter_heartbar := load("res://Asset/UI/Mittelalter_heartbar.svg")
 var Ägypten_heartbar := load("res://Asset/UI/Ägypten_heartbar.svg")
 var Altsteinzeit_heartbar := load("res://Asset/UI/Altsteinzeit_heartbar.svg")
 
-func _process(delta: float) -> void:
+func _process(_delta: float) -> void:
 	if (Input.is_action_just_pressed("esc")):
 		get_tree().paused = true
 		pause_menu.show()

@@ -1,0 +1,32 @@
+[gd_scene format=3 uid="uid://bieiy8lprx46y"]
+
+[ext_resource type="PackedScene" uid="uid://diyk3jovtitqb" path="res://Scene/enemy.tscn" id="1_j0qv0"]
+[ext_resource type="Texture2D" uid="uid://bub1d2225trut" path="res://Asset/Enemy/Mumie_00.svg" id="2_ka8eo"]
+[ext_resource type="Texture2D" uid="uid://bxyglqne377kb" path="res://Asset/Enemy/Mumie_01laufen.svg" id="3_khlg1"]
+[ext_resource type="Texture2D" uid="uid://cwflf0g8jxuli" path="res://Asset/Enemy/Mumie_02laufen.svg" id="4_1cd3m"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_1apdv"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_ka8eo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_khlg1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_1cd3m")
+}],
+"loop": 1,
+"name": &"walk",
+"speed": 5.0
+}]
+
+[node name="Mumie" unique_id=1833400236 instance=ExtResource("1_j0qv0")]
+script = null
+
+[node name="AnimatedSprite2D" parent="." index="0" unique_id=30176725]
+texture_filter = 1
+sprite_frames = SubResource("SpriteFrames_1apdv")
+animation = &"walk"
+frame_progress = 0.6412266

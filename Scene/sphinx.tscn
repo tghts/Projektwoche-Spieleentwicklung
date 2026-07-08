@@ -1,0 +1,35 @@
+[gd_scene format=3 uid="uid://dapbhedc5dr7t"]
+
+[ext_resource type="PackedScene" uid="uid://diyk3jovtitqb" path="res://Scene/enemy.tscn" id="1_wly55"]
+[ext_resource type="Texture2D" uid="uid://blt6dr26ds6rg" path="res://Asset/Anderes/sphinx.png" id="2_kw0qk"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_2thg8"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_kw0qk")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_jte5b"]
+size = Vector2(224, 241)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_71r3i"]
+size = Vector2(215, 232)
+
+[node name="Sphinx" unique_id=1833400236 instance=ExtResource("1_wly55")]
+script = null
+
+[node name="AnimatedSprite2D" parent="." index="0" unique_id=30176725]
+sprite_frames = SubResource("SpriteFrames_2thg8")
+
+[node name="CollisionShape2D" parent="." index="1" unique_id=1914392600]
+position = Vector2(-1, -0.5)
+shape = SubResource("RectangleShape2D_jte5b")
+
+[node name="CollisionShape2D" parent="Damage_zone" parent_id_path=PackedInt32Array(97676153) index="0" unique_id=2013183307]
+position = Vector2(-0.5, -1)
+shape = SubResource("RectangleShape2D_71r3i")

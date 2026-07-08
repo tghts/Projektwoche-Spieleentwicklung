@@ -33,13 +33,19 @@ func _physics_process(delta: float) -> void:
 		velocity.x = direction * SPEED
 	else:
 		velocity.x = move_toward(velocity.x, 0, 15)
-
-	move_and_slide()
-
+	
 	if (direction > 0):
 		animated_sprite_2d.flip_h = false
 	if (direction < 0):
 		animated_sprite_2d.flip_h = true
+		
+	if Input.is_action_just_pressed("use"):
+		animated_sprite_2d.play("kämpfen")
+		await animated_sprite_2d.animation_finished
+		
+	move_and_slide()
+
+
 
 func jump():
 	velocity.y = JUMP_VELOCITY*1.5
