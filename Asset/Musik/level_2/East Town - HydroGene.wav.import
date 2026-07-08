@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cgwwrsjry8fnh"
+path="res://.godot/imported/East Town - HydroGene.wav-7f108d7d948e7b7912966fd6ac39fa63.sample"
+
+[deps]
+
+source_file="res://Asset/Musik/level_2/East Town - HydroGene.wav"
+dest_files=["res://.godot/imported/East Town - HydroGene.wav-7f108d7d948e7b7912966fd6ac39fa63.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

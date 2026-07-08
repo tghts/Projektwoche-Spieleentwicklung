@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bq1kj3ecmnhtq"
+path="res://.godot/imported/Call Of The Forgotten Lands - Tim Carlos.wav-9fc3a44a6902c6bd3bea745c624e36bc.sample"
+
+[deps]
+
+source_file="res://Asset/Musik/level_4/Call Of The Forgotten Lands - Tim Carlos.wav"
+dest_files=["res://.godot/imported/Call Of The Forgotten Lands - Tim Carlos.wav-9fc3a44a6902c6bd3bea745c624e36bc.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2
