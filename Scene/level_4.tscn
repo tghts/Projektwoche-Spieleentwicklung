@@ -275,7 +275,7 @@ expand_mode = 1
 stretch_mode = 1
 
 [node name="Portal" parent="Background" unique_id=179838961 instance=ExtResource("4_830qh")]
-position = Vector2(1462, -359)
+position = Vector2(8064, -393)
 target_level = ExtResource("3_nb8bt")
 
 [node name="TileMap" type="TileMap" parent="." unique_id=1037755074]

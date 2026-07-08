@@ -13,6 +13,8 @@ config_version=5
 config/name="ProjektWocheSpiel"
 run/main_scene="uid://leg0e8417gi"
 config/features=PackedStringArray("4.7", "Forward Plus")
+boot_splash/bg_color=Color(0.2754294, 8.663535e-07, 0.16879374, 1)
+boot_splash/image="/home/ava/Pictures/Hintergründe/WallpaperMC.png"
 
 [autoload]
 
