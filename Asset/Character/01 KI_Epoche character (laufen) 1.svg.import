@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cghitckehsro3"
-path="res://.godot/imported/Jump (32x32).png-23993591d614f9c8710b3f6afbeb422a.ctex"
+uid="uid://bcf5kusxoxgfc"
+path="res://.godot/imported/01 KI_Epoche character (laufen) 1.svg-bdefb8b04257d0f1e5e24658924c0fd4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Asset/Character/Jump (32x32).png"
-dest_files=["res://.godot/imported/Jump (32x32).png-23993591d614f9c8710b3f6afbeb422a.ctex"]
+source_file="res://Asset/Character/01 KI_Epoche character (laufen) 1.svg"
+dest_files=["res://.godot/imported/01 KI_Epoche character (laufen) 1.svg-bdefb8b04257d0f1e5e24658924c0fd4.ctex"]
 
 [params]
 
@@ -38,3 +38,6 @@ process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
 detect_3d/compress_to=1
+svg/scale=1.0
+editor/scale_with_editor_scale=false
+editor/convert_colors_with_editor_theme=false

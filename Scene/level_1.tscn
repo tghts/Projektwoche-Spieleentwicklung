@@ -8372,6 +8372,7 @@ offset_right = 8692.0
 offset_bottom = 160.0
 texture = ExtResource("1_2ceuy")
 metadata/_edit_use_anchors_ = true
+metadata/_edit_lock_ = true
 
 [node name="KI_Stadt" type="TextureRect" parent="Background" unique_id=271568022]
 texture_filter = 1
@@ -8382,6 +8383,7 @@ offset_bottom = 6.0
 texture = ExtResource("1_5exfe")
 stretch_mode = 1
 metadata/_edit_use_anchors_ = true
+metadata/_edit_lock_ = true
 
 [node name="Schwarzer Hintergrund" type="TextureRect" parent="Background" unique_id=1694296097]
 offset_left = -2745.0
@@ -8391,6 +8393,7 @@ offset_bottom = 1544.0
 texture = ExtResource("3_q8blv")
 stretch_mode = 1
 metadata/_edit_use_anchors_ = true
+metadata/_edit_lock_ = true
 
 [node name="Portal" parent="Background" unique_id=179838961 instance=ExtResource("2_ufara")]
 position = Vector2(5980, -132)
@@ -8435,13 +8438,13 @@ position = Vector2(143, -82)
 [node name="Collectables" type="Node2D" parent="." unique_id=2129340082]
 
 [node name="Zahnrad" parent="Collectables" unique_id=1153224611 instance=ExtResource("11_sq6mb")]
-position = Vector2(695, -301)
+position = Vector2(713, -299)
 
 [node name="Zahnrad2" parent="Collectables" unique_id=79021386 instance=ExtResource("11_sq6mb")]
-position = Vector2(856, -298)
+position = Vector2(859, -293)
 
 [node name="Zahnrad3" parent="Collectables" unique_id=773394136 instance=ExtResource("11_sq6mb")]
-position = Vector2(994, -301)
+position = Vector2(999, -294)
 
 [node name="Zahnrad4" parent="Collectables" unique_id=288582087 instance=ExtResource("11_sq6mb")]
 position = Vector2(5749, -46)

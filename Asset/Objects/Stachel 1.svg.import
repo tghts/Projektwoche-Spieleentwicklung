@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d2i1qfrufvape"
-path="res://.godot/imported/Hit (32x32).png-cf87ae36be9f69e19b9b09bcf5172ee6.ctex"
+uid="uid://b26nrukae8n4t"
+path="res://.godot/imported/Stachel 1.svg-163d030f65994bd49da28a67f9c4041b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Asset/Character/Hit (32x32).png"
-dest_files=["res://.godot/imported/Hit (32x32).png-cf87ae36be9f69e19b9b09bcf5172ee6.ctex"]
+source_file="res://Asset/Objects/Stachel 1.svg"
+dest_files=["res://.godot/imported/Stachel 1.svg-163d030f65994bd49da28a67f9c4041b.ctex"]
 
 [params]
 
@@ -38,3 +38,6 @@ process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
 detect_3d/compress_to=1
+svg/scale=1.0
+editor/scale_with_editor_scale=false
+editor/convert_colors_with_editor_theme=false

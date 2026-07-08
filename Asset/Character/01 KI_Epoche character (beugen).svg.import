@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bm4a88dv85g6y"
-path="res://.godot/imported/Run (32x32).png-812ba9fde1c67c05f70632039598f807.ctex"
+uid="uid://w022snupre0m"
+path="res://.godot/imported/01 KI_Epoche character (beugen).svg-1bceae27f47fd6a0cac055b7b1cbd94f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Asset/Character/Run (32x32).png"
-dest_files=["res://.godot/imported/Run (32x32).png-812ba9fde1c67c05f70632039598f807.ctex"]
+source_file="res://Asset/Character/01 KI_Epoche character (beugen).svg"
+dest_files=["res://.godot/imported/01 KI_Epoche character (beugen).svg-1bceae27f47fd6a0cac055b7b1cbd94f.ctex"]
 
 [params]
 
@@ -38,3 +38,6 @@ process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
 detect_3d/compress_to=1
+svg/scale=1.0
+editor/scale_with_editor_scale=false
+editor/convert_colors_with_editor_theme=false
