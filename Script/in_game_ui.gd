@@ -21,18 +21,22 @@ func _ready() -> void:
 	
 	#Es wird geschaut in welchen Level man ist und das Designe und der Text ändern sich entsprechend.
 	if(current_scene == "Level1"): 
+		herz_ramen.texture = KI_Epoche_heartbar
 		change_text("Ki-Epoche")
 		change_textschildDesigne(KI_Epoche)
 		
 	if (current_scene == "Level2"):
+		herz_ramen.texture = Mittelalter_heartbar
 		change_text("Mittelalter")
 		change_textschildDesigne(Mittelalter)
 		
 	if (current_scene == "Level3"):
+		herz_ramen.texture = Ägypten_heartbar
 		change_text("Ägypten")
 		change_textschildDesigne(Ägypten)
 		
 	if (current_scene == "Level4"):
+		herz_ramen.texture = Altsteinzeit_heartbar
 		change_text("Altsteinzeit")
 		change_textschildDesigne(Altsteinzeit)
 
