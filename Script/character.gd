@@ -3,7 +3,7 @@ extends CharacterBody2D
 @onready var animated_sprite_2d: AnimatedSprite2D = $AnimatedSprite2D
 @export var healt_points:int = 3
 const SPEED = 400.0
-const JUMP_VELOCITY = -400.0
+const JUMP_VELOCITY = -500.0
 var jump_counter = 0
 
 func _physics_process(delta: float) -> void:
@@ -42,4 +42,4 @@ func _physics_process(delta: float) -> void:
 		animated_sprite_2d.flip_h = true
 
 func jump():
-	velocity.y = JUMP_VELOCITY*2
+	velocity.y = JUMP_VELOCITY*1.5
