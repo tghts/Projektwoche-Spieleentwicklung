@@ -1,8 +1,5 @@
 [gd_scene format=3 uid="uid://bx76ksx71qebo"]
 
-[ext_resource type="AudioStream" uid="uid://cqhntn3ls4apl" path="res://Asset/Sounds/click.wav" id="1_85ryl"]
-[ext_resource type="AudioStream" uid="uid://cowxkbt03dr31" path="res://Asset/Sounds/pause.wav" id="2_mkcda"]
-
 [node name="EscMenu" type="Node" unique_id=1845789873]
 process_mode = 3
 
@@ -52,13 +49,3 @@ offset_top = 400.0
 offset_right = 744.0
 offset_bottom = 473.0
 text = "Quit"
-
-[node name="AudioStreamPlayer" type="Node" parent="PauseMenu" unique_id=1687312219]
-
-[node name="Click" type="AudioStreamPlayer" parent="PauseMenu/AudioStreamPlayer" unique_id=109956932]
-stream = ExtResource("1_85ryl")
-bus = &"SoundEffects"
-
-[node name="Pause" type="AudioStreamPlayer" parent="PauseMenu/AudioStreamPlayer" unique_id=469631304]
-stream = ExtResource("2_mkcda")
-bus = &"SoundEffects"
