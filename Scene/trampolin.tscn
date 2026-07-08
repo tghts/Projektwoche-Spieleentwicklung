@@ -1,22 +1,28 @@
 [gd_scene format=3 uid="uid://145kyaugrqbn"]
 
-[ext_resource type="Script" path="res://trampolin.gd" id="1_i5lwj"]
+[ext_resource type="Script" uid="uid://cy0yueej4amru" path="res://Script/trampolin.gd" id="1_cbk2l"]
 [ext_resource type="Texture2D" uid="uid://cfcofjsi1udu3" path="res://Asset/Objects/Trampolin 02.svg" id="2_cbk2l"]
+[ext_resource type="AudioStream" uid="uid://dmyr0ug4b62qy" path="res://Asset/Sounds/trampolin.wav" id="3_1cohx"]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_7emdm"]
-size = Vector2(228, 36)
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_3iir8"]
+size = Vector2(132, 25)
 
-[node name="Trampolin" type="Area2D" unique_id=406443753]
-script = ExtResource("1_i5lwj")
+[node name="Trampolin" type="Area2D" unique_id=1495864686]
+script = ExtResource("1_cbk2l")
 
-[node name="Sprite2D" type="Sprite2D" parent="." unique_id=548280929]
-texture_filter = 1
-position = Vector2(6, -1)
-scale = Vector2(0.5, 0.339)
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=747576546]
+position = Vector2(3.8146973e-06, 9.536743e-07)
+scale = Vector2(0.28909692, 0.30815503)
 texture = ExtResource("2_cbk2l")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=193159769]
-position = Vector2(8, -22)
-shape = SubResource("RectangleShape2D_7emdm")
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=156122719]
+position = Vector2(1, -19)
+shape = SubResource("RectangleShape2D_3iir8")
+
+[node name="AudioStreamPlayer" type="Node" parent="." unique_id=2045692891]
+
+[node name="Trampolin" type="AudioStreamPlayer" parent="AudioStreamPlayer" unique_id=1158358487]
+stream = ExtResource("3_1cohx")
+bus = &"SoundEffects"
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]
