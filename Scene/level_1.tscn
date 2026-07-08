@@ -7,8 +7,6 @@
 [ext_resource type="PackedScene" uid="uid://c2yunqt0fsnhb" path="res://Scene/level_2.tscn" id="3_ws63c"]
 [ext_resource type="PackedScene" uid="uid://dcqdrsq728l6i" path="res://Scene/in_game_ui.tscn" id="4_6544n"]
 [ext_resource type="PackedScene" uid="uid://bx76ksx71qebo" path="res://Scene/EscMenue.tscn" id="8_3rcer"]
-[ext_resource type="PackedScene" uid="uid://b0020un1odtv8" path="res://Scene/dragon.tscn" id="9_2ceuy"]
-[ext_resource type="PackedScene" uid="uid://cef4tqi1snam7" path="res://Scene/neanderkaren.tscn" id="10_246mo"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ihfcg"]
 texture = ExtResource("1_8ko5r")
@@ -3732,14 +3730,6 @@ offset_left = 1.0
 offset_top = 3.0
 offset_right = 1.0
 offset_bottom = 3.0
-
-[node name="dragon" parent="." unique_id=1833400236 instance=ExtResource("9_2ceuy")]
-position = Vector2(554, -247)
-rotation = -0.6824237
-gravity_scale = 0.0
-
-[node name="Neanderkaren" parent="." unique_id=2103646498 instance=ExtResource("10_246mo")]
-position = Vector2(314, -98)
 
 [node name="InGameUI" parent="." unique_id=1082638675 instance=ExtResource("4_6544n")]
 unique_name_in_owner = true
