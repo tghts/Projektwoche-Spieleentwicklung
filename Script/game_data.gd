@@ -5,7 +5,7 @@ signal zahnrad_count_changed(count: int)
 
 var music_volume := 1.0
 var sound_effects_volume := 1.0
-var character_hp := 4
+var character_hp := 5
 var zahnrad_count := 0
 
 func reduce_character_hp():
