@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://lxx2hes64j1h"
-path="res://.godot/imported/Kaputes Zahnrad.svg-61165d4bb771a34f7026e114c06f402d.ctex"
+path="res://.godot/imported/Kaputes Zahnrad.svg-ee87199e5f5536cef1d46f8bb54a0c21.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Asset/anderes/Kaputes Zahnrad.svg"
-dest_files=["res://.godot/imported/Kaputes Zahnrad.svg-61165d4bb771a34f7026e114c06f402d.ctex"]
+source_file="res://Asset/Anderes/Kaputes Zahnrad.svg"
+dest_files=["res://.godot/imported/Kaputes Zahnrad.svg-ee87199e5f5536cef1d46f8bb54a0c21.ctex"]
 
 [params]
 

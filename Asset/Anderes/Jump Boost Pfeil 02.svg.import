@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://chci1s3spy154"
-path="res://.godot/imported/Sprechblase Neandertaler 02.svg-d921197160e57cba0684b1041b73867d.ctex"
+uid="uid://cb73oixb3lery"
+path="res://.godot/imported/Jump Boost Pfeil 02.svg-964fbf074c3efc4bf4627acfe4dfb481.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Asset/anderes/Sprechblase Neandertaler 02.svg"
-dest_files=["res://.godot/imported/Sprechblase Neandertaler 02.svg-d921197160e57cba0684b1041b73867d.ctex"]
+source_file="res://Asset/Anderes/Jump Boost Pfeil 02.svg"
+dest_files=["res://.godot/imported/Jump Boost Pfeil 02.svg-964fbf074c3efc4bf4627acfe4dfb481.ctex"]
 
 [params]
 

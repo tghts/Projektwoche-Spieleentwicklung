@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://qt1cyvr82163"
-path="res://.godot/imported/Sprechblase Drache 02.svg-4ca5e07c33b42fd1923074752beccf15.ctex"
+uid="uid://blt6dr26ds6rg"
+path="res://.godot/imported/sphinx.png-08547575c1b61d7ea4b4fbff46dfab0d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Asset/anderes/Sprechblase Drache 02.svg"
-dest_files=["res://.godot/imported/Sprechblase Drache 02.svg-4ca5e07c33b42fd1923074752beccf15.ctex"]
+source_file="res://Asset/Anderes/sphinx.png"
+dest_files=["res://.godot/imported/sphinx.png-08547575c1b61d7ea4b4fbff46dfab0d.ctex"]
 
 [params]
 
@@ -38,6 +38,3 @@ process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
 detect_3d/compress_to=1
-svg/scale=1.0
-editor/scale_with_editor_scale=false
-editor/convert_colors_with_editor_theme=false
