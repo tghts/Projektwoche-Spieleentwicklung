@@ -8394,7 +8394,25 @@ stretch_mode = 1
 position = Vector2(5980, -132)
 target_level = ExtResource("3_ws63c")
 
+[node name="Zahnrad" parent="Background" unique_id=1281547793 instance=ExtResource("11_sq6mb")]
+position = Vector2(3903, -858)
+
+[node name="Zahnrad2" parent="Background" unique_id=1605668450 instance=ExtResource("11_sq6mb")]
+position = Vector2(3472, -860)
+
+[node name="Zahnrad3" parent="Background" unique_id=1959822359 instance=ExtResource("11_sq6mb")]
+position = Vector2(2266, -855)
+
+[node name="Zahnrad4" parent="Background" unique_id=2104328916 instance=ExtResource("11_sq6mb")]
+position = Vector2(2837, -856)
+
 [node name="Trampoline Collection" type="Node2D" parent="." unique_id=41196484]
+
+[node name="Trampolin3" parent="Trampoline Collection" unique_id=107327414 instance=ExtResource("8_2ceuy")]
+position = Vector2(376, -28)
+
+[node name="Trampolin4" parent="Trampoline Collection" unique_id=1265420410 instance=ExtResource("8_2ceuy")]
+position = Vector2(3658, -542)
 
 [node name="Trampolin" parent="Trampoline Collection" unique_id=1495864686 instance=ExtResource("8_2ceuy")]
 position = Vector2(1263, -355)
@@ -8416,7 +8434,7 @@ position = Vector2(143, -82)
 
 [node name="Collectables" type="Node2D" parent="." unique_id=2129340082]
 
-[node name="Zahnrad" parent="Collectables" unique_id=1281547793 instance=ExtResource("11_sq6mb")]
+[node name="Zahnrad" parent="Collectables" unique_id=1153224611 instance=ExtResource("11_sq6mb")]
 position = Vector2(695, -301)
 
 [node name="Zahnrad2" parent="Collectables" unique_id=79021386 instance=ExtResource("11_sq6mb")]
@@ -8435,18 +8453,21 @@ offset_bottom = 3.0
 [node name="InGameUI" parent="." unique_id=1082638675 instance=ExtResource("4_6544n")]
 unique_name_in_owner = true
 
-[node name="Trampolin" parent="." unique_id=107327414 instance=ExtResource("8_2ceuy")]
-position = Vector2(376, -28)
-
-[node name="Trampolin2" parent="." unique_id=1265420410 instance=ExtResource("8_2ceuy")]
-position = Vector2(3658, -542)
-
 [node name="Deathzone" type="Area2D" parent="." unique_id=1862987757]
 script = ExtResource("13_a6c3k")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Deathzone" unique_id=95111291]
 position = Vector2(3137, 100)
 shape = SubResource("RectangleShape2D_q8blv")
+
+[node name="Zahnrad" parent="." unique_id=288582087 instance=ExtResource("11_sq6mb")]
+position = Vector2(5749, -46)
+
+[node name="Zahnrad2" parent="." unique_id=1694385970 instance=ExtResource("11_sq6mb")]
+position = Vector2(5745, -125)
+
+[node name="Zahnrad3" parent="." unique_id=136534440 instance=ExtResource("11_sq6mb")]
+position = Vector2(5745, -214)
 
 [connection signal="body_entered" from="Background/Portal" to="Background/Portal" method="_on_body_entered"]
 [connection signal="body_entered" from="Deathzone" to="Deathzone" method="_on_body_entered"]
