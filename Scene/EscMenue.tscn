@@ -17,7 +17,6 @@ anchor_bottom = 1.0
 offset_right = 0.15185547
 offset_bottom = 6.0
 
-<<<<<<< HEAD
 [node name="Pause Menü" type="Label" parent="PauseMenü" unique_id=2100938900]
 layout_mode = 0
 offset_left = 360.0
@@ -57,12 +56,3 @@ offset_top = 400.0
 offset_right = 744.0
 offset_bottom = 473.0
 text = "Quit"
-=======
-[node name="LineEdit" type="Label" parent="Label" unique_id=1249886413]
-texture_filter = 1
-layout_mode = 0
-offset_left = 496.0
-offset_top = 72.0
-offset_right = 708.0
-offset_bottom = 144.0
->>>>>>> 11f759e5b07dfa08ea5878302a620f23d5f664b8
