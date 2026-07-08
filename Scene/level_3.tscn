@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://cbnh7kw546kix"]
 
-[ext_resource type="Texture2D" uid="uid://dfjv3dm0av1bm" path="res://Asset/Background/Desert.png" id="1_wjlks"]
+[ext_resource type="Texture2D" uid="uid://jelxhlvonmi7" path="res://Asset/Background/ÄGYPTEN 1.png" id="1_3a2ac"]
 [ext_resource type="PackedScene" uid="uid://c6c0ikup3br8l" path="res://Scene/level_4.tscn" id="3_3a2ac"]
 [ext_resource type="PackedScene" uid="uid://b5tqdjtmfmsmc" path="res://Scene/character.tscn" id="3_c5qca"]
 [ext_resource type="Texture2D" uid="uid://ej0d5ut3p1t2" path="res://Asset/TileMap/Ägypten_Tilemap.svg" id="4_3a2ac"]
@@ -689,7 +689,7 @@ offset_left = -1.0
 offset_top = -498.0
 offset_right = 8928.0
 offset_bottom = 52.0
-texture = ExtResource("1_wjlks")
+texture = ExtResource("1_3a2ac")
 stretch_mode = 1
 
 [node name="Portal" parent="Background" unique_id=179838961 instance=ExtResource("4_7x2t2")]
