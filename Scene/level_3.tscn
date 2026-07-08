@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://cbnh7kw546kix"]
 
 [ext_resource type="Texture2D" uid="uid://jelxhlvonmi7" path="res://Asset/Background/ÄGYPTEN 1.png" id="1_3a2ac"]
+[ext_resource type="Texture2D" uid="uid://dxs02ihew18v1" path="res://Asset/Background/Black_background.png" id="1_k8ar7"]
 [ext_resource type="PackedScene" uid="uid://c6c0ikup3br8l" path="res://Scene/level_4.tscn" id="3_3a2ac"]
 [ext_resource type="PackedScene" uid="uid://b5tqdjtmfmsmc" path="res://Scene/character.tscn" id="3_c5qca"]
 [ext_resource type="Texture2D" uid="uid://ej0d5ut3p1t2" path="res://Asset/TileMap/Ägypten_Tilemap.svg" id="4_3a2ac"]
@@ -682,6 +683,14 @@ texture_filter = 1
 [node name="Background" type="Node2D" parent="." unique_id=465451956]
 texture_filter = 1
 position = Vector2(-4, 84)
+
+[node name="Schwarzer Hintergrund" type="TextureRect" parent="Background" unique_id=537653461]
+offset_left = -2691.0
+offset_top = 124.0
+offset_right = 8540.0
+offset_bottom = 1658.0
+texture = ExtResource("1_k8ar7")
+stretch_mode = 1
 
 [node name="TextureRect" type="TextureRect" parent="Background" unique_id=1249697703]
 texture_filter = 1
