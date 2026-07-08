@@ -2,8 +2,6 @@
 
 [ext_resource type="Script" uid="uid://bgrmr6spsyqtw" path="res://Script/settings.gd" id="1_mvx5f"]
 [ext_resource type="Texture2D" uid="uid://j3rf0m1yhvcl" path="res://Asset/Background/Brown.png" id="1_qampi"]
-[ext_resource type="AudioStream" uid="uid://cqhntn3ls4apl" path="res://Asset/Sounds/click.wav" id="3_cmh6x"]
-[ext_resource type="AudioStream" uid="uid://dm4lgjtibhu51" path="res://Asset/Sounds/slider.wav" id="4_cwsml"]
 
 [node name="Settings" type="Node" unique_id=958982605]
 script = ExtResource("1_mvx5f")
@@ -111,20 +109,6 @@ theme_override_font_sizes/font_size = 24
 text = "SFX Volume"
 horizontal_alignment = 1
 vertical_alignment = 1
-
-[node name="AudioStreamPlayer" type="Node" parent="." unique_id=679826154]
-
-[node name="Click" type="AudioStreamPlayer" parent="AudioStreamPlayer" unique_id=2072903764]
-stream = ExtResource("3_cmh6x")
-bus = &"SoundEffects"
-
-[node name="MusicSlider" type="AudioStreamPlayer" parent="AudioStreamPlayer" unique_id=1130748503]
-stream = ExtResource("4_cwsml")
-bus = &"Music"
-
-[node name="SoundEffectsSlider" type="AudioStreamPlayer" parent="AudioStreamPlayer" unique_id=303246344]
-stream = ExtResource("4_cwsml")
-bus = &"SoundEffects"
 
 [connection signal="pressed" from="Fullscreen" to="." method="_on_fullscreen_pressed"]
 [connection signal="toggled" from="Fullscreen" to="." method="_on_fullscreen_toggled"]

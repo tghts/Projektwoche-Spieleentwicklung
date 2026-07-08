@@ -3,9 +3,6 @@
 [ext_resource type="Texture2D" uid="uid://j3rf0m1yhvcl" path="res://Asset/Background/Brown.png" id="1_ftydy"]
 [ext_resource type="Script" uid="uid://t83jqkge7xgq" path="res://Script/main_menu.gd" id="1_hii65"]
 [ext_resource type="Texture2D" uid="uid://blt6dr26ds6rg" path="res://Asset/Anderes/sphinx.png" id="3_hii65"]
-[ext_resource type="AudioStream" uid="uid://cqhntn3ls4apl" path="res://Asset/Sounds/click.wav" id="4_hptlk"]
-[ext_resource type="AudioStream" uid="uid://l3h6ool4nhjc" path="res://Asset/Sounds/appear.wav" id="5_oqads"]
-[ext_resource type="AudioStream" uid="uid://dcwts1hbmfhrp" path="res://Asset/Sounds/disappear.wav" id="6_s2f1d"]
 
 [node name="MainMenu" type="Node" unique_id=2128577933]
 script = ExtResource("1_hii65")
@@ -138,22 +135,6 @@ offset_bottom = 418.0
 scale = Vector2(1.5, 1.5)
 texture = ExtResource("3_hii65")
 flip_h = true
-
-[node name="AudioStreamPlayer" type="Node" parent="." unique_id=305910721]
-
-[node name="Click" type="AudioStreamPlayer" parent="AudioStreamPlayer" unique_id=1719931465]
-stream = ExtResource("4_hptlk")
-bus = &"SoundEffects"
-
-[node name="Appear" type="AudioStreamPlayer" parent="AudioStreamPlayer" unique_id=303260404]
-stream = ExtResource("5_oqads")
-volume_db = -10.0
-bus = &"SoundEffects"
-
-[node name="Disappear" type="AudioStreamPlayer" parent="AudioStreamPlayer" unique_id=961753435]
-stream = ExtResource("6_s2f1d")
-volume_db = -10.0
-bus = &"SoundEffects"
 
 [connection signal="pressed" from="Startknopf" to="." method="_on_startknopf_pressed"]
 [connection signal="pressed" from="Exitknopf" to="." method="_on_exitknopf_pressed"]
