@@ -1,0 +1,156 @@
+[gd_scene format=3 uid="uid://b5tqdjtmfmsmc"]
+
+[ext_resource type="Script" uid="uid://du6j4i7n6ttbw" path="res://Script/character.gd" id="1_4rl4f"]
+[ext_resource type="Texture2D" uid="uid://bhraicew86ujr" path="res://Asset/Character/01 KI_Epoche character (sideview).svg" id="2_iqjim"]
+[ext_resource type="Texture2D" uid="uid://w022snupre0m" path="res://Asset/Character/01 KI_Epoche character (beugen).svg" id="3_tiqra"]
+[ext_resource type="Texture2D" uid="uid://dwih8bswkohby" path="res://Asset/Character/02 KI_Epoche character (beugen).svg" id="4_mmncj"]
+[ext_resource type="Texture2D" uid="uid://ccid17r6u32p2" path="res://Asset/Character/03 KI_Epoche character (beugen).svg" id="5_owe2d"]
+[ext_resource type="Texture2D" uid="uid://bqia7yrrcrlr7" path="res://Asset/Character/04 KI_Epoche character (beugen m. waffe).svg" id="6_o6cpk"]
+[ext_resource type="Texture2D" uid="uid://t2o1g7ddegbb" path="res://Asset/Character/05 KI_Epoche character (beugen m. waffe).svg" id="7_w2sjy"]
+[ext_resource type="Texture2D" uid="uid://cdpji1r78d74x" path="res://Asset/Character/06 KI_Epoche character (beugen m. waffe).svg" id="8_8u8wh"]
+[ext_resource type="Texture2D" uid="uid://r2qkb2cluu22" path="res://Asset/Character/07 KI_Epoche character (beugen m. waffe).svg" id="9_wkix8"]
+[ext_resource type="Texture2D" uid="uid://0xpg6xj0ugg1" path="res://Asset/Character/00 KI_Epoche character (fallen).svg" id="10_nx5oc"]
+[ext_resource type="Texture2D" uid="uid://dc6rnlwbldlcu" path="res://Asset/Character/01 KI_Epoche character (fallen).svg" id="11_i1g5j"]
+[ext_resource type="Texture2D" uid="uid://bxig2rq61xh0e" path="res://Asset/Character/02 KI_Epoche character (fallen).svg" id="12_4fs6n"]
+[ext_resource type="Texture2D" uid="uid://b86xwe1hq01p5" path="res://Asset/Character/03 KI_Epoche character (fallen).svg" id="13_jqwq4"]
+[ext_resource type="Texture2D" uid="uid://y2l6ih7of681" path="res://Asset/Character/04 KI_Epoche character (fallen).svg" id="14_t18ok"]
+[ext_resource type="Texture2D" uid="uid://c8ehxobkgc0ia" path="res://Asset/Character/KI_Epoche character (frontview).svg" id="15_jmavs"]
+[ext_resource type="Texture2D" uid="uid://bwsh105nah01e" path="res://Asset/Character/KI_Epoche character (sideview).svg" id="16_q0rgj"]
+[ext_resource type="Texture2D" uid="uid://1ddktp0t170v" path="res://Asset/Character/00 KI_Epoche character (springen).svg" id="17_r8m6l"]
+[ext_resource type="Texture2D" uid="uid://4wb04f1aa17u" path="res://Asset/Character/01 KI_Epoche character (springen).svg" id="18_s615g"]
+[ext_resource type="Texture2D" uid="uid://bhbe6kxptof26" path="res://Asset/Character/00-KI_Epoche-character-(laufen).png" id="19_vburn"]
+[ext_resource type="Texture2D" uid="uid://d3kexttbved12" path="res://Asset/Character/01-KI_Epoche-character-(laufen).png" id="20_sqwnv"]
+[ext_resource type="Texture2D" uid="uid://bsd5aa6box6ls" path="res://Asset/Character/01 KI_Epoche character (werfen).svg" id="21_8u8wh"]
+[ext_resource type="Texture2D" uid="uid://vbn8ddrvm4hb" path="res://Asset/Character/02 KI_Epoche character (werfen).svg" id="22_wkix8"]
+[ext_resource type="Texture2D" uid="uid://lvqt76h5po3l" path="res://Asset/Character/03 KI_Epoche character (werfen).svg" id="23_nx5oc"]
+[ext_resource type="Texture2D" uid="uid://cr6mjhhe7lvmk" path="res://Asset/Character/04 KI_Epoche character (werfen).svg" id="24_i1g5j"]
+[ext_resource type="Texture2D" uid="uid://pajrgh85dvwv" path="res://Asset/Character/05 KI_Epoche character (werfen).svg" id="25_4fs6n"]
+[ext_resource type="Texture2D" uid="uid://dst5dmtbg37vy" path="res://Asset/Character/06 KI_Epoche character (werfen).svg" id="26_jqwq4"]
+[ext_resource type="Texture2D" uid="uid://do1w05w7f5lqd" path="res://Asset/Character/07 KI_Epoche character (werfen).svg" id="27_t18ok"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_7emdm"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_iqjim")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_tiqra")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_mmncj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_owe2d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_o6cpk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_w2sjy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_8u8wh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_wkix8")
+}],
+"loop": 1,
+"name": &"beugen",
+"speed": 9.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("10_nx5oc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_i1g5j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_4fs6n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_jqwq4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_t18ok")
+}],
+"loop": 1,
+"name": &"fall",
+"speed": 9.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("15_jmavs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_q0rgj")
+}],
+"loop": 2,
+"name": &"idle",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("17_r8m6l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_s615g")
+}],
+"loop": 0,
+"name": &"jumping",
+"speed": 6.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("19_vburn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_sqwnv")
+}],
+"loop": 1,
+"name": &"walking",
+"speed": 6.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("21_8u8wh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_wkix8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_nx5oc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_i1g5j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_4fs6n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_jqwq4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_t18ok")
+}],
+"loop": 1,
+"name": &"werfen",
+"speed": 9.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_8ko5r"]
+size = Vector2(66, 122)
+
+[node name="Character" type="CharacterBody2D" unique_id=983975606]
+script = ExtResource("1_4rl4f")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1485759793]
+texture_filter = 1
+sprite_frames = SubResource("SpriteFrames_7emdm")
+animation = &"idle"
+autoplay = "idle"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1179163459]
+position = Vector2(0, -2)
+shape = SubResource("RectangleShape2D_8ko5r")

@@ -1,0 +1,61 @@
+[gd_scene format=3 uid="uid://bbmki1875xab7"]
+
+[ext_resource type="Script" uid="uid://du6j4i7n6ttbw" path="res://Script/character.gd" id="1_yhxg3"]
+[ext_resource type="Texture2D" uid="uid://c3xma6u2wf8na" path="res://Asset/Character/00 Neandertaler character (frontview).svg" id="2_mb6t7"]
+[ext_resource type="Texture2D" uid="uid://bxctgq6xas61s" path="res://Asset/Character/01 Neandertaler character (sideview).svg" id="3_60arn"]
+[ext_resource type="Texture2D" uid="uid://bflk7gd0nabe4" path="res://Asset/Character/00 Neandertaler character (springen).svg" id="4_nvkq1"]
+[ext_resource type="Texture2D" uid="uid://blutswus7snwy" path="res://Asset/Character/01 Neandertaler character (springen).svg" id="5_o2mqo"]
+[ext_resource type="Texture2D" uid="uid://dhw0ob0gnqnvc" path="res://Asset/Character/00 Neandertaler character (laufen).svg" id="6_80lbs"]
+[ext_resource type="Texture2D" uid="uid://0py13g37td6r" path="res://Asset/Character/01 Neandertaler character (laufen).svg" id="7_yhxg3"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_7emdm"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_mb6t7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_60arn")
+}],
+"loop": 2,
+"name": &"idle",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4_nvkq1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_o2mqo")
+}],
+"loop": 2,
+"name": &"jumping",
+"speed": 6.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6_80lbs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_yhxg3")
+}],
+"loop": 1,
+"name": &"walking",
+"speed": 6.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_8ko5r"]
+size = Vector2(66, 122)
+
+[node name="Character" type="CharacterBody2D" unique_id=983975606]
+script = ExtResource("1_yhxg3")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1485759793]
+texture_filter = 1
+sprite_frames = SubResource("SpriteFrames_7emdm")
+animation = &"walking"
+autoplay = "idle"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1179163459]
+position = Vector2(0, -2)
+shape = SubResource("RectangleShape2D_8ko5r")

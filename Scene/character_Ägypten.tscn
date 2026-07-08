@@ -1,0 +1,93 @@
+[gd_scene format=3 uid="uid://derloadtf1xst"]
+
+[ext_resource type="Script" uid="uid://du6j4i7n6ttbw" path="res://Script/character.gd" id="1_5hsod"]
+[ext_resource type="Texture2D" uid="uid://dejtur6no3oym" path="res://Asset/Character/00 ägypten character (frontview).svg" id="2_u8hvr"]
+[ext_resource type="Texture2D" uid="uid://ce6xw2focy36s" path="res://Asset/Character/01 ägypten character (sideview).svg" id="3_uriuy"]
+[ext_resource type="Texture2D" uid="uid://qjentnkw5lkh" path="res://Asset/Character/00 ägypten character (springen).svg" id="4_lasis"]
+[ext_resource type="Texture2D" uid="uid://bt4qbuwgs0rkt" path="res://Asset/Character/01 ägypten character (springen).svg" id="5_tlud6"]
+[ext_resource type="Texture2D" uid="uid://bcxrpfw8op141" path="res://Asset/Character/00 ägypten character (kämpfen).svg" id="6_xw3wo"]
+[ext_resource type="Texture2D" uid="uid://uyma0g46odna" path="res://Asset/Character/01 ägypten character (kämpfen).svg" id="7_qc4ly"]
+[ext_resource type="Texture2D" uid="uid://box3xlrusaxa2" path="res://Asset/Character/02 ägypten character (kämpfen).svg" id="8_b7l0y"]
+[ext_resource type="Texture2D" uid="uid://cryrkjbtsv5wp" path="res://Asset/Character/03 ägypten character (kämpfen).svg" id="9_gigw0"]
+[ext_resource type="Texture2D" uid="uid://le6vlp24mucy" path="res://Asset/Character/04 ägypten character (kämpfen).svg" id="10_jbjlj"]
+[ext_resource type="Texture2D" uid="uid://dr5pglq24s5f3" path="res://Asset/Character/05 ägypten character (kämpfen).svg" id="11_myo15"]
+[ext_resource type="Texture2D" uid="uid://bs6cts65bqbuc" path="res://Asset/Character/06 ägypten character (kämpfen).svg" id="12_au7jj"]
+[ext_resource type="Texture2D" uid="uid://ct30tru0vonmw" path="res://Asset/Character/01 ägypten character (laufen).svg" id="13_20hvp"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_7emdm"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_u8hvr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_uriuy")
+}],
+"loop": 2,
+"name": &"idle",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4_lasis")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_tlud6")
+}],
+"loop": 2,
+"name": &"jumping",
+"speed": 6.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6_xw3wo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_qc4ly")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_b7l0y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_gigw0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_jbjlj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_myo15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_au7jj")
+}],
+"loop": 1,
+"name": &"kämpfen",
+"speed": 9.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("13_20hvp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_20hvp")
+}],
+"loop": 1,
+"name": &"walking",
+"speed": 6.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_8ko5r"]
+size = Vector2(66, 122)
+
+[node name="Character" type="CharacterBody2D" unique_id=983975606]
+script = ExtResource("1_5hsod")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1485759793]
+texture_filter = 1
+sprite_frames = SubResource("SpriteFrames_7emdm")
+animation = &"idle"
+autoplay = "idle"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1179163459]
+position = Vector2(0, -2)
+shape = SubResource("RectangleShape2D_8ko5r")

@@ -115,11 +115,9 @@ func _on_resume_pressed() -> void:
 
 
 func _on_settings_pressed() -> void:
-	get_tree().change_scene_to_file("res://Scene/settings.tscn")
 	get_tree().paused = false
-	pause_menu.hide()
+	get_tree().change_scene_to_file("res://Scene/settings.tscn")
 	
 func _on_back_to_start_pressed() -> void:
 	get_tree().paused = false
 	get_tree().change_scene_to_file("res://Scene/main_menu.tscn")
-	pause_menu.hide()

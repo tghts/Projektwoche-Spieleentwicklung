@@ -2,7 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://db0xvprr4ii0a" path="res://Asset/Background/KIStadt_hintergrundfarbe.svg" id="1_2ceuy"]
 [ext_resource type="Texture2D" uid="uid://d1knc4pbmx005" path="res://Asset/Background/KI_City.png" id="1_5exfe"]
-[ext_resource type="PackedScene" uid="uid://b5tqdjtmfmsmc" path="res://Scene/character.tscn" id="2_au1pm"]
+[ext_resource type="PackedScene" uid="uid://b5tqdjtmfmsmc" path="res://Scene/character_ki_epoche.tscn" id="2_au1pm"]
 [ext_resource type="PackedScene" uid="uid://b64qd23yt107h" path="res://Scene/portal.tscn" id="2_ufara"]
 [ext_resource type="Texture2D" uid="uid://dxs02ihew18v1" path="res://Asset/Background/Black_background.png" id="3_q8blv"]
 [ext_resource type="PackedScene" uid="uid://c2yunqt0fsnhb" path="res://Scene/level_2.tscn" id="3_ws63c"]
@@ -8430,11 +8430,6 @@ position = Vector2(1263, -355)
 [node name="Trampolin2" parent="Trampoline Collection" unique_id=1389886837 instance=ExtResource("8_2ceuy")]
 position = Vector2(1562, -532)
 
-[node name="Character" parent="." unique_id=983975606 instance=ExtResource("2_au1pm")]
-position = Vector2(143, -82)
-
-[node name="Camera2D" type="Camera2D" parent="Character" unique_id=1093177048]
-
 [node name="Collectables" type="Node2D" parent="." unique_id=2129340082]
 
 [node name="Zahnrad" parent="Collectables" unique_id=1153224611 instance=ExtResource("11_sq6mb")]
@@ -8466,6 +8461,11 @@ position = Vector2(2266, -855)
 
 [node name="Zahnrad10" parent="Collectables" unique_id=2104328916 instance=ExtResource("11_sq6mb")]
 position = Vector2(2837, -856)
+
+[node name="Character" parent="." unique_id=983975606 instance=ExtResource("2_au1pm")]
+position = Vector2(122, -68)
+
+[node name="Camera2D" type="Camera2D" parent="Character" unique_id=190266527]
 
 [node name="InGameUI" parent="." unique_id=1082638675 instance=ExtResource("4_6544n")]
 unique_name_in_owner = true

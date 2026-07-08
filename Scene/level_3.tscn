@@ -4,11 +4,11 @@
 [ext_resource type="Texture2D" uid="uid://dxs02ihew18v1" path="res://Asset/Background/Black_background.png" id="1_k8ar7"]
 [ext_resource type="Texture2D" uid="uid://d3scqsp4wqks1" path="res://Asset/Background/Ägypten Hintergrundfarbe.svg" id="1_s6htl"]
 [ext_resource type="PackedScene" uid="uid://c6c0ikup3br8l" path="res://Scene/level_4.tscn" id="3_3a2ac"]
-[ext_resource type="PackedScene" uid="uid://b5tqdjtmfmsmc" path="res://Scene/character.tscn" id="3_c5qca"]
 [ext_resource type="Texture2D" uid="uid://ej0d5ut3p1t2" path="res://Asset/TileMap/Ägypten_Tilemap.svg" id="4_3a2ac"]
 [ext_resource type="PackedScene" uid="uid://b64qd23yt107h" path="res://Scene/portal.tscn" id="4_7x2t2"]
 [ext_resource type="PackedScene" uid="uid://dcqdrsq728l6i" path="res://Scene/in_game_ui.tscn" id="5_c5qca"]
 [ext_resource type="Script" uid="uid://bulrxfk4b2a0q" path="res://Script/deathzone.gd" id="7_8rdtp"]
+[ext_resource type="PackedScene" uid="uid://derloadtf1xst" path="res://Scene/character_Ägypten.tscn" id="8_8rdtp"]
 [ext_resource type="PackedScene" uid="uid://145kyaugrqbn" path="res://Scene/trampolin.tscn" id="9_8rdtp"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_k8ar7"]
@@ -1195,10 +1195,9 @@ script = ExtResource("7_8rdtp")
 position = Vector2(3584.625, 265)
 shape = SubResource("RectangleShape2D_uj7k8")
 
-[node name="Character" parent="." unique_id=983975606 instance=ExtResource("3_c5qca")]
-position = Vector2(85, 51)
+[node name="Character" parent="." unique_id=983975606 instance=ExtResource("8_8rdtp")]
 
-[node name="Camera2D" type="Camera2D" parent="Character" unique_id=1033740084]
+[node name="Camera2D" type="Camera2D" parent="Character" unique_id=879414951]
 
 [node name="Trampolin Collection" type="Node2D" parent="." unique_id=672314868]
 

@@ -1,0 +1,78 @@
+[gd_scene format=3 uid="uid://cejm70rdheob0"]
+
+[ext_resource type="Script" uid="uid://du6j4i7n6ttbw" path="res://Script/character.gd" id="1_u6qsn"]
+[ext_resource type="Texture2D" uid="uid://btwbvgv32qwd1" path="res://Asset/Character/00 Mittelalter character (frontview).svg" id="2_1gr41"]
+[ext_resource type="Texture2D" uid="uid://c86jqm58p6ojg" path="res://Asset/Character/01 mittelalter character (sideview).svg" id="3_em3jm"]
+[ext_resource type="Texture2D" uid="uid://b6unv4pb1ylmy" path="res://Asset/Character/00 mittelalter character (springen).svg" id="4_u6qsn"]
+[ext_resource type="Texture2D" uid="uid://dn0fi7s5vg7r8" path="res://Asset/Character/01 mittelalter character (springen).svg" id="5_ubg7y"]
+[ext_resource type="Texture2D" uid="uid://cc70xadsocud7" path="res://Asset/Character/00 mittelalter character (kämpfen).svg" id="6_bocao"]
+[ext_resource type="Texture2D" uid="uid://qtyfv06no1wy" path="res://Asset/Character/01 mittelalter character (kämpfen).svg" id="7_e5g2f"]
+[ext_resource type="Texture2D" uid="uid://df755008foyec" path="res://Asset/Character/02 mittelalter character (kämpfen).svg" id="8_plqnd"]
+[ext_resource type="Texture2D" uid="uid://w18677550840" path="res://Asset/Character/00 mittelalter character (laufen).svg" id="9_3xcga"]
+[ext_resource type="Texture2D" uid="uid://c8fjq8dwsrpjr" path="res://Asset/Character/01 mittelalter character (laufen).svg" id="10_wicjs"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_7emdm"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_1gr41")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_em3jm")
+}],
+"loop": 2,
+"name": &"idle",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4_u6qsn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_ubg7y")
+}],
+"loop": 2,
+"name": &"jumping",
+"speed": 6.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6_bocao")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_e5g2f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_plqnd")
+}],
+"loop": 1,
+"name": &"kämpfen",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("9_3xcga")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_wicjs")
+}],
+"loop": 1,
+"name": &"walking",
+"speed": 6.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_8ko5r"]
+size = Vector2(66, 122)
+
+[node name="Character" type="CharacterBody2D" unique_id=983975606]
+script = ExtResource("1_u6qsn")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1485759793]
+texture_filter = 1
+sprite_frames = SubResource("SpriteFrames_7emdm")
+animation = &"walking"
+autoplay = "idle"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1179163459]
+position = Vector2(0, -2)
+shape = SubResource("RectangleShape2D_8ko5r")
