@@ -1,11 +1,18 @@
 extends Node
 @onready var texture_rect: TextureRect = $CanvasLayer/Panel/TextureRect
+@onready var herz_ramen: TextureRect = $CanvasLayer/Panel/Herz_ramen
 
 # Lädt die Bilder in diesen Variabeln. Diese haben den Typ Texture2D
 var KI_Epoche := load("res://Asset/UI/Textschild KI-Epoche 02.svg")
 var Mittelalter := load("res://Asset/UI/Textschild Mittelalter 02.svg")
 var Ägypten := load("res://Asset/UI/Textschild Ägypten 02.svg")
 var Altsteinzeit := load("res://Asset/UI/Textschild Altsteinzeit 02.svg")
+
+var KI_Epoche_heartbar := load("res://Asset/UI/KI_heartbar.svg")
+var Mittelalter_heartbar := load("res://Asset/UI/Mittelalter_heartbar.svg")
+var Ägypten_heartbar := load("res://Asset/UI/Ägypten_heartbar.svg")
+var Altsteinzeit_heartbar := load("res://Asset/UI/Altsteinzeit_heartbar.svg")
+
 
 # Diese Methode wird immer bei Start einer Scene einmal genutzt.
 func _ready() -> void:

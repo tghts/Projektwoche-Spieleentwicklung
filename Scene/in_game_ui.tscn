@@ -1,18 +1,11 @@
 [gd_scene format=3 uid="uid://dcqdrsq728l6i"]
 
 [ext_resource type="Script" uid="uid://y0735dvq6m4x" path="res://Script/in_game_ui.gd" id="1_ol85y"]
+[ext_resource type="Texture2D" uid="uid://d0cm6uc6vycss" path="res://Asset/UI/KI_heartbar.svg" id="2_fcixt"]
 [ext_resource type="Texture2D" uid="uid://csphr2qslqe2" path="res://Asset/UI/Textschild KI-Epoche 02.svg" id="2_ol85y"]
+[ext_resource type="Texture2D" uid="uid://w4ipji7io2sp" path="res://Asset/UI/Heart.svg" id="3_tkk48"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_quy4v"]
-
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_mmx1g"]
-load_path = "res://.godot/imported/Heart_full.png-5e9cbe0e7c193abfedfbceb3f94a1022.ctex"
-
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ol85y"]
-load_path = "res://.godot/imported/Heart_full.png-5e9cbe0e7c193abfedfbceb3f94a1022.ctex"
-
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_quy4v"]
-load_path = "res://.godot/imported/Heart_full.png-5e9cbe0e7c193abfedfbceb3f94a1022.ctex"
 
 [node name="InGameUI" type="Node" unique_id=422732831]
 script = ExtResource("1_ol85y")
@@ -27,31 +20,52 @@ grow_horizontal = 2
 grow_vertical = 2
 theme_override_styles/panel = SubResource("StyleBoxEmpty_quy4v")
 
+[node name="Herz_ramen" type="TextureRect" parent="CanvasLayer/Panel" unique_id=774498417]
+layout_mode = 0
+offset_left = 727.0
+offset_top = -1.0
+offset_right = 1150.0
+offset_bottom = 103.0
+texture = ExtResource("2_fcixt")
+expand_mode = 1
+
 [node name="HBoxContainer" type="HBoxContainer" parent="CanvasLayer/Panel" unique_id=419266860]
 layout_mode = 0
-offset_left = 758.0
-offset_top = 4.0
-offset_right = 1147.0
-offset_bottom = 119.0
+offset_left = 738.0
+offset_top = 23.0
+offset_right = 1139.0
+offset_bottom = 85.0
 alignment = 1
 metadata/_edit_group_ = true
 
-[node name="TextureRect3" type="TextureRect" parent="CanvasLayer/Panel/HBoxContainer" unique_id=809671410]
+[node name="Herat1" type="TextureRect" parent="CanvasLayer/Panel/HBoxContainer" unique_id=218490990]
 texture_filter = 1
 layout_mode = 2
-texture = SubResource("CompressedTexture2D_mmx1g")
+texture = ExtResource("3_tkk48")
 expand_mode = 3
 
-[node name="TextureRect2" type="TextureRect" parent="CanvasLayer/Panel/HBoxContainer" unique_id=1003805107]
+[node name="Herat2" type="TextureRect" parent="CanvasLayer/Panel/HBoxContainer" unique_id=1541449146]
 texture_filter = 1
 layout_mode = 2
-texture = SubResource("CompressedTexture2D_ol85y")
+texture = ExtResource("3_tkk48")
 expand_mode = 3
 
-[node name="TextureRect" type="TextureRect" parent="CanvasLayer/Panel/HBoxContainer" unique_id=804868537]
+[node name="Heart3" type="TextureRect" parent="CanvasLayer/Panel/HBoxContainer" unique_id=809671410]
 texture_filter = 1
 layout_mode = 2
-texture = SubResource("CompressedTexture2D_quy4v")
+texture = ExtResource("3_tkk48")
+expand_mode = 3
+
+[node name="Heart4" type="TextureRect" parent="CanvasLayer/Panel/HBoxContainer" unique_id=237545152]
+texture_filter = 1
+layout_mode = 2
+texture = ExtResource("3_tkk48")
+expand_mode = 3
+
+[node name="Heart5" type="TextureRect" parent="CanvasLayer/Panel/HBoxContainer" unique_id=941026251]
+texture_filter = 1
+layout_mode = 2
+texture = ExtResource("3_tkk48")
 expand_mode = 3
 
 [node name="TextureRect" type="TextureRect" parent="CanvasLayer/Panel" unique_id=805721806]
