@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dm64ggjnggthm"
+path="res://.godot/imported/Pyramid - HydroGene.wav-b345863bbc6514111bcc9640bb4a831a.sample"
+
+[deps]
+
+source_file="res://Asset/Musik/level_3/Pyramid - HydroGene.wav"
+dest_files=["res://.godot/imported/Pyramid - HydroGene.wav-b345863bbc6514111bcc9640bb4a831a.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

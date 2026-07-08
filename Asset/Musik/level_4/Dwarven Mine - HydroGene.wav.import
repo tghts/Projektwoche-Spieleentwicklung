@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bdblm4ipm466o"
+path="res://.godot/imported/Dwarven Mine - HydroGene.wav-dc227388f0213716e3e86235d9e90e22.sample"
+
+[deps]
+
+source_file="res://Asset/Musik/level_4/Dwarven Mine - HydroGene.wav"
+dest_files=["res://.godot/imported/Dwarven Mine - HydroGene.wav-dc227388f0213716e3e86235d9e90e22.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

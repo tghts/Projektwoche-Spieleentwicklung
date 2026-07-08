@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://tc5kjbuu1cvd"
+path="res://.godot/imported/The World As It Was - Tim Carlos.wav-ac398e7bc27bc5ea50d8bfb27abe2c3f.sample"
+
+[deps]
+
+source_file="res://Asset/Musik/title_screen/The World As It Was - Tim Carlos.wav"
+dest_files=["res://.godot/imported/The World As It Was - Tim Carlos.wav-ac398e7bc27bc5ea50d8bfb27abe2c3f.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

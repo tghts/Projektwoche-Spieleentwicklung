@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://1rde6pexg7q2"
+path="res://.godot/imported/Volcanic Crater - HydroGene.wav-2868cd0eb5909168751fc56c705dd3b5.sample"
+
+[deps]
+
+source_file="res://Asset/Musik/level_3/Volcanic Crater - HydroGene.wav"
+dest_files=["res://.godot/imported/Volcanic Crater - HydroGene.wav-2868cd0eb5909168751fc56c705dd3b5.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

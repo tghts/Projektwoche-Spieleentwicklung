@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ghrcbog124m8"
+path="res://.godot/imported/Mazurka Of The Mystic Maples - Tim Carlos.wav-7f400dd18ae2e6266f9216ee66c16bee.sample"
+
+[deps]
+
+source_file="res://Asset/Musik/level_4/Mazurka Of The Mystic Maples - Tim Carlos.wav"
+dest_files=["res://.godot/imported/Mazurka Of The Mystic Maples - Tim Carlos.wav-7f400dd18ae2e6266f9216ee66c16bee.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2
