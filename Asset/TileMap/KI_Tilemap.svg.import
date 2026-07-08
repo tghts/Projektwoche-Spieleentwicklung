@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cttsbrb61yppl"
-path="res://.godot/imported/Heart_empty.png-fc8d6f3e663ff6fcef58a0f3d60e953a.ctex"
+uid="uid://dubeosyicm6py"
+path="res://.godot/imported/KI_Tilemap.svg-1f391f7ece53bf3f5615ea286221ba2a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Asset/UI/Heart_empty.png"
-dest_files=["res://.godot/imported/Heart_empty.png-fc8d6f3e663ff6fcef58a0f3d60e953a.ctex"]
+source_file="res://Asset/TileMap/KI_Tilemap.svg"
+dest_files=["res://.godot/imported/KI_Tilemap.svg-1f391f7ece53bf3f5615ea286221ba2a.ctex"]
 
 [params]
 
@@ -38,3 +38,6 @@ process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
 detect_3d/compress_to=1
+svg/scale=1.0
+editor/scale_with_editor_scale=false
+editor/convert_colors_with_editor_theme=false
