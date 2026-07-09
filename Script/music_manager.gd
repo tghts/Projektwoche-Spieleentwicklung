@@ -121,7 +121,7 @@ func _play_current() -> void:
 
 	player.stream = load(path)
 	player.bus = "Music"
-	player.volume_db = linear_to_db(0.5)
+	player.volume_db = linear_to_db(0.4)
 	player.play()
 
 	track_changed.emit(_filename_to_title(path))

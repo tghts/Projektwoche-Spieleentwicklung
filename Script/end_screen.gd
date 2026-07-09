@@ -1,6 +1,7 @@
 extends Node
 
 func _ready() -> void:
+	MusicManager.stop()
 	var player = SoundManager.play("victory")
 	
 	if player:

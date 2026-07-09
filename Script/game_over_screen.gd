@@ -4,6 +4,7 @@ extends Node2D
 
 func _ready() -> void:
 	start_again.grab_focus()
+	MusicManager.stop()
 
 func _on_start_again_pressed() -> void:
 	SoundManager.play("click")
