@@ -8420,10 +8420,10 @@ position = Vector2(376, -28)
 position = Vector2(3658, -542)
 
 [node name="Trampolin" parent="Trampoline Collection" unique_id=1324462394 instance=ExtResource("8_2ceuy")]
-position = Vector2(1263, -355)
+position = Vector2(1255, -310)
 
 [node name="Trampolin2" parent="Trampoline Collection" unique_id=1389886837 instance=ExtResource("8_2ceuy")]
-position = Vector2(1562, -532)
+position = Vector2(1538, -513)
 
 [node name="Trampolin5" parent="Trampoline Collection" unique_id=1495864686 instance=ExtResource("8_2ceuy")]
 position = Vector2(4701, -37)
