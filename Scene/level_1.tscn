@@ -12,6 +12,8 @@
 [ext_resource type="PackedScene" uid="uid://145kyaugrqbn" path="res://Scene/trampolin.tscn" id="8_2ceuy"]
 [ext_resource type="PackedScene" uid="uid://c2cs65pqgro3e" path="res://Scene/zahnrad.tscn" id="11_sq6mb"]
 [ext_resource type="Script" uid="uid://bulrxfk4b2a0q" path="res://Script/deathzone.gd" id="13_a6c3k"]
+[ext_resource type="PackedScene" uid="uid://s67u0h3i8f4d" path="res://Scene/spikes.tscn" id="13_y4apx"]
+[ext_resource type="PackedScene" uid="uid://cnelmqu0weav4" path="res://Scene/heart.tscn" id="14_y4apx"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_q8blv"]
 size = Vector2(2893.5, 71)
@@ -8418,10 +8420,10 @@ position = Vector2(376, -28)
 position = Vector2(3658, -542)
 
 [node name="Trampolin" parent="Trampoline Collection" unique_id=1324462394 instance=ExtResource("8_2ceuy")]
-position = Vector2(1263, -355)
+position = Vector2(1255, -310)
 
 [node name="Trampolin2" parent="Trampoline Collection" unique_id=1389886837 instance=ExtResource("8_2ceuy")]
-position = Vector2(1562, -532)
+position = Vector2(1538, -513)
 
 [node name="Trampolin5" parent="Trampoline Collection" unique_id=1495864686 instance=ExtResource("8_2ceuy")]
 position = Vector2(4701, -37)
@@ -8469,6 +8471,39 @@ target_level = ExtResource("3_ws63c")
 
 [node name="InGameUI" parent="." unique_id=1082638675 instance=ExtResource("4_6544n")]
 unique_name_in_owner = true
+
+[node name="Spikes" parent="." unique_id=2114205352 instance=ExtResource("13_y4apx")]
+position = Vector2(1904, -735)
+
+[node name="Spikes2" parent="." unique_id=1400866914 instance=ExtResource("13_y4apx")]
+position = Vector2(2061, -732)
+
+[node name="Spikes3" parent="." unique_id=1953078329 instance=ExtResource("13_y4apx")]
+position = Vector2(2432, -716)
+
+[node name="Spikes4" parent="." unique_id=41486534 instance=ExtResource("13_y4apx")]
+position = Vector2(2664, -719)
+
+[node name="Spikes5" parent="." unique_id=1515451144 instance=ExtResource("13_y4apx")]
+position = Vector2(2995, -708)
+
+[node name="Spikes6" parent="." unique_id=1480016229 instance=ExtResource("13_y4apx")]
+position = Vector2(3209, -707)
+
+[node name="Spikes7" parent="." unique_id=601166635 instance=ExtResource("13_y4apx")]
+position = Vector2(4240, -704)
+
+[node name="Spikes8" parent="." unique_id=177210704 instance=ExtResource("13_y4apx")]
+position = Vector2(5057, -283)
+
+[node name="Spikes9" parent="." unique_id=1071279124 instance=ExtResource("13_y4apx")]
+position = Vector2(5269, -286)
+
+[node name="Heart" parent="." unique_id=1244969950 instance=ExtResource("14_y4apx")]
+position = Vector2(4921, -45)
+
+[node name="Heart2" parent="." unique_id=1837009978 instance=ExtResource("14_y4apx")]
+position = Vector2(4923, -130)
 
 [connection signal="body_entered" from="Deathzone" to="Deathzone" method="_on_body_entered"]
 [connection signal="body_entered" from="Portal" to="Portal" method="_on_body_entered"]

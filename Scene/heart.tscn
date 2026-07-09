@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://cnelmqu0weav4"]
+
+[ext_resource type="Texture2D" uid="uid://dvoswpces7dxg" path="res://Asset/UI/Herzboost.svg" id="1_ri2yj"]
+[ext_resource type="Script" uid="uid://dn4nr37v1yi1p" path="res://Script/heart.gd" id="1_rqi32"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_7emdm"]
+size = Vector2(30, 27)
+
+[node name="Heart" type="Area2D" unique_id=1244969950]
+script = ExtResource("1_rqi32")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=831386149]
+texture_filter = 1
+position = Vector2(0, 1.1920929e-07)
+scale = Vector2(0.39102563, 0.39754102)
+texture = ExtResource("1_ri2yj")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1141559996]
+position = Vector2(0, -0.5)
+shape = SubResource("RectangleShape2D_7emdm")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
