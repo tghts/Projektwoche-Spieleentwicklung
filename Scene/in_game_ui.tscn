@@ -7,6 +7,7 @@
 [ext_resource type="Texture2D" uid="uid://lxx2hes64j1h" path="res://Asset/Anderes/Kaputes Zahnrad.svg" id="5_tkk48"]
 [ext_resource type="Script" uid="uid://csk5iarvv6l30" path="res://Script/music_player_ui.gd" id="6_dviy5"]
 [ext_resource type="Script" uid="uid://dqccjm2p2luw5" path="res://Script/pause_menu.gd" id="6_o5tdw"]
+[ext_resource type="Texture2D" uid="uid://bmt0n6lrbv33r" path="res://Asset/UI/vinyl_record.png" id="7_brp0j"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_quy4v"]
 
@@ -19,6 +20,10 @@ script = ExtResource("1_ol85y")
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
+offset_left = 6.0
+offset_top = 7.0
+offset_right = 6.0
+offset_bottom = 7.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_styles/panel = SubResource("StyleBoxEmpty_quy4v")
@@ -121,29 +126,44 @@ texture = ExtResource("3_tkk48")
 expand_mode = 3
 
 [node name="MusicPlayerUI" type="Control" parent="CanvasLayer/Panel" unique_id=1727995374]
-anchors_preset = 0
-offset_left = 855.0
-offset_top = 151.0
-offset_right = 1027.0
-offset_bottom = 199.0
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 1
+anchor_left = 0.96300006
+anchor_top = 0.30900002
+anchor_right = 0.96300006
+anchor_bottom = 0.30900002
+offset_left = -445.3761
+offset_top = -25.23201
+offset_right = -0.37609863
+offset_bottom = 24.76799
+grow_horizontal = 0
+grow_vertical = 2
 script = ExtResource("6_dviy5")
 
 [node name="HBoxContainer" type="HBoxContainer" parent="CanvasLayer/Panel/MusicPlayerUI" unique_id=1912080949]
 layout_mode = 0
-offset_right = 40.0
-offset_bottom = 40.0
-
-[node name="PrevButton" type="Button" parent="CanvasLayer/Panel/MusicPlayerUI/HBoxContainer" unique_id=939125979]
-layout_mode = 2
-text = " ◀ "
-
-[node name="Record" type="TextureRect" parent="CanvasLayer/Panel/MusicPlayerUI/HBoxContainer" unique_id=280374176]
-layout_mode = 2
+offset_left = 110.0
+offset_top = -33.0
+offset_right = 410.0
+offset_bottom = 7.0
+alignment = 2
 
 [node name="TrackLabel" type="Label" parent="CanvasLayer/Panel/MusicPlayerUI/HBoxContainer" unique_id=514173573]
 layout_mode = 2
 theme_override_font_sizes/font_size = 20
 text = "Track - Artist"
+horizontal_alignment = 2
+vertical_alignment = 1
+
+[node name="Record" type="TextureRect" parent="CanvasLayer/Panel/MusicPlayerUI/HBoxContainer" unique_id=280374176]
+layout_mode = 2
+offset_transform_enabled = true
+texture = ExtResource("7_brp0j")
+expand_mode = 2
+
+[node name="PrevButton" type="Button" parent="CanvasLayer/Panel/MusicPlayerUI/HBoxContainer" unique_id=939125979]
+layout_mode = 2
+text = " ◀ "
 
 [node name="NextButton" type="Button" parent="CanvasLayer/Panel/MusicPlayerUI/HBoxContainer" unique_id=755078831]
 layout_mode = 2
@@ -199,6 +219,8 @@ focus_previous = NodePath("../Resume")
 theme_override_font_sizes/font_size = 24
 text = "Settings"
 
+[connection signal="pressed" from="CanvasLayer/Panel/MusicPlayerUI/HBoxContainer/PrevButton" to="CanvasLayer/Panel/MusicPlayerUI" method="_on_prev_button_pressed"]
+[connection signal="pressed" from="CanvasLayer/Panel/MusicPlayerUI/HBoxContainer/NextButton" to="CanvasLayer/Panel/MusicPlayerUI" method="_on_next_button_pressed"]
 [connection signal="pressed" from="CanvasLayer/PauseMenu/Back to Start" to="." method="_on_back_to_start_pressed"]
 [connection signal="pressed" from="CanvasLayer/PauseMenu/Back to Start" to="CanvasLayer/PauseMenu" method="_on_back_to_start_pressed"]
 [connection signal="pressed" from="CanvasLayer/PauseMenu/VBoxContainer/Resume" to="." method="_on_resume_pressed"]

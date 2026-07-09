@@ -25,6 +25,7 @@ func _process(_delta: float) -> void:
 		previous_track()
 
 func _scan_music() -> void:
+	print("Scanning music...")
 	var root := DirAccess.open(MUSIC_ROOT)
 
 	if root == null:
@@ -55,10 +56,15 @@ func _scan_music() -> void:
 			playlists[folder] = tracks
 
 		folder = root.get_next()
+	print(playlists)
 
 func play_playlist(name: String) -> void:
+	print("Playing playlist:", name)
 	if !playlists.has(name):
+		print("Playlist not found")
 		return
+	
+	print(playlists[name])
 
 	current_playlist = playlists[name]
 	current_track_index = 0
@@ -97,9 +103,12 @@ func _on_track_finished() -> void:
 	next_track()
 
 func _play_current() -> void:
+	print("Playing track index:", current_track_index)
 	var path := current_playlist[current_track_index]
+	print("Loading:", path)
 
 	player.stream = load(path)
+	player.bus = "Music"
 	player.play()
 
 	track_changed.emit(_filename_to_title(path))
