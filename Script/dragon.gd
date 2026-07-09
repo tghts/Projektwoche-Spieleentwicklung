@@ -9,13 +9,14 @@ var firebreath: PackedScene = preload("res://Scene/fire_breath.tscn")
 
 func _physics_process(delta: float) -> void:
 	animated_sprite_2d.animation = "flying"
+	position.y = -585
 	if (character.position.x > position.x):
 		velocity.x = 200
-		animated_sprite_2d.flip_h = true
+		animated_sprite_2d.flip_v = true
 		
 	if (character.position.x < position.x):
 		velocity.x = -200
-		animated_sprite_2d.flip_h = false
+		animated_sprite_2d.flip_v = false
 	move_and_slide()
 	
 func breathfire():

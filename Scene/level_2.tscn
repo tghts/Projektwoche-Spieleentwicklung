@@ -5068,6 +5068,23 @@ position = Vector2(942, -303)
 [node name="Spikes13" parent="Spikes" unique_id=323221683 instance=ExtResource("11_nwjwq")]
 position = Vector2(-614, -440)
 
+[node name="Hearts" type="Node2D" parent="." unique_id=1704026008]
+
+[node name="Heart2" parent="Hearts" unique_id=1244969950 instance=ExtResource("12_67jix")]
+position = Vector2(8568, -135)
+
+[node name="Heart" parent="Hearts" unique_id=492471250 instance=ExtResource("12_67jix")]
+position = Vector2(8603, -241)
+
+[node name="Heart3" parent="Hearts" unique_id=821032233 instance=ExtResource("12_67jix")]
+position = Vector2(6711, -322)
+
+[node name="Heart4" parent="Hearts" unique_id=1164759602 instance=ExtResource("12_67jix")]
+position = Vector2(4599, -117)
+
+[node name="Heart5" parent="Hearts" unique_id=1936370120 instance=ExtResource("12_67jix")]
+position = Vector2(1632, -349)
+
 [node name="Character" parent="." unique_id=983975606 instance=ExtResource("9_71r3i")]
 texture_filter = 1
 position = Vector2(90, -43)
@@ -5077,24 +5094,9 @@ texture_filter = 1
 
 [node name="dragon" parent="." unique_id=1833400236 instance=ExtResource("10_71r3i")]
 texture_filter = 1
-position = Vector2(9698, -544)
+position = Vector2(9708, -584)
 rotation = -1.2077678
 
 [node name="InGameUI" parent="." unique_id=422732831 instance=ExtResource("3_a5oyc")]
-
-[node name="Heart2" parent="." unique_id=1244969950 instance=ExtResource("12_67jix")]
-position = Vector2(8568, -135)
-
-[node name="Heart" parent="." unique_id=492471250 instance=ExtResource("12_67jix")]
-position = Vector2(8603, -241)
-
-[node name="Heart3" parent="." unique_id=821032233 instance=ExtResource("12_67jix")]
-position = Vector2(6711, -322)
-
-[node name="Heart4" parent="." unique_id=1164759602 instance=ExtResource("12_67jix")]
-position = Vector2(4599, -117)
-
-[node name="Heart5" parent="." unique_id=1936370120 instance=ExtResource("12_67jix")]
-position = Vector2(1632, -349)
 
 [connection signal="body_entered" from="Background/Portal" to="Background/Portal" method="_on_body_entered"]
