@@ -1,12 +1,19 @@
 extends Panel
 
 func _ready() -> void:
+	process_mode = Node.PROCESS_MODE_WHEN_PAUSED
+
+func open():
+	show()
+	get_tree().paused = true
+
+	#await get_tree().process_frame
 	$VBoxContainer/Resume.grab_focus()
 
 func _on_resume_pressed() -> void:
 	SoundManager.play("pause")
 	get_tree().paused = false
-	self.hide()
+	hide()
 
 func _on_settings_pressed() -> void:
 	SoundManager.play("click")
