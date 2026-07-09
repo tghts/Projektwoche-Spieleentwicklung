@@ -57,8 +57,9 @@ Projektwoche-Spieleentwicklung/
 3. Godot öffnen → **Import** → `project.godot` auswählen
 4. Auf **Play** klicken oder einfach F5 drücken
 
-Alternativ steht unter [Releases](https://github.com/tghts/Projektwoche-Spieleentwicklung/releases) ein Precompilter Build jeweils für Linus und Windoofws zur Verfügung
-Alternativ2 ist das Spiel auch auf [itchio](https://sageversustime.itch.io/svt)
+Alternativ steht unter [Releases](https://github.com/tghts/Projektwoche-Spieleentwicklung/releases) ein Precompilter Build jeweils für Linus und Windoofws zur Verfügung.
+
+Alternativ2 ist das Spiel auch auf [itchio](https://sageversustime.itch.io/svt).
 
 ## Lizenz
 
