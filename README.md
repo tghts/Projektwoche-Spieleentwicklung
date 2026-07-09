@@ -65,7 +65,7 @@ Projektwoche-Spieleentwicklung/
 Alternativ steht unter [Releases](https://github.com/tghts/Projektwoche-Spieleentwicklung/releases) ein Precompilter Build jeweils für Linus und Windoofws zur Verfügung.
 
 Alternativ2 ist das Spiel auch auf [itchio](https://sageversustime.itch.io/svt).
-
+<iframe width="552" src="https://itch.io/embed/4761085" height="167" frameborder="0"><a href="https://sageversustime.itch.io/svt">Sage Versus Time by SageVersusTime</a></iframe>
 ## Lizenz
 
 Schulprojekt – nur für Bildungszwecke, nix komerzielles.
