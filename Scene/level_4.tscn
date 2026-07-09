@@ -6274,7 +6274,7 @@ position = Vector2(667, -281)
 position = Vector2(1307, -152)
 
 [node name="Trampolin2" parent="Zahnräder" unique_id=95020 instance=ExtResource("12_yjmqo")]
-position = Vector2(2100, -124)
+position = Vector2(1987, -124)
 
 [node name="Trampolin3" parent="Zahnräder" unique_id=1658788267 instance=ExtResource("12_yjmqo")]
 position = Vector2(2425, -292)

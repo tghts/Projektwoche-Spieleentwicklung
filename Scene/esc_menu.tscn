@@ -1,0 +1,51 @@
+[gd_scene format=3 uid="uid://xq4lgs2u6k0f"]
+
+[node name="EscMenu" type="Node" unique_id=1845789873]
+process_mode = 3
+
+[node name="PauseMenu" type="Panel" parent="." unique_id=421498908]
+anchors_preset = -1
+anchor_right = 0.9990001
+anchor_bottom = 1.0
+offset_right = 0.15185547
+offset_bottom = 6.0
+
+[node name="PauseMenuLabel" type="Label" parent="PauseMenu" unique_id=2100938900]
+layout_mode = 0
+offset_left = 360.0
+offset_top = 8.0
+offset_right = 792.0
+offset_bottom = 96.0
+theme_override_font_sizes/font_size = 40
+text = "Pause Menu"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Line2D" type="Line2D" parent="PauseMenu" unique_id=1402701827]
+points = PackedVector2Array(1152, 104, 0, 104)
+width = 1.0
+
+[node name="Resume" type="Button" parent="PauseMenu" unique_id=2081725845]
+layout_mode = 0
+offset_left = 408.0
+offset_top = 192.0
+offset_right = 744.0
+offset_bottom = 265.0
+text = "Resume"
+
+[node name="Settings" type="Button" parent="PauseMenu" unique_id=729593149]
+layout_mode = 0
+offset_left = 408.0
+offset_top = 296.0
+offset_right = 744.0
+offset_bottom = 369.0
+text = "Settings"
+
+[node name="Quit" type="Button" parent="PauseMenu" unique_id=951088179]
+layout_mode = 0
+offset_left = 408.0
+offset_top = 400.0
+offset_right = 744.0
+offset_bottom = 473.0
+text = "Quit"
