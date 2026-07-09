@@ -2,6 +2,7 @@ extends CharacterBody2D
 
 @onready var animated_sprite_2d: AnimatedSprite2D = $AnimatedSprite2D
 @export var healt_points:int = 3
+
 const SPEED = 400.0
 const JUMP_VELOCITY = -500.0
 var jump_counter = 0

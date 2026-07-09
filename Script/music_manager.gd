@@ -11,11 +11,15 @@ var current_track_index := 0
 @onready var player := AudioStreamPlayer.new()
 
 func _ready() -> void:
+	randomize()
+
 	add_child(player)
 
 	player.finished.connect(_on_track_finished)
 
 	_scan_music()
+
+	MusicManager.play_title_music()
 
 func _process(_delta: float) -> void:
 	if Input.is_action_just_pressed("next_track"):
@@ -67,7 +71,11 @@ func play_playlist(name: String) -> void:
 	print(playlists[name])
 
 	current_playlist = playlists[name]
-	current_track_index = 0
+
+	if current_playlist.is_empty():
+		return
+
+	current_track_index = randi_range(0, current_playlist.size() - 1)
 
 	_play_current()
 

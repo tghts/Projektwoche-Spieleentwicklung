@@ -1,9 +1,9 @@
 extends Node
 @onready var sphinx: Control = $Sphinx
+@onready var start: Button = $Startknopf
 
 func _ready():
-	$Startknopf.grab_focus()
-	MusicManager.play_title_music()
+	start.grab_focus()
 
 func _on_startknopf_pressed() -> void:
 	SoundManager.play("click")

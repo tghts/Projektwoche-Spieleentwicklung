@@ -1,5 +1,7 @@
 extends Panel
 
+@onready var resume: Button = $VBoxContainer/Resume
+
 func _ready() -> void:
 	process_mode = Node.PROCESS_MODE_WHEN_PAUSED
 
@@ -11,7 +13,7 @@ func toggle():
 	else:
 		show()
 		get_tree().paused = true
-		$VBoxContainer/Resume.grab_focus()
+		resume.grab_focus()
 
 func _on_resume_pressed() -> void:
 	toggle()
@@ -25,4 +27,5 @@ func _on_back_to_start_pressed() -> void:
 	SoundManager.play("click")
 	GameData.reset_character_hp()
 	get_tree().paused = false
+	MusicManager.play_title_music()
 	get_tree().change_scene_to_file("res://Scene/main_menu.tscn")
