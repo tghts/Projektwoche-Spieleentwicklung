@@ -5096,6 +5096,8 @@ texture_filter = 1
 texture_filter = 1
 position = Vector2(9708, -584)
 rotation = -1.2077678
+breath_cooldown = 10.0
+breath_timer = 0.0
 
 [node name="InGameUI" parent="." unique_id=422732831 instance=ExtResource("3_a5oyc")]
 

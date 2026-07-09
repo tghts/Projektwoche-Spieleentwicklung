@@ -1,14 +1,17 @@
 [gd_scene format=3 uid="uid://bvn0m5uswyiqq"]
 
 [ext_resource type="Texture2D" uid="uid://dw87gnedstpwb" path="res://Asset/Enemy/FEUER_DRACHE.png" id="1_co11f"]
+[ext_resource type="Script" uid="uid://bhws6w6rlm2vl" path="res://Script/fire_breath.gd" id="1_v46h7"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_7emdm"]
-radius = 21.00595
+radius = 24.990988
 
 [node name="Fire_breath" type="CharacterBody2D" unique_id=55597385]
+script = ExtResource("1_v46h7")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=1238193636]
 texture_filter = 1
+rotation = 1.5707964
 texture = ExtResource("1_co11f")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=300337570]
@@ -16,7 +19,9 @@ texture = ExtResource("1_co11f")
 [node name="damage_zone" type="Area2D" parent="." unique_id=1876731572]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="damage_zone" unique_id=1362195630]
-position = Vector2(-26, -21)
+position = Vector2(18, -23.999998)
 rotation = -0.017453292
-scale = Vector2(1, 2)
+scale = Vector2(2, 1)
 shape = SubResource("CircleShape2D_7emdm")
+
+[connection signal="body_entered" from="damage_zone" to="." method="_on_damage_zone_body_entered"]

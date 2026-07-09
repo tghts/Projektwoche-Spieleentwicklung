@@ -1920,6 +1920,15 @@ position = Vector2(1307, -107)
 
 [node name="Hearts" type="Node2D" parent="." unique_id=1199502983]
 
+[node name="Heart5" parent="Hearts" unique_id=1267429213 instance=ExtResource("14_r5jac")]
+position = Vector2(18443, -731)
+
+[node name="Heart6" parent="Hearts" unique_id=1633899372 instance=ExtResource("14_r5jac")]
+position = Vector2(16677, -144)
+
+[node name="Heart7" parent="Hearts" unique_id=540612130 instance=ExtResource("14_r5jac")]
+position = Vector2(16674, -220)
+
 [node name="Heart" parent="Hearts" unique_id=1244969950 instance=ExtResource("14_r5jac")]
 position = Vector2(18449, -1805)
 
