@@ -17,6 +17,7 @@ func _physics_process(delta: float) -> void:
 		velocity.x = -200
 		animated_sprite_2d.flip_h = false
 	move_and_slide()
+	
 func breathfire():
 	var fire:= firebreath.instantiate() as Node2D
 	add_child(fire)
