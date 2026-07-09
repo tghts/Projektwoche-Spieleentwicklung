@@ -13,6 +13,7 @@
 [ext_resource type="PackedScene" uid="uid://c2cs65pqgro3e" path="res://Scene/zahnrad.tscn" id="11_sq6mb"]
 [ext_resource type="Script" uid="uid://bulrxfk4b2a0q" path="res://Script/deathzone.gd" id="13_a6c3k"]
 [ext_resource type="PackedScene" uid="uid://s67u0h3i8f4d" path="res://Scene/spikes.tscn" id="13_y4apx"]
+[ext_resource type="PackedScene" uid="uid://cnelmqu0weav4" path="res://Scene/heart.tscn" id="14_y4apx"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_q8blv"]
 size = Vector2(2893.5, 71)
@@ -8497,6 +8498,12 @@ position = Vector2(5057, -283)
 
 [node name="Spikes9" parent="." unique_id=1071279124 instance=ExtResource("13_y4apx")]
 position = Vector2(5269, -286)
+
+[node name="Heart" parent="." unique_id=1244969950 instance=ExtResource("14_y4apx")]
+position = Vector2(4921, -45)
+
+[node name="Heart2" parent="." unique_id=1837009978 instance=ExtResource("14_y4apx")]
+position = Vector2(4923, -130)
 
 [connection signal="body_entered" from="Deathzone" to="Deathzone" method="_on_body_entered"]
 [connection signal="body_entered" from="Portal" to="Portal" method="_on_body_entered"]

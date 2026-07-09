@@ -10,6 +10,8 @@
 [ext_resource type="PackedScene" uid="uid://cejm70rdheob0" path="res://Scene/character_mittelalter.tscn" id="9_71r3i"]
 [ext_resource type="PackedScene" uid="uid://c2cs65pqgro3e" path="res://Scene/zahnrad.tscn" id="9_jte5b"]
 [ext_resource type="PackedScene" uid="uid://b0020un1odtv8" path="res://Scene/dragon.tscn" id="10_71r3i"]
+[ext_resource type="PackedScene" uid="uid://s67u0h3i8f4d" path="res://Scene/spikes.tscn" id="11_nwjwq"]
+[ext_resource type="PackedScene" uid="uid://cnelmqu0weav4" path="res://Scene/heart.tscn" id="12_67jix"]
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_43cbn"]
 load_path = "res://.godot/imported/Dorf Hintergrundfarbe.svg-d768967e5a5a77f8204611655d81b399.ctex"
@@ -4901,6 +4903,171 @@ scale = Vector2(3.3333333, 3.3333333)
 position = Vector2(-2859.9998, -1133.3333)
 scale = Vector2(3.3333333, 3.3333333)
 
+[node name="Zahnrad9" parent="Zahnräder" unique_id=29963148 instance=ExtResource("9_jte5b")]
+position = Vector2(1086.6666, -483.3333)
+scale = Vector2(3.3333333, 3.3333333)
+
+[node name="Zahnrad10" parent="Zahnräder" unique_id=76388025 instance=ExtResource("9_jte5b")]
+position = Vector2(1779.9999, -1076.6666)
+scale = Vector2(3.3333333, 3.3333333)
+
+[node name="Zahnrad11" parent="Zahnräder" unique_id=539460383 instance=ExtResource("9_jte5b")]
+position = Vector2(3796.6667, -240)
+scale = Vector2(3.3333333, 3.3333333)
+
+[node name="Zahnrad12" parent="Zahnräder" unique_id=1824369494 instance=ExtResource("9_jte5b")]
+position = Vector2(2380, -290)
+scale = Vector2(3.3333333, 3.3333333)
+
+[node name="Zahnrad13" parent="Zahnräder" unique_id=1445135391 instance=ExtResource("9_jte5b")]
+position = Vector2(3066.6667, -1540)
+scale = Vector2(3.3333333, 3.3333333)
+
+[node name="Zahnrad14" parent="Zahnräder" unique_id=1138566154 instance=ExtResource("9_jte5b")]
+position = Vector2(4366.6665, -233.33333)
+scale = Vector2(3.3333333, 3.3333333)
+
+[node name="Zahnrad15" parent="Zahnräder" unique_id=1405001845 instance=ExtResource("9_jte5b")]
+position = Vector2(6369.9995, -826.6666)
+scale = Vector2(3.3333333, 3.3333333)
+
+[node name="Zahnrad16" parent="Zahnräder" unique_id=366392507 instance=ExtResource("9_jte5b")]
+position = Vector2(6733.333, -1240)
+scale = Vector2(3.3333333, 3.3333333)
+
+[node name="Zahnrad17" parent="Zahnräder" unique_id=1085883132 instance=ExtResource("9_jte5b")]
+position = Vector2(7183.333, -1676.6666)
+scale = Vector2(3.3333333, 3.3333333)
+
+[node name="Zahnrad18" parent="Zahnräder" unique_id=899289036 instance=ExtResource("9_jte5b")]
+position = Vector2(8920, -103.33333)
+scale = Vector2(3.3333333, 3.3333333)
+
+[node name="Zahnrad19" parent="Zahnräder" unique_id=1807323683 instance=ExtResource("9_jte5b")]
+position = Vector2(8783.333, -766.6666)
+scale = Vector2(3.3333333, 3.3333333)
+
+[node name="Zahnrad20" parent="Zahnräder" unique_id=634328226 instance=ExtResource("9_jte5b")]
+position = Vector2(9290, -1016.6666)
+scale = Vector2(3.3333333, 3.3333333)
+
+[node name="Zahnrad21" parent="Zahnräder" unique_id=695141793 instance=ExtResource("9_jte5b")]
+position = Vector2(9783.333, -1026.6666)
+scale = Vector2(3.3333333, 3.3333333)
+
+[node name="Zahnrad22" parent="Zahnräder" unique_id=2009453122 instance=ExtResource("9_jte5b")]
+position = Vector2(10920, -1123.3333)
+scale = Vector2(3.3333333, 3.3333333)
+
+[node name="Zahnrad23" parent="Zahnräder" unique_id=869306769 instance=ExtResource("9_jte5b")]
+position = Vector2(12606.667, -1253.3333)
+scale = Vector2(3.3333333, 3.3333333)
+
+[node name="Zahnrad24" parent="Zahnräder" unique_id=211671467 instance=ExtResource("9_jte5b")]
+position = Vector2(14510, -440)
+scale = Vector2(3.3333333, 3.3333333)
+
+[node name="Zahnrad25" parent="Zahnräder" unique_id=334262192 instance=ExtResource("9_jte5b")]
+position = Vector2(16836.666, -616.6666)
+scale = Vector2(3.3333333, 3.3333333)
+
+[node name="Zahnrad26" parent="Zahnräder" unique_id=1836031646 instance=ExtResource("9_jte5b")]
+position = Vector2(16206.667, -136.66666)
+scale = Vector2(3.3333333, 3.3333333)
+
+[node name="Zahnrad27" parent="Zahnräder" unique_id=1581269036 instance=ExtResource("9_jte5b")]
+position = Vector2(17629.998, -310)
+scale = Vector2(3.3333333, 3.3333333)
+
+[node name="Zahnrad28" parent="Zahnräder" unique_id=1783659405 instance=ExtResource("9_jte5b")]
+position = Vector2(18533.332, -1136.6666)
+scale = Vector2(3.3333333, 3.3333333)
+
+[node name="Zahnrad29" parent="Zahnräder" unique_id=2069235541 instance=ExtResource("9_jte5b")]
+position = Vector2(19999.998, -233.33333)
+scale = Vector2(3.3333333, 3.3333333)
+
+[node name="Zahnrad30" parent="Zahnräder" unique_id=1907372346 instance=ExtResource("9_jte5b")]
+position = Vector2(21389.998, -1076.6666)
+scale = Vector2(3.3333333, 3.3333333)
+
+[node name="Zahnrad31" parent="Zahnräder" unique_id=1075149466 instance=ExtResource("9_jte5b")]
+position = Vector2(22006.666, -1136.6666)
+scale = Vector2(3.3333333, 3.3333333)
+
+[node name="Zahnrad32" parent="Zahnräder" unique_id=1818804291 instance=ExtResource("9_jte5b")]
+position = Vector2(22609.998, -1123.3333)
+scale = Vector2(3.3333333, 3.3333333)
+
+[node name="Zahnrad33" parent="Zahnräder" unique_id=436747579 instance=ExtResource("9_jte5b")]
+position = Vector2(24293.332, -986.6666)
+scale = Vector2(3.3333333, 3.3333333)
+
+[node name="Zahnrad34" parent="Zahnräder" unique_id=1284908011 instance=ExtResource("9_jte5b")]
+position = Vector2(24766.666, -493.3333)
+scale = Vector2(3.3333333, 3.3333333)
+
+[node name="Zahnrad35" parent="Zahnräder" unique_id=2001311281 instance=ExtResource("9_jte5b")]
+position = Vector2(24839.998, -850)
+scale = Vector2(3.3333333, 3.3333333)
+
+[node name="Zahnrad36" parent="Zahnräder" unique_id=1861261684 instance=ExtResource("9_jte5b")]
+position = Vector2(26406.666, -173.33333)
+scale = Vector2(3.3333333, 3.3333333)
+
+[node name="Zahnrad37" parent="Zahnräder" unique_id=171369272 instance=ExtResource("9_jte5b")]
+position = Vector2(26899.998, -253.33333)
+scale = Vector2(3.3333333, 3.3333333)
+
+[node name="Zahnrad38" parent="Zahnräder" unique_id=1081562736 instance=ExtResource("9_jte5b")]
+position = Vector2(27379.998, -220)
+scale = Vector2(3.3333333, 3.3333333)
+
+[node name="Zahnrad39" parent="Zahnräder" unique_id=274311540 instance=ExtResource("9_jte5b")]
+position = Vector2(27963.332, -153.33333)
+scale = Vector2(3.3333333, 3.3333333)
+
+[node name="Spikes" type="Node2D" parent="." unique_id=1293385644]
+
+[node name="Spikes" parent="Spikes" unique_id=2114205352 instance=ExtResource("11_nwjwq")]
+position = Vector2(3798, -169)
+
+[node name="Spikes2" parent="Spikes" unique_id=1142344640 instance=ExtResource("11_nwjwq")]
+position = Vector2(4379, 11)
+
+[node name="Spikes3" parent="Spikes" unique_id=928884203 instance=ExtResource("11_nwjwq")]
+position = Vector2(5318, 9)
+
+[node name="Spikes4" parent="Spikes" unique_id=2110229652 instance=ExtResource("11_nwjwq")]
+position = Vector2(5865, 3)
+
+[node name="Spikes5" parent="Spikes" unique_id=221371959 instance=ExtResource("11_nwjwq")]
+position = Vector2(6180, 2)
+
+[node name="Spikes6" parent="Spikes" unique_id=1621594914 instance=ExtResource("11_nwjwq")]
+position = Vector2(7071, 6)
+
+[node name="Spikes7" parent="Spikes" unique_id=2111242810 instance=ExtResource("11_nwjwq")]
+position = Vector2(7658, -415)
+
+[node name="Spikes8" parent="Spikes" unique_id=896360674 instance=ExtResource("11_nwjwq")]
+position = Vector2(8742, -277)
+
+[node name="Spikes9" parent="Spikes" unique_id=1165279020 instance=ExtResource("11_nwjwq")]
+position = Vector2(9090, 22)
+
+[node name="Spikes10" parent="Spikes" unique_id=83893392 instance=ExtResource("11_nwjwq")]
+position = Vector2(10075, 23)
+
+[node name="Spikes11" parent="Spikes" unique_id=243112124 instance=ExtResource("11_nwjwq")]
+position = Vector2(2616, 8)
+
+[node name="Spikes12" parent="Spikes" unique_id=224145663 instance=ExtResource("11_nwjwq")]
+position = Vector2(942, -303)
+
+[node name="Spikes13" parent="Spikes" unique_id=323221683 instance=ExtResource("11_nwjwq")]
+position = Vector2(-614, -440)
+
 [node name="Character" parent="." unique_id=983975606 instance=ExtResource("9_71r3i")]
 texture_filter = 1
 position = Vector2(90, -43)
@@ -4914,5 +5081,20 @@ position = Vector2(9698, -544)
 rotation = -1.2077678
 
 [node name="InGameUI" parent="." unique_id=422732831 instance=ExtResource("3_a5oyc")]
+
+[node name="Heart2" parent="." unique_id=1244969950 instance=ExtResource("12_67jix")]
+position = Vector2(8568, -135)
+
+[node name="Heart" parent="." unique_id=492471250 instance=ExtResource("12_67jix")]
+position = Vector2(8603, -241)
+
+[node name="Heart3" parent="." unique_id=821032233 instance=ExtResource("12_67jix")]
+position = Vector2(6711, -322)
+
+[node name="Heart4" parent="." unique_id=1164759602 instance=ExtResource("12_67jix")]
+position = Vector2(4599, -117)
+
+[node name="Heart5" parent="." unique_id=1936370120 instance=ExtResource("12_67jix")]
+position = Vector2(1632, -349)
 
 [connection signal="body_entered" from="Background/Portal" to="Background/Portal" method="_on_body_entered"]
