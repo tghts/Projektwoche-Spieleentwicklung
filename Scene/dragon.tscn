@@ -49,3 +49,8 @@ position = Vector2(-10, 13)
 rotation = -0.30543262
 scale = Vector2(1, 2)
 shape = SubResource("CircleShape2D_246mo")
+
+[node name="RayCast2D" type="RayCast2D" parent="." index="3" unique_id=737450687]
+collide_with_areas = true
+
+[connection signal="body_entered" from="Damage_zone" to="." method="_on_damage_zone_body_entered"]
