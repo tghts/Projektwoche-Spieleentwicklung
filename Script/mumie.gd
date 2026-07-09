@@ -25,4 +25,4 @@ func _on_damage_zone_body_entered(body: Node2D) -> void:
 	if (body.name =="Character"):
 		print("Du hast schaden bekommen")
 		GameData.reduce_character_hp()
-		body.jump_side(velocity.x*10)
+		body.jump_side(velocity.x*5)
