@@ -14,10 +14,9 @@ var Mittelalter_heartbar := load("res://Asset/UI/Mittelalter_heartbar.svg")
 var Ägypten_heartbar := load("res://Asset/UI/Ägypten_heartbar.svg")
 var Altsteinzeit_heartbar := load("res://Asset/UI/Altsteinzeit_heartbar.svg")
 
-func _process(_delta: float) -> void:
-	if (Input.is_action_just_pressed("pause")):
-		SoundManager.play("pause")
-		$CanvasLayer/PauseMenu.open()
+func _unhandled_input(event: InputEvent) -> void:
+	if event.is_action_pressed("pause"):
+		$CanvasLayer/PauseMenu.toggle()
 
 # Diese Methode wird immer bei Start einer Scene einmal genutzt.
 func _ready() -> void:
