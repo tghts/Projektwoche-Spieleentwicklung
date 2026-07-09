@@ -8,6 +8,11 @@ var sound_effects_volume := 1.0
 var character_hp := 5
 var zahnrad_count := 0
 
+func add_character_hp():
+	if character_hp < 5:
+		character_hp += 1
+		character_hp_changed.emit(character_hp)
+
 func reduce_character_hp():
 	if character_hp <= 1:
 		kill_character()

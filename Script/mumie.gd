@@ -2,7 +2,7 @@ extends Enemy
 
 @onready var character: CharacterBody2D = $"../../Character"
 
-func _process(delta: float) -> void:
+func _process(_delta: float) -> void:
 	
 	animated_sprite_2d.animation = "walk"
 	if (character.position.x > position.x):

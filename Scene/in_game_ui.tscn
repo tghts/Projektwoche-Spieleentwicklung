@@ -5,6 +5,7 @@
 [ext_resource type="Texture2D" uid="uid://csphr2qslqe2" path="res://Asset/UI/Textschild KI-Epoche 02.svg" id="2_ol85y"]
 [ext_resource type="Texture2D" uid="uid://w4ipji7io2sp" path="res://Asset/UI/Heart.svg" id="3_tkk48"]
 [ext_resource type="Texture2D" uid="uid://lxx2hes64j1h" path="res://Asset/Anderes/Kaputes Zahnrad.svg" id="5_tkk48"]
+[ext_resource type="Script" uid="uid://csk5iarvv6l30" path="res://Script/music_player_ui.gd" id="6_dviy5"]
 [ext_resource type="Script" uid="uid://dqccjm2p2luw5" path="res://Script/pause_menu.gd" id="6_o5tdw"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_quy4v"]
@@ -118,6 +119,35 @@ offset_right = 1134.0
 offset_bottom = 85.0
 texture = ExtResource("3_tkk48")
 expand_mode = 3
+
+[node name="MusicPlayerUI" type="Control" parent="CanvasLayer/Panel" unique_id=1727995374]
+anchors_preset = 0
+offset_left = 855.0
+offset_top = 151.0
+offset_right = 1027.0
+offset_bottom = 199.0
+script = ExtResource("6_dviy5")
+
+[node name="HBoxContainer" type="HBoxContainer" parent="CanvasLayer/Panel/MusicPlayerUI" unique_id=1912080949]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="PrevButton" type="Button" parent="CanvasLayer/Panel/MusicPlayerUI/HBoxContainer" unique_id=939125979]
+layout_mode = 2
+text = " ◀ "
+
+[node name="Record" type="TextureRect" parent="CanvasLayer/Panel/MusicPlayerUI/HBoxContainer" unique_id=280374176]
+layout_mode = 2
+
+[node name="TrackLabel" type="Label" parent="CanvasLayer/Panel/MusicPlayerUI/HBoxContainer" unique_id=514173573]
+layout_mode = 2
+theme_override_font_sizes/font_size = 20
+text = "Track - Artist"
+
+[node name="NextButton" type="Button" parent="CanvasLayer/Panel/MusicPlayerUI/HBoxContainer" unique_id=755078831]
+layout_mode = 2
+text = " ▶ "
 
 [node name="PauseMenu" type="Panel" parent="CanvasLayer" unique_id=147681151]
 visible = false

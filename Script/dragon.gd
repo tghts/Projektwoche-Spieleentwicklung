@@ -7,7 +7,7 @@ const SPEED = 300.0
 const JUMP_VELOCITY = -400.0
 var firebreath: PackedScene = preload("res://Scene/fire_breath.tscn")
 
-func _process(delta: float) -> void:
+func _process(_delta: float) -> void:
 	animated_sprite_2d.animation = "flying"
 	if (character.position.x > position.x):
 		velocity.x = 200
