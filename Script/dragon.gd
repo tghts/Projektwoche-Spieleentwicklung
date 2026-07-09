@@ -2,7 +2,7 @@ extends CharacterBody2D
 
 @onready var character: CharacterBody2D = $"../Character"
 @onready var animated_sprite_2d: AnimatedSprite2D = $AnimatedSprite2D
-@onready var ray_cast_2d: RayCast2D = $RayCast2D
+
 
 const SPEED = 300.0
 const JUMP_VELOCITY = -400.0

@@ -16,7 +16,6 @@
 [ext_resource type="Texture2D" uid="uid://y2l6ih7of681" path="res://Asset/Character/04 KI_Epoche character (fallen).svg" id="14_t18ok"]
 [ext_resource type="Texture2D" uid="uid://c8ehxobkgc0ia" path="res://Asset/Character/KI_Epoche character (frontview).svg" id="15_jmavs"]
 [ext_resource type="Texture2D" uid="uid://bwsh105nah01e" path="res://Asset/Character/KI_Epoche character (sideview).svg" id="16_q0rgj"]
-[ext_resource type="Texture2D" uid="uid://1ddktp0t170v" path="res://Asset/Character/00 KI_Epoche character (springen).svg" id="17_r8m6l"]
 [ext_resource type="Texture2D" uid="uid://4wb04f1aa17u" path="res://Asset/Character/01 KI_Epoche character (springen).svg" id="18_s615g"]
 [ext_resource type="Texture2D" uid="uid://bhbe6kxptof26" path="res://Asset/Character/00-KI_Epoche-character-(laufen).png" id="19_vburn"]
 [ext_resource type="Texture2D" uid="uid://d3kexttbved12" path="res://Asset/Character/01-KI_Epoche-character-(laufen).png" id="20_sqwnv"]
@@ -93,9 +92,6 @@ animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": ExtResource("18_s615g")
-}, {
-"duration": 1.0,
-"texture": ExtResource("17_r8m6l")
 }],
 "loop": 2,
 "name": &"jumping",
@@ -148,9 +144,8 @@ script = ExtResource("1_4rl4f")
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1485759793]
 texture_filter = 1
 sprite_frames = SubResource("SpriteFrames_7emdm")
-animation = &"kämpfen"
+animation = &"jumping"
 autoplay = "idle"
-frame_progress = 0.8785745
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1179163459]
 position = Vector2(0, 1)

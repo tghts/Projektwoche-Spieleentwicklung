@@ -140,4 +140,5 @@ flip_h = true
 [connection signal="pressed" from="Startknopf" to="." method="_on_startknopf_pressed"]
 [connection signal="pressed" from="Exitknopf" to="." method="_on_exitknopf_pressed"]
 [connection signal="pressed" from="Settingknopf" to="." method="_on_settingknopf_pressed"]
+[connection signal="pressed" from="Credits" to="." method="_on_credits_pressed"]
 [connection signal="toggled" from="Abc" to="." method="_on_abc_toggled"]

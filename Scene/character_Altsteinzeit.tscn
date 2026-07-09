@@ -3,7 +3,6 @@
 [ext_resource type="Script" uid="uid://du6j4i7n6ttbw" path="res://Script/character.gd" id="1_yhxg3"]
 [ext_resource type="Texture2D" uid="uid://c3xma6u2wf8na" path="res://Asset/Character/00 Neandertaler character (frontview).svg" id="2_mb6t7"]
 [ext_resource type="Texture2D" uid="uid://bxctgq6xas61s" path="res://Asset/Character/01 Neandertaler character (sideview).svg" id="3_60arn"]
-[ext_resource type="Texture2D" uid="uid://bflk7gd0nabe4" path="res://Asset/Character/00 Neandertaler character (springen).svg" id="4_nvkq1"]
 [ext_resource type="Texture2D" uid="uid://blutswus7snwy" path="res://Asset/Character/01 Neandertaler character (springen).svg" id="5_o2mqo"]
 [ext_resource type="Texture2D" uid="uid://dhw0ob0gnqnvc" path="res://Asset/Character/00 Neandertaler character (laufen).svg" id="6_80lbs"]
 [ext_resource type="Texture2D" uid="uid://0py13g37td6r" path="res://Asset/Character/01 Neandertaler character (laufen).svg" id="7_yhxg3"]
@@ -24,9 +23,6 @@ animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": ExtResource("5_o2mqo")
-}, {
-"duration": 1.0,
-"texture": ExtResource("4_nvkq1")
 }],
 "loop": 2,
 "name": &"jumping",

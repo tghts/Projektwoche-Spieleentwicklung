@@ -3,7 +3,6 @@
 [ext_resource type="Script" uid="uid://du6j4i7n6ttbw" path="res://Script/character.gd" id="1_5hsod"]
 [ext_resource type="Texture2D" uid="uid://dejtur6no3oym" path="res://Asset/Character/00 ägypten character (frontview).svg" id="2_u8hvr"]
 [ext_resource type="Texture2D" uid="uid://ce6xw2focy36s" path="res://Asset/Character/01 ägypten character (sideview).svg" id="3_uriuy"]
-[ext_resource type="Texture2D" uid="uid://qjentnkw5lkh" path="res://Asset/Character/00 ägypten character (springen).svg" id="4_lasis"]
 [ext_resource type="Texture2D" uid="uid://bt4qbuwgs0rkt" path="res://Asset/Character/01 ägypten character (springen).svg" id="5_tlud6"]
 [ext_resource type="Texture2D" uid="uid://bcxrpfw8op141" path="res://Asset/Character/00 ägypten character (kämpfen).svg" id="6_xw3wo"]
 [ext_resource type="Texture2D" uid="uid://uyma0g46odna" path="res://Asset/Character/01 ägypten character (kämpfen).svg" id="7_qc4ly"]
@@ -31,9 +30,6 @@ animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": ExtResource("5_tlud6")
-}, {
-"duration": 1.0,
-"texture": ExtResource("4_lasis")
 }],
 "loop": 2,
 "name": &"jumping",
@@ -86,7 +82,7 @@ script = ExtResource("1_5hsod")
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1485759793]
 texture_filter = 1
 sprite_frames = SubResource("SpriteFrames_7emdm")
-animation = &"walking"
+animation = &"jumping"
 autoplay = "idle"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1179163459]
