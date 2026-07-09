@@ -1,6 +1,6 @@
 class_name Enemy
 
-extends Node2D
+extends CharacterBody2D
 
 @onready var character: CharacterBody2D = $"../Character"
 @onready var animated_sprite_2d: AnimatedSprite2D = $AnimatedSprite2D
