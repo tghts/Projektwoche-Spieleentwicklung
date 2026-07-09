@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_1" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 62.65 58.45">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e9002c;
+      }
+
+      .cls-2 {
+        fill: #a67c52;
+      }
+
+      .cls-3 {
+        fill: #fcee21;
+      }
+    </style>
+  </defs>
+  <rect class="cls-3" y="0" width="62.65" height="57.98" rx="12" ry="12"/>
+  <path class="cls-2" d="M2.53,53.32c.39.43.78.86,1.17,1.29V3.36c-.39.71-.78,1.42-1.17,2.12v47.83Z"/>
+  <path class="cls-2" d="M7.72,57.18c.39.27.78.53,1.17.8V0c-.39.34-.78.69-1.17,1.03v56.14Z"/>
+  <path class="cls-2" d="M12.91,57.98h1.17V0h-1.17v57.98Z"/>
+  <path class="cls-2" d="M18.1,57.98h1.17V0h-1.17v57.98Z"/>
+  <path class="cls-2" d="M23.29,57.98h1.17V0h-1.17v57.98Z"/>
+  <path class="cls-2" d="M28.48,57.98h1.17V0h-1.17v57.98Z"/>
+  <path class="cls-2" d="M33.67,58.45h1.17V.47h-1.17v57.98Z"/>
+  <path class="cls-2" d="M38.86,57.98h1.17V0h-1.17v57.98Z"/>
+  <path class="cls-2" d="M44.06,57.98h1.17V0h-1.17v57.98Z"/>
+  <path class="cls-2" d="M49.25,57.98h1.17V0h-1.17v57.98Z"/>
+  <path class="cls-2" d="M54.44,57.98c.39-.36.78-.72,1.17-1.08V1.09C55.22.73,54.83.36,54.44,0v57.98Z"/>
+  <path class="cls-2" d="M59.63,54.61c.39-.76.78-1.51,1.17-2.27V4.98c-.39-.3-.78-.6-1.17-.89v50.53Z"/>
+  <rect class="cls-1" y="45.17" width="62.65" height="3.66"/>
+  <rect class="cls-1" y="14.64" width="62.65" height="3.3"/>
+</svg>
