@@ -5,6 +5,7 @@ var sounds := {
 	"click": preload("res://Asset/Sounds//click.wav"),
 	"collect": preload("res://Asset/Sounds//collect.wav"),
 	"disappear": preload("res://Asset/Sounds//disappear.wav"),
+	"game_over": preload("res://Asset/Sounds//game_over.wav"),
 	"hit": preload("res://Asset/Sounds//hit.wav"),
 	"pause": preload("res://Asset/Sounds//pause.wav"),
 	"portal": preload("res://Asset/Sounds//portal.wav"),
