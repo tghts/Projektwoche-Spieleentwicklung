@@ -46,10 +46,18 @@ alignment = 1
 
 [node name="StartAgain" type="Button" parent="Panel/VBoxContainer" unique_id=130086356]
 layout_mode = 2
+focus_neighbor_bottom = NodePath("../Back to Menu")
+focus_next = NodePath("../Back to Menu")
+focus_previous = NodePath("../Back to Menu")
+theme_override_font_sizes/font_size = 24
 text = "Start Again"
 
 [node name="Back to Menu" type="Button" parent="Panel/VBoxContainer" unique_id=1502714277]
 layout_mode = 2
+focus_neighbor_top = NodePath("../StartAgain")
+focus_next = NodePath("../StartAgain")
+focus_previous = NodePath("../StartAgain")
+theme_override_font_sizes/font_size = 24
 text = "Back to Menu"
 
 [connection signal="pressed" from="Panel/VBoxContainer/StartAgain" to="." method="_on_start_again_pressed"]
