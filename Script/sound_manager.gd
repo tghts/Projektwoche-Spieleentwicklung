@@ -14,6 +14,7 @@ var sounds := {
 	"trampolin": preload("res://Asset/Sounds//trampolin.wav"),
 	"victory": preload("res://Asset/Sounds/victory.wav"),
 	"fire_breath": preload("res://Asset/Sounds/fire_breath.mp3"),
+	"bonk": preload("res://Asset/Sounds/Bonk.mp3"),
 }
 
 func _ready():
