@@ -13,7 +13,7 @@ var firebreath: PackedScene = preload("res://Scene/fire_breath.tscn")
 
 func _physics_process(delta: float) -> void:
 	animated_sprite_2d.animation = "flying"
-	position.y = -585
+	position.y = -786.0
 	if (character.position.x > position.x):
 		velocity.x = 150
 		animated_sprite_2d.flip_v = true

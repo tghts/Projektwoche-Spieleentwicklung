@@ -1,22 +1,30 @@
 [gd_scene format=3 uid="uid://b0020un1odtv8"]
 
 [ext_resource type="PackedScene" uid="uid://diyk3jovtitqb" path="res://Scene/enemy.tscn" id="1_8e63s"]
-[ext_resource type="Texture2D" uid="uid://c3iuh6qwacf15" path="res://Asset/Enemy/DRACHE.png" id="2_85y56"]
 [ext_resource type="Script" uid="uid://bpq27idra3vs3" path="res://Script/dragon.gd" id="2_g2uo6"]
-[ext_resource type="Texture2D" uid="uid://c1ovvwae0a474" path="res://Asset/Enemy/DRACHE_2.png" id="3_g2uo6"]
-[ext_resource type="Texture2D" uid="uid://cqtipgirh1mka" path="res://Asset/Enemy/DRACHE_3.png" id="4_mn6e4"]
+[ext_resource type="Texture2D" uid="uid://cirdd3tnvvcrv" path="res://Asset/Enemy/DRACHE_0.png" id="3_mn6e4"]
+[ext_resource type="Texture2D" uid="uid://dcqy4jyrflvuk" path="res://Asset/Enemy/DRACHE_1.png" id="4_ilfhr"]
+[ext_resource type="Texture2D" uid="uid://ddf0honenb6am" path="res://Asset/Enemy/DRACHE_2 1.png" id="5_4tte5"]
+[ext_resource type="Texture2D" uid="uid://crodht78gs8ii" path="res://Asset/Enemy/DRACHE_3 1.png" id="6_lway6"]
+[ext_resource type="Texture2D" uid="uid://7ot7bbqtqpm" path="res://Asset/Enemy/DRACHE_4 1.png" id="7_x6etf"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_3rcer"]
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("2_85y56")
+"texture": ExtResource("3_mn6e4")
 }, {
 "duration": 1.0,
-"texture": ExtResource("3_g2uo6")
+"texture": ExtResource("4_ilfhr")
 }, {
 "duration": 1.0,
-"texture": ExtResource("4_mn6e4")
+"texture": ExtResource("5_4tte5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_lway6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_x6etf")
 }],
 "loop": 1,
 "name": &"flying",
@@ -24,10 +32,10 @@ animations = [{
 }]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_2ceuy"]
-radius = 74.0152
+radius = 53.082382
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_246mo"]
-radius = 70.0
+radius = 65.751915
 
 [node name="dragon" unique_id=1833400236 instance=ExtResource("1_8e63s")]
 script = ExtResource("2_g2uo6")
@@ -35,10 +43,11 @@ breath_cooldown = 10.0
 breath_timer = 0.0
 
 [node name="AnimatedSprite2D" parent="." index="0" unique_id=30176725]
+texture_filter = 1
 sprite_frames = SubResource("SpriteFrames_3rcer")
 animation = &"flying"
 autoplay = "flying"
-frame_progress = 0.7713329
+frame_progress = 0.8584465
 
 [node name="CollisionShape2D" parent="." index="1" unique_id=1914392600]
 position = Vector2(-11, 19)
@@ -47,12 +56,9 @@ scale = Vector2(1, 2)
 shape = SubResource("CircleShape2D_2ceuy")
 
 [node name="CollisionShape2D" parent="Damage_zone" parent_id_path=PackedInt32Array(97676153) index="0" unique_id=2013183307]
-position = Vector2(-10, 13)
+position = Vector2(-9.999999, 14)
 rotation = -0.30543262
 scale = Vector2(1, 2)
 shape = SubResource("CircleShape2D_246mo")
-
-[node name="RayCast2D" type="RayCast2D" parent="." index="3" unique_id=737450687]
-collide_with_areas = true
 
 [connection signal="body_entered" from="Damage_zone" to="." method="_on_damage_zone_body_entered"]
