@@ -23,6 +23,12 @@ animations = [{
 "speed": 5.0
 }]
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_oxe5o"]
+size = Vector2(56, 125)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_q7yog"]
+size = Vector2(55, 123.5)
+
 [node name="Mumie" unique_id=1833400236 instance=ExtResource("1_j0qv0")]
 script = ExtResource("2_khlg1")
 
@@ -31,3 +37,11 @@ texture_filter = 1
 sprite_frames = SubResource("SpriteFrames_1apdv")
 animation = &"walk"
 frame_progress = 0.6412266
+
+[node name="CollisionShape2D" parent="." index="1" unique_id=1914392600]
+position = Vector2(5, 1)
+shape = SubResource("RectangleShape2D_oxe5o")
+
+[node name="CollisionShape2D" parent="Damage_zone" parent_id_path=PackedInt32Array(97676153) index="0" unique_id=2013183307]
+position = Vector2(5.5, 1.75)
+shape = SubResource("RectangleShape2D_q7yog")

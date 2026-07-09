@@ -52,5 +52,5 @@ position = Vector2(1.5, 8.5)
 shape = SubResource("RectangleShape2D_5wgas")
 
 [node name="CollisionShape2D" parent="Damage_zone" parent_id_path=PackedInt32Array(97676153) index="0" unique_id=2013183307]
-position = Vector2(1, 8.5)
+position = Vector2(1, 9)
 shape = SubResource("RectangleShape2D_oxe5o")
