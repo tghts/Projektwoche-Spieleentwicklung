@@ -35,7 +35,7 @@ func breathfire():
 	fire.global_position = global_position
 
 	fire.look_at(character.global_position)
-
+	SoundManager.play("fire_breath")
 
 func _on_damage_zone_body_entered(body: Node2D) -> void:
 	if (body.name =="Character"):
