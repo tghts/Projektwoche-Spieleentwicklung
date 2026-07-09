@@ -12,7 +12,6 @@
 [ext_resource type="PackedScene" uid="uid://145kyaugrqbn" path="res://Scene/trampolin.tscn" id="9_8rdtp"]
 [ext_resource type="PackedScene" uid="uid://c2cs65pqgro3e" path="res://Scene/zahnrad.tscn" id="11_uj7k8"]
 [ext_resource type="PackedScene" uid="uid://bieiy8lprx46y" path="res://Scene/mumie.tscn" id="12_7b78t"]
-[ext_resource type="PackedScene" uid="uid://dapbhedc5dr7t" path="res://Scene/sphinx.tscn" id="13_6cjiv"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_k8ar7"]
 texture = ExtResource("4_3a2ac")
@@ -1148,12 +1147,6 @@ sources/2 = SubResource("TileSetAtlasSource_k8ar7")
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_uj7k8"]
 size = Vector2(19439.75, 71)
 
-[sub_resource type="Curve2D" id="Curve2D_mgk0e"]
-_data = {
-"points": PackedVector2Array(0, 0, 0, 0, 479, -922, 0, 0, 0, 0, 1475, -935, 0, 0, 0, 0, 2578, -929, 0, 0, 0, 0, 3314, -928, 0, 0, 0, 0, 5148, -929, 0, 0, 0, 0, 3354, -923, 0, 0, 0, 0, 3243, -925)
-}
-point_count = 7
-
 [node name="Level3" type="Node2D" unique_id=1459206818]
 texture_filter = 1
 
@@ -1311,13 +1304,6 @@ position = Vector2(13032, -1)
 
 [node name="Mumie4" parent="Mumien" unique_id=621755420 instance=ExtResource("12_7b78t")]
 position = Vector2(13708, 7)
-
-[node name="Path2D" type="Path2D" parent="." unique_id=1125168529]
-position = Vector2(13708, 7)
-curve = SubResource("Curve2D_mgk0e")
-
-[node name="Sphinx" parent="Path2D" unique_id=334369569 instance=ExtResource("13_6cjiv")]
-position = Vector2(1333, -922)
 
 [connection signal="body_entered" from="Background/Portal" to="Background/Portal" method="_on_body_entered"]
 [connection signal="body_entered" from="Deathzone" to="Deathzone" method="_on_body_entered"]
