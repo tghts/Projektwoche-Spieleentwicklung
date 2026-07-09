@@ -9,8 +9,11 @@ var character_hp := 5
 var zahnrad_count := 0
 
 func reduce_character_hp():
-	character_hp -= 1
-	character_hp_changed.emit(zahnrad_count)
+	if character_hp <= 1:
+		pass
+	else:
+		character_hp -= 1
+		character_hp_changed.emit(zahnrad_count)
 
 func reset_character_hp():
 	character_hp = 5
