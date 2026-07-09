@@ -10,7 +10,7 @@ config_version=5
 
 [application]
 
-config/name="ProjektWocheSpiel"
+config/name="SageVersusTimes"
 run/main_scene="uid://leg0e8417gi"
 config/features=PackedStringArray("4.7", "Forward Plus")
 

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Playlist" format=3 uid="uid://d1pwonxb4k0f8"]
+
+[ext_resource type="Script" uid="uid://caylimcj1m0eu" path="res://Script/playlist.gd" id="1_mkhbp"]
+[ext_resource type="AudioStream" uid="uid://dm64ggjnggthm" path="res://Asset/Musik/level_3/Pyramid - HydroGene.wav" id="2_4qs77"]
+[ext_resource type="AudioStream" uid="uid://dgeulm3c1ma0b" path="res://Asset/Musik/level_3/Magic Temple - HydroGene.wav" id="3_0vc3k"]
+[ext_resource type="AudioStream" uid="uid://1rde6pexg7q2" path="res://Asset/Musik/level_3/Volcanic Crater - HydroGene.wav" id="4_ufpbs"]
+
+[resource]
+script = ExtResource("1_mkhbp")
+tracks = Array[AudioStream]([ExtResource("2_4qs77"), ExtResource("3_0vc3k"), ExtResource("4_ufpbs")])
+metadata/_custom_type_script = "uid://caylimcj1m0eu"

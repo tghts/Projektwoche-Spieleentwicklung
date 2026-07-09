@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Playlist" format=3 uid="uid://csuh7wla4savt"]
+
+[ext_resource type="Script" uid="uid://caylimcj1m0eu" path="res://Script/playlist.gd" id="1_500co"]
+[ext_resource type="AudioStream" uid="uid://cgwwrsjry8fnh" path="res://Asset/Musik/level_2/East Town - HydroGene.wav" id="2_b2sgb"]
+[ext_resource type="AudioStream" uid="uid://b4lu06lljtnpt" path="res://Asset/Musik/level_2/Royal Castle - HydroGene.wav" id="3_80uei"]
+[ext_resource type="AudioStream" uid="uid://cukyqqcokjnkf" path="res://Asset/Musik/level_2/Wood Forest Town - HydroGene.wav" id="4_3egqo"]
+
+[resource]
+script = ExtResource("1_500co")
+tracks = Array[AudioStream]([ExtResource("2_b2sgb"), ExtResource("3_80uei"), ExtResource("4_3egqo")])
+metadata/_custom_type_script = "uid://caylimcj1m0eu"

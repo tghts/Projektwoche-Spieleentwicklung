@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="Playlist" format=3 uid="uid://bnhr0im20yo88"]
+
+[ext_resource type="Script" uid="uid://caylimcj1m0eu" path="res://Script/playlist.gd" id="1_bytv0"]
+[ext_resource type="AudioStream" uid="uid://tc5kjbuu1cvd" path="res://Asset/Musik/title_screen/The World As It Was - Tim Carlos.wav" id="2_hd420"]
+
+[resource]
+script = ExtResource("1_bytv0")
+tracks = Array[AudioStream]([ExtResource("2_hd420")])
+metadata/_custom_type_script = "uid://caylimcj1m0eu"

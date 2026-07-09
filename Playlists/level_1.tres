@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Playlist" format=3 uid="uid://de32bjpf5xvey"]
+
+[ext_resource type="Script" uid="uid://caylimcj1m0eu" path="res://Script/playlist.gd" id="1_dnnj8"]
+[ext_resource type="AudioStream" uid="uid://57jyfjtjoj0u" path="res://Asset/Musik/level_1/Retro Noir - VOiD1.wav" id="2_j4uy3"]
+[ext_resource type="AudioStream" uid="uid://dg7kyx0ltc3em" path="res://Asset/Musik/level_1/ZoomBeats - VOiD1.wav" id="3_wjtxk"]
+[ext_resource type="AudioStream" uid="uid://cqity7ci6efsk" path="res://Asset/Musik/level_1/Romance on Neon - VOiD1.wav" id="4_2qbir"]
+
+[resource]
+script = ExtResource("1_dnnj8")
+tracks = Array[AudioStream]([ExtResource("2_j4uy3"), ExtResource("3_wjtxk"), ExtResource("4_2qbir")])
+metadata/_custom_type_script = "uid://caylimcj1m0eu"
