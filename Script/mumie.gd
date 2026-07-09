@@ -26,6 +26,6 @@ func _physics_process(delta: float) -> void:
 
 func _on_damage_zone_body_entered(body: Node2D) -> void:
 	if (body.name =="Character"):
-		print("Du hast schaden bekommen")
+		SoundManager.play("hit")
 		GameData.reduce_character_hp()
 		body.jump_side(velocity.x*5)

@@ -7,6 +7,7 @@ const SPEED = 400.0
 const JUMP_VELOCITY = -500.0
 var jump_counter = 0
 
+
 func _physics_process(delta: float) -> void:
 	if (velocity.x > 1 || velocity.x < -1):
 		animated_sprite_2d.animation = "walking"
@@ -41,8 +42,7 @@ func _physics_process(delta: float) -> void:
 		animated_sprite_2d.flip_h = true
 		
 	if Input.is_action_just_pressed("use"):
-		animated_sprite_2d.play("kämpfen")
-		await animated_sprite_2d.animation_finished
+		play_kämpfen()
 		
 	move_and_slide()
 
@@ -52,3 +52,12 @@ func jump():
 func jump_side(x):
 	velocity.y = JUMP_VELOCITY
 	velocity.x = x
+	
+func play_kämpfen():
+	animated_sprite_2d.animation = "kämpfen"
+	animated_sprite_2d.frame = 0
+	animated_sprite_2d.frame = 1
+	animated_sprite_2d.frame = 2
+	animated_sprite_2d.frame = 3
+	animated_sprite_2d.frame = 4
+	animated_sprite_2d.frame = 5

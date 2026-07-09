@@ -36,6 +36,7 @@ script = ExtResource("2_khlg1")
 texture_filter = 1
 sprite_frames = SubResource("SpriteFrames_1apdv")
 animation = &"walk"
+autoplay = "walk"
 frame_progress = 0.6412266
 
 [node name="CollisionShape2D" parent="." index="1" unique_id=1914392600]

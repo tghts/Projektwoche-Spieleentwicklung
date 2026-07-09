@@ -1,0 +1,501 @@
+[gd_scene format=3 uid="uid://buykx3unt5vtr"]
+
+[ext_resource type="Script" uid="uid://bfwshn346fssi" path="res://Script/credits.gd" id="1_octli"]
+[ext_resource type="Texture2D" uid="uid://bhraicew86ujr" path="res://Asset/Character/01 KI_Epoche character (sideview).svg" id="2_0ol2u"]
+[ext_resource type="Texture2D" uid="uid://c3snovtd0kpn2" path="res://Asset/Background/Credits_background.svg" id="2_h6sex"]
+[ext_resource type="Texture2D" uid="uid://w022snupre0m" path="res://Asset/Character/01 KI_Epoche character (beugen).svg" id="3_lyn8j"]
+[ext_resource type="Texture2D" uid="uid://dwih8bswkohby" path="res://Asset/Character/02 KI_Epoche character (beugen).svg" id="4_x0ytu"]
+[ext_resource type="Texture2D" uid="uid://ccid17r6u32p2" path="res://Asset/Character/03 KI_Epoche character (beugen).svg" id="5_6jxhu"]
+[ext_resource type="Texture2D" uid="uid://bqia7yrrcrlr7" path="res://Asset/Character/04 KI_Epoche character (beugen m. waffe).svg" id="6_sv0kd"]
+[ext_resource type="Texture2D" uid="uid://t2o1g7ddegbb" path="res://Asset/Character/05 KI_Epoche character (beugen m. waffe).svg" id="7_v1g0k"]
+[ext_resource type="Texture2D" uid="uid://cdpji1r78d74x" path="res://Asset/Character/06 KI_Epoche character (beugen m. waffe).svg" id="8_0lac8"]
+[ext_resource type="Texture2D" uid="uid://r2qkb2cluu22" path="res://Asset/Character/07 KI_Epoche character (beugen m. waffe).svg" id="9_vuxrv"]
+[ext_resource type="Texture2D" uid="uid://0xpg6xj0ugg1" path="res://Asset/Character/00 KI_Epoche character (fallen).svg" id="10_ps3ka"]
+[ext_resource type="Texture2D" uid="uid://dc6rnlwbldlcu" path="res://Asset/Character/01 KI_Epoche character (fallen).svg" id="11_x7dbb"]
+[ext_resource type="Texture2D" uid="uid://bxig2rq61xh0e" path="res://Asset/Character/02 KI_Epoche character (fallen).svg" id="12_jt0ct"]
+[ext_resource type="Texture2D" uid="uid://b86xwe1hq01p5" path="res://Asset/Character/03 KI_Epoche character (fallen).svg" id="13_nwrmo"]
+[ext_resource type="Texture2D" uid="uid://y2l6ih7of681" path="res://Asset/Character/04 KI_Epoche character (fallen).svg" id="14_cm725"]
+[ext_resource type="Texture2D" uid="uid://c8ehxobkgc0ia" path="res://Asset/Character/KI_Epoche character (frontview).svg" id="15_7a6tf"]
+[ext_resource type="Texture2D" uid="uid://bwsh105nah01e" path="res://Asset/Character/KI_Epoche character (sideview).svg" id="16_6uu6m"]
+[ext_resource type="Texture2D" uid="uid://4wb04f1aa17u" path="res://Asset/Character/01 KI_Epoche character (springen).svg" id="17_vyo3f"]
+[ext_resource type="Texture2D" uid="uid://1ddktp0t170v" path="res://Asset/Character/00 KI_Epoche character (springen).svg" id="18_sjcq4"]
+[ext_resource type="Texture2D" uid="uid://bsd5aa6box6ls" path="res://Asset/Character/01 KI_Epoche character (werfen).svg" id="19_ke5sx"]
+[ext_resource type="Texture2D" uid="uid://vbn8ddrvm4hb" path="res://Asset/Character/02 KI_Epoche character (werfen).svg" id="20_b474b"]
+[ext_resource type="Texture2D" uid="uid://lvqt76h5po3l" path="res://Asset/Character/03 KI_Epoche character (werfen).svg" id="21_xjbnq"]
+[ext_resource type="Texture2D" uid="uid://cr6mjhhe7lvmk" path="res://Asset/Character/04 KI_Epoche character (werfen).svg" id="22_y53jm"]
+[ext_resource type="Texture2D" uid="uid://pajrgh85dvwv" path="res://Asset/Character/05 KI_Epoche character (werfen).svg" id="23_cd4nk"]
+[ext_resource type="Texture2D" uid="uid://dst5dmtbg37vy" path="res://Asset/Character/06 KI_Epoche character (werfen).svg" id="24_i56nm"]
+[ext_resource type="Texture2D" uid="uid://do1w05w7f5lqd" path="res://Asset/Character/07 KI_Epoche character (werfen).svg" id="25_bdftk"]
+[ext_resource type="Texture2D" uid="uid://bhbe6kxptof26" path="res://Asset/Character/00-KI_Epoche-character-(laufen).png" id="26_u8ctb"]
+[ext_resource type="Texture2D" uid="uid://d3kexttbved12" path="res://Asset/Character/01-KI_Epoche-character-(laufen).png" id="27_1vbxm"]
+[ext_resource type="Texture2D" uid="uid://btwbvgv32qwd1" path="res://Asset/Character/00 Mittelalter character (frontview).svg" id="28_lo8ku"]
+[ext_resource type="Texture2D" uid="uid://c86jqm58p6ojg" path="res://Asset/Character/01 mittelalter character (sideview).svg" id="29_h6sex"]
+[ext_resource type="Texture2D" uid="uid://dn0fi7s5vg7r8" path="res://Asset/Character/01 mittelalter character (springen).svg" id="30_pjf28"]
+[ext_resource type="Texture2D" uid="uid://b6unv4pb1ylmy" path="res://Asset/Character/00 mittelalter character (springen).svg" id="31_qmjmj"]
+[ext_resource type="Texture2D" uid="uid://cc70xadsocud7" path="res://Asset/Character/00 mittelalter character (kämpfen).svg" id="32_vqkqu"]
+[ext_resource type="Texture2D" uid="uid://qtyfv06no1wy" path="res://Asset/Character/01 mittelalter character (kämpfen).svg" id="33_s0axm"]
+[ext_resource type="Texture2D" uid="uid://df755008foyec" path="res://Asset/Character/02 mittelalter character (kämpfen).svg" id="34_hf5hl"]
+[ext_resource type="Texture2D" uid="uid://w18677550840" path="res://Asset/Character/00 mittelalter character (laufen).svg" id="35_urkww"]
+[ext_resource type="Texture2D" uid="uid://c8fjq8dwsrpjr" path="res://Asset/Character/01 mittelalter character (laufen).svg" id="36_cv7jk"]
+[ext_resource type="Texture2D" uid="uid://dejtur6no3oym" path="res://Asset/Character/00 ägypten character (frontview).svg" id="37_cc3o1"]
+[ext_resource type="Texture2D" uid="uid://ce6xw2focy36s" path="res://Asset/Character/01 ägypten character (sideview).svg" id="38_gvomr"]
+[ext_resource type="Texture2D" uid="uid://bt4qbuwgs0rkt" path="res://Asset/Character/01 ägypten character (springen).svg" id="39_acfnw"]
+[ext_resource type="Texture2D" uid="uid://qjentnkw5lkh" path="res://Asset/Character/00 ägypten character (springen).svg" id="40_bplyq"]
+[ext_resource type="Texture2D" uid="uid://bcxrpfw8op141" path="res://Asset/Character/00 ägypten character (kämpfen).svg" id="41_mvtj3"]
+[ext_resource type="Texture2D" uid="uid://uyma0g46odna" path="res://Asset/Character/01 ägypten character (kämpfen).svg" id="42_ee2og"]
+[ext_resource type="Texture2D" uid="uid://box3xlrusaxa2" path="res://Asset/Character/02 ägypten character (kämpfen).svg" id="43_1cmnk"]
+[ext_resource type="Texture2D" uid="uid://cryrkjbtsv5wp" path="res://Asset/Character/03 ägypten character (kämpfen).svg" id="44_hgkyu"]
+[ext_resource type="Texture2D" uid="uid://le6vlp24mucy" path="res://Asset/Character/04 ägypten character (kämpfen).svg" id="45_qh2rh"]
+[ext_resource type="Texture2D" uid="uid://dr5pglq24s5f3" path="res://Asset/Character/05 ägypten character (kämpfen).svg" id="46_xn2cn"]
+[ext_resource type="Texture2D" uid="uid://bs6cts65bqbuc" path="res://Asset/Character/06 ägypten character (kämpfen).svg" id="47_8hj3m"]
+[ext_resource type="Texture2D" uid="uid://ct30tru0vonmw" path="res://Asset/Character/01 ägypten character (laufen).svg" id="48_cimxb"]
+[ext_resource type="Texture2D" uid="uid://drpreu42fub8r" path="res://Asset/Character/00 ägypten character (laufen).svg" id="49_jlltj"]
+[ext_resource type="Texture2D" uid="uid://c3xma6u2wf8na" path="res://Asset/Character/00 Neandertaler character (frontview).svg" id="50_yirip"]
+[ext_resource type="Texture2D" uid="uid://bxctgq6xas61s" path="res://Asset/Character/01 Neandertaler character (sideview).svg" id="51_7otqs"]
+[ext_resource type="Texture2D" uid="uid://blutswus7snwy" path="res://Asset/Character/01 Neandertaler character (springen).svg" id="52_mk8i0"]
+[ext_resource type="Texture2D" uid="uid://bflk7gd0nabe4" path="res://Asset/Character/00 Neandertaler character (springen).svg" id="53_7qsav"]
+[ext_resource type="Texture2D" uid="uid://dhw0ob0gnqnvc" path="res://Asset/Character/00 Neandertaler character (laufen).svg" id="54_run1a"]
+[ext_resource type="Texture2D" uid="uid://0py13g37td6r" path="res://Asset/Character/01 Neandertaler character (laufen).svg" id="55_oxgkq"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ib6d4"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_0ol2u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_lyn8j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_x0ytu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_6jxhu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_sv0kd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_v1g0k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_0lac8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_vuxrv")
+}],
+"loop": 1,
+"name": &"beugen",
+"speed": 9.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("10_ps3ka")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_x7dbb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_jt0ct")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_nwrmo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_cm725")
+}],
+"loop": 1,
+"name": &"fall",
+"speed": 9.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("15_7a6tf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_6uu6m")
+}],
+"loop": 2,
+"name": &"idle",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("17_vyo3f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_sjcq4")
+}],
+"loop": 2,
+"name": &"jumping",
+"speed": 6.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("19_ke5sx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_b474b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_xjbnq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_y53jm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_cd4nk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_i56nm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_bdftk")
+}],
+"loop": 0,
+"name": &"kämpfen",
+"speed": 9.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("26_u8ctb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_1vbxm")
+}],
+"loop": 1,
+"name": &"walking",
+"speed": 6.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_3o57r"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("28_lo8ku")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_h6sex")
+}],
+"loop": 2,
+"name": &"idle",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("30_pjf28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_qmjmj")
+}],
+"loop": 1,
+"name": &"jumping",
+"speed": 6.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("32_vqkqu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_s0axm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_hf5hl")
+}],
+"loop": 1,
+"name": &"kämpfen",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("35_urkww")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_cv7jk")
+}],
+"loop": 1,
+"name": &"walking",
+"speed": 6.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_qsiof"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("37_cc3o1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_gvomr")
+}],
+"loop": 2,
+"name": &"idle",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("39_acfnw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_bplyq")
+}],
+"loop": 2,
+"name": &"jumping",
+"speed": 6.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("41_mvtj3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_ee2og")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_1cmnk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_hgkyu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_qh2rh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_xn2cn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_8hj3m")
+}],
+"loop": 1,
+"name": &"kämpfen",
+"speed": 9.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("48_cimxb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_jlltj")
+}],
+"loop": 1,
+"name": &"walking",
+"speed": 6.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_pgfrw"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("50_yirip")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_7otqs")
+}],
+"loop": 2,
+"name": &"idle",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("52_mk8i0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_7qsav")
+}],
+"loop": 2,
+"name": &"jumping",
+"speed": 6.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("54_run1a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_oxgkq")
+}],
+"loop": 1,
+"name": &"walking",
+"speed": 6.0
+}]
+
+[node name="Credits" type="Node" unique_id=1095219598]
+script = ExtResource("1_octli")
+metadata/_edit_lock_ = true
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1941261516]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+texture = ExtResource("2_h6sex")
+expand_mode = 3
+
+[node name="Credits" type="Panel" parent="." unique_id=1204347794]
+texture_filter = 1
+anchors_preset = -1
+offset_right = 1152.0
+offset_bottom = 648.0
+metadata/_edit_use_anchors_ = true
+metadata/_edit_lock_ = true
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Credits" unique_id=13517011]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Artist" type="Control" parent="Credits/HBoxContainer" unique_id=1309147877]
+texture_filter = 1
+layout_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Credits/HBoxContainer/Artist" unique_id=377635988]
+texture_filter = 1
+layout_mode = 0
+offset_left = 184.0
+offset_top = 704.0
+offset_right = 514.0
+offset_bottom = 1036.0
+
+[node name="Artists" type="Label" parent="Credits/HBoxContainer/Artist/VBoxContainer" unique_id=848094138]
+texture_filter = 1
+layout_mode = 2
+theme_override_font_sizes/font_size = 50
+text = "Artists"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_lock_ = true
+
+[node name="1" type="Label" parent="Credits/HBoxContainer/Artist/VBoxContainer" unique_id=1337598553]
+texture_filter = 1
+layout_mode = 2
+theme_override_font_sizes/font_size = 40
+text = "1"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_lock_ = true
+
+[node name="2" type="Label" parent="Credits/HBoxContainer/Artist/VBoxContainer" unique_id=1590402246]
+texture_filter = 1
+layout_mode = 2
+theme_override_font_sizes/font_size = 40
+text = "2"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_lock_ = true
+
+[node name="3" type="Label" parent="Credits/HBoxContainer/Artist/VBoxContainer" unique_id=877088355]
+texture_filter = 1
+layout_mode = 2
+theme_override_font_sizes/font_size = 40
+text = "3"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_lock_ = true
+
+[node name="4" type="Label" parent="Credits/HBoxContainer/Artist/VBoxContainer" unique_id=1210635868]
+texture_filter = 1
+layout_mode = 2
+theme_override_font_sizes/font_size = 40
+text = "4"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_lock_ = true
+
+[node name="Developer" type="Control" parent="Credits/HBoxContainer" unique_id=884442942]
+texture_filter = 1
+layout_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Credits/HBoxContainer/Developer" unique_id=2006284583]
+texture_filter = 1
+layout_mode = 0
+offset_left = 660.0
+offset_top = 704.0
+offset_right = 964.0
+offset_bottom = 972.0
+
+[node name="Developer" type="Label" parent="Credits/HBoxContainer/Developer/VBoxContainer" unique_id=1714612232]
+texture_filter = 1
+layout_mode = 2
+theme_override_font_sizes/font_size = 50
+text = "Developer"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_lock_ = true
+
+[node name="Lucas B" type="Label" parent="Credits/HBoxContainer/Developer/VBoxContainer" unique_id=713301647]
+texture_filter = 1
+layout_mode = 2
+theme_override_font_sizes/font_size = 40
+text = "Lucas B"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_lock_ = true
+
+[node name="Levin H" type="Label" parent="Credits/HBoxContainer/Developer/VBoxContainer" unique_id=1414055551]
+texture_filter = 1
+layout_mode = 2
+theme_override_font_sizes/font_size = 40
+text = "Levin H"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_lock_ = true
+
+[node name="Simon C" type="Label" parent="Credits/HBoxContainer/Developer/VBoxContainer" unique_id=7462547]
+texture_filter = 1
+layout_mode = 2
+theme_override_font_sizes/font_size = 40
+text = "Simon C"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_lock_ = true
+
+[node name="ThanksforPlaying" type="Label" parent="Credits" unique_id=34603757]
+layout_mode = 0
+offset_left = 152.0
+offset_top = 1472.0
+offset_right = 1021.0
+offset_bottom = 1585.0
+theme_override_font_sizes/font_size = 75
+text = "Thanks for Playing"
+
+[node name="TestPanel" type="Label" parent="Credits" unique_id=1370244711]
+visible = false
+layout_mode = 0
+offset_left = 152.0
+offset_top = 248.0
+offset_right = 1021.0
+offset_bottom = 361.0
+theme_override_font_sizes/font_size = 75
+text = "Thanks for Playing"
+
+[node name="Character_sprites" type="Node2D" parent="." unique_id=1670925372]
+
+[node name="KI" type="AnimatedSprite2D" parent="Character_sprites" unique_id=608888460]
+texture_filter = 1
+position = Vector2(104, 256)
+sprite_frames = SubResource("SpriteFrames_ib6d4")
+animation = &"walking"
+autoplay = "walking"
+
+[node name="Mittelalter" type="AnimatedSprite2D" parent="Character_sprites" unique_id=194084354]
+texture_filter = 1
+position = Vector2(96, 544)
+sprite_frames = SubResource("SpriteFrames_3o57r")
+animation = &"walking"
+autoplay = "walking"
+
+[node name="Ägypten" type="AnimatedSprite2D" parent="Character_sprites" unique_id=1583583321]
+texture_filter = 1
+position = Vector2(1064, 560)
+sprite_frames = SubResource("SpriteFrames_qsiof")
+animation = &"walking"
+autoplay = "walking"
+flip_h = true
+
+[node name="Altsteinzeit" type="AnimatedSprite2D" parent="Character_sprites" unique_id=534583112]
+texture_filter = 1
+position = Vector2(1072, 248)
+sprite_frames = SubResource("SpriteFrames_pgfrw")
+animation = &"walking"
+autoplay = "walking"
+flip_h = true
