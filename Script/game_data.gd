@@ -1,6 +1,6 @@
 extends Node
 
-signal character_hp_changed(count: int)
+signal character_hp_changed(hp: int)
 signal zahnrad_count_changed(count: int)
 
 var music_volume := 1.0
@@ -13,11 +13,11 @@ func reduce_character_hp():
 		pass
 	else:
 		character_hp -= 1
-		character_hp_changed.emit(zahnrad_count)
+		character_hp_changed.emit(character_hp)
 
 func reset_character_hp():
 	character_hp = 5
-	character_hp_changed.emit(zahnrad_count)
+	character_hp_changed.emit(character_hp)
 
 func add_zahnrad():
 	zahnrad_count += 1

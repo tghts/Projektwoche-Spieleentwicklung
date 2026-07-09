@@ -16,7 +16,7 @@ var sounds := {
 func _ready():
 	process_mode = Node.PROCESS_MODE_ALWAYS
 
-func play(sound_name: String, volume: float = 1.0, bus: String = "SoundEffects") -> void:
+func play(sound_name: String, volume: float = 1.0, bus: String = "SoundEffects") -> AudioStreamPlayer:
 	var stream = sounds.get(sound_name)
 
 	if stream == null:
@@ -31,4 +31,6 @@ func play(sound_name: String, volume: float = 1.0, bus: String = "SoundEffects")
 	add_child(player)
 
 	player.play()
+	
 	player.finished.connect(player.queue_free)
+	return player
