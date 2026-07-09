@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b0fvcgnidmbeo"
-path="res://.godot/imported/Blue.png-b526dee82079b7d914d79e7672f85516.ctex"
+uid="uid://yi8d88cpuvo2"
+path="res://.godot/imported/setting backround.svg-d18f4ba6b40dc41c384f0b4c6b3580fa.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Asset/Background/Blue.png"
-dest_files=["res://.godot/imported/Blue.png-b526dee82079b7d914d79e7672f85516.ctex"]
+source_file="res://Asset/Background/setting backround.svg"
+dest_files=["res://.godot/imported/setting backround.svg-d18f4ba6b40dc41c384f0b4c6b3580fa.ctex"]
 
 [params]
 
@@ -38,3 +38,6 @@ process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
 detect_3d/compress_to=1
+svg/scale=7.0
+editor/scale_with_editor_scale=false
+editor/convert_colors_with_editor_theme=false

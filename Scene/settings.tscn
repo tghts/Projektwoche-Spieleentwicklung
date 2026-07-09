@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://l6ex3u2xwoq4"]
 
 [ext_resource type="Script" uid="uid://bgrmr6spsyqtw" path="res://Script/settings.gd" id="1_mvx5f"]
-[ext_resource type="Texture2D" uid="uid://j3rf0m1yhvcl" path="res://Asset/Background/Brown.png" id="1_qampi"]
+[ext_resource type="Texture2D" uid="uid://yi8d88cpuvo2" path="res://Asset/Background/setting backround.svg" id="2_qampi"]
 
 [node name="Settings" type="Node" unique_id=958982605]
 script = ExtResource("1_mvx5f")
@@ -14,8 +14,8 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 0
-texture = ExtResource("1_qampi")
-stretch_mode = 1
+texture = ExtResource("2_qampi")
+expand_mode = 1
 metadata/_edit_use_anchors_ = true
 
 [node name="SettingsLabel" type="Label" parent="." unique_id=1954962361]
@@ -24,7 +24,7 @@ offset_left = 128.0
 offset_top = 48.0
 offset_right = 1024.0
 offset_bottom = 168.0
-theme_override_colors/font_color = Color(0, 0.73006314, 1, 1)
+theme_override_colors/font_color = Color(0.935827, 0.04458776, 5.7756904e-07, 1)
 theme_override_colors/font_shadow_color = Color(0, 0, 0, 0)
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 34
@@ -95,6 +95,7 @@ offset_left = 424.0
 offset_top = 232.0
 offset_right = 728.0
 offset_bottom = 256.0
+theme_override_colors/font_color = Color(0.65576607, 0, 0.10484225, 1)
 theme_override_font_sizes/font_size = 24
 text = "Music Volume"
 horizontal_alignment = 1
@@ -105,6 +106,7 @@ offset_left = 424.0
 offset_top = 312.0
 offset_right = 728.0
 offset_bottom = 336.0
+theme_override_colors/font_color = Color(0.654902, 0, 0.105882354, 1)
 theme_override_font_sizes/font_size = 24
 text = "SFX Volume"
 horizontal_alignment = 1
