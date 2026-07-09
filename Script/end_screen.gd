@@ -1,6 +1,10 @@
 extends Node
 
 func _ready() -> void:
-	SoundManager.play("victory")
-	await get_tree().create_timer(13).timeout
+	var player = SoundManager.play("victory")
+	
+	if player:
+		await player.finished
+	
+	MusicManager.play_title_music()
 	get_tree().change_scene_to_file("res://Scene/main_menu.tscn")

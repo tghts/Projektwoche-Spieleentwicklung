@@ -85,6 +85,10 @@ func play_title_music() -> void:
 func play_level_music(level_name: String) -> void:
 	play_playlist(level_name)
 
+func stop() -> void:
+	player.stop()
+	player.stream = null
+
 func next_track() -> void:
 	if current_playlist.is_empty():
 		return

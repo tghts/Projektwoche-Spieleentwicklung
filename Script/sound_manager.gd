@@ -12,13 +12,13 @@ var sounds := {
 	"portal": preload("res://Asset/Sounds//portal.wav"),
 	"slider": preload("res://Asset/Sounds//slider.wav"),
 	"trampolin": preload("res://Asset/Sounds//trampolin.wav"),
-	"victory": preload("res://Asset/Sounds//victory.mp3"),
+	"victory": preload("res://Asset/Sounds//victory.wav"),
 }
 
 func _ready():
 	process_mode = Node.PROCESS_MODE_ALWAYS
 
-func play(sound_name: String, volume: float = 1.0, bus: String = "SoundEffects") -> AudioStreamPlayer:
+func play(sound_name: String, volume: float = 1.0) -> AudioStreamPlayer:
 	var stream = sounds.get(sound_name)
 
 	if stream == null:
@@ -27,7 +27,7 @@ func play(sound_name: String, volume: float = 1.0, bus: String = "SoundEffects")
 
 	var player := AudioStreamPlayer.new()
 	player.process_mode = Node.PROCESS_MODE_ALWAYS
-	player.bus = bus
+	player.bus = "SoundEffects"
 	player.stream = stream
 	player.volume_db = linear_to_db(volume)
 	add_child(player)

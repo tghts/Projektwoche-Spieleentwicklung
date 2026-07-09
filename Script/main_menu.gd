@@ -11,10 +11,9 @@ func _on_startknopf_pressed() -> void:
 	get_tree().change_scene_to_file("res://Scene/level_1.tscn")
 
 func _on_exitknopf_pressed() -> void:
-	var player = SoundManager.play("click")
+	SoundManager.play("click")
 
-	if player:
-		await player.finished
+	await get_tree().create_timer(0.2).timeout
 
 	get_tree().quit()
 
