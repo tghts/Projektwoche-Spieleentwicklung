@@ -1,6 +1,7 @@
 # Sage Versus Time
 
 **Von der Urzeit-Keule bis zum Cyber-Netz – KI in verschiedenen Zeitaltern**
+<img width="630" height="500" alt="grafik" src="https://github.com/user-attachments/assets/0b4f0773-ac8f-4424-89a8-eb6111b15b9e" />
 
 Ein 2D-Plattformer in **Godot**, entstanden während der einwöchigen gemeinsamen Projektwoche des **Carl-Miele-Berufskollegs (CMB)** und des **Reckenberg-Berufskollegs (RBK)**.
 
