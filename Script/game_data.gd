@@ -23,7 +23,7 @@ func reduce_character_hp():
 func reset_character_hp():
 	character_hp = 5
 	character_hp_changed.emit(character_hp)
-	
+
 func kill_character():
 	SoundManager.play("game_over")
 	reset_character_hp()

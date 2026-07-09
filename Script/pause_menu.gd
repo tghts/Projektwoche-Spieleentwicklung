@@ -22,7 +22,7 @@ func _on_settings_pressed() -> void:
 	SoundManager.play("click")
 	get_tree().paused = false
 	get_tree().change_scene_to_file("res://Scene/settings.tscn")
-	
+
 func _on_back_to_start_pressed() -> void:
 	SoundManager.play("click")
 	GameData.reset_character_hp()

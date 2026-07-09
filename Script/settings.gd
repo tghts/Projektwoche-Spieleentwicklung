@@ -29,7 +29,7 @@ func windowed() -> void:
 	DisplayServer.window_set_mode(DisplayServer.WINDOW_MODE_WINDOWED)
 
 func _on_music_value_changed(value: float) -> void:
-	SoundManager.play("slider", 1.0, "Music")
+	SoundManager.play("slider")
 	GameData.music_volume = value
 	var bus_index := AudioServer.get_bus_index("Music")
 	AudioServer.set_bus_volume_db(bus_index, linear_to_db(value))
