@@ -15,7 +15,7 @@ In *Sage Versus Time* durchläuft der Hauptcharakter **vier Epochen der Menschhe
 | 1 | Neontown | Moderne / zukünftige KI, vernetzte Welt und Fliegende Autos |
 | 2 | Mittelalterliche Stadt | Es gibt Fässer und Heu |
 | 3 | Wüste | Die Mumien sowie die Sphinx besichtigen |
-| 4 | Urzeit |  |
+| 4 | Urzeit | Neandertaler |
 
 > Details zur Story wird morgen finaliziert.
 
