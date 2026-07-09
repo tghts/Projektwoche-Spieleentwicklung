@@ -13,6 +13,9 @@ var sounds := {
 	"victory": preload("res://Asset/Sounds//victory.mp3"),
 }
 
+func _ready():
+	process_mode = Node.PROCESS_MODE_ALWAYS
+
 func play(sound_name: String, volume: float = 1.0, bus: String = "SoundEffects") -> void:
 	var stream = sounds.get(sound_name)
 
@@ -21,6 +24,7 @@ func play(sound_name: String, volume: float = 1.0, bus: String = "SoundEffects")
 		return
 
 	var player := AudioStreamPlayer.new()
+	player.process_mode = Node.PROCESS_MODE_ALWAYS
 	player.bus = bus
 	player.stream = stream
 	player.volume_db = linear_to_db(volume)

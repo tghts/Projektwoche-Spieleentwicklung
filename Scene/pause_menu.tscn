@@ -1,0 +1,52 @@
+[gd_scene format=3 uid="uid://btxduqxsymul7"]
+
+[node name="PauseMenu" type="Node" unique_id=1992092528]
+
+[node name="PauseMenuLabel" type="Label" parent="." unique_id=2100938900]
+offset_left = 360.0
+offset_top = 8.0
+offset_right = 792.0
+offset_bottom = 96.0
+theme_override_font_sizes/font_size = 40
+text = "Pause Menu"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Line2D" type="Line2D" parent="." unique_id=1402701827]
+points = PackedVector2Array(1152, 104, 0, 104)
+width = 1.0
+
+[node name="Resume" type="Button" parent="." unique_id=2081725845]
+offset_left = 408.0
+offset_top = 192.0
+offset_right = 744.0
+offset_bottom = 265.0
+focus_neighbor_bottom = NodePath("../Settings")
+focus_next = NodePath("../Settings")
+focus_previous = NodePath("../Quit")
+theme_override_font_sizes/font_size = 24
+text = "Resume"
+
+[node name="Settings" type="Button" parent="." unique_id=729593149]
+offset_left = 408.0
+offset_top = 296.0
+offset_right = 744.0
+offset_bottom = 369.0
+focus_neighbor_top = NodePath("../Resume")
+focus_neighbor_bottom = NodePath("../Quit")
+focus_next = NodePath("../Quit")
+focus_previous = NodePath("../Resume")
+theme_override_font_sizes/font_size = 24
+text = "Settings"
+
+[node name="Quit" type="Button" parent="." unique_id=951088179]
+offset_left = 408.0
+offset_top = 400.0
+offset_right = 744.0
+offset_bottom = 473.0
+focus_neighbor_top = NodePath("../Settings")
+focus_next = NodePath("../Resume")
+focus_previous = NodePath("../Settings")
+theme_override_font_sizes/font_size = 24
+text = "Quit"

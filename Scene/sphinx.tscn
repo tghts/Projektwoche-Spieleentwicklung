@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://dapbhedc5dr7t"]
 
 [ext_resource type="PackedScene" uid="uid://diyk3jovtitqb" path="res://Scene/enemy.tscn" id="1_wly55"]
+[ext_resource type="Script" uid="uid://3iw5nva63065" path="res://Script/sphinx.gd" id="2_866yk"]
 [ext_resource type="Texture2D" uid="uid://blt6dr26ds6rg" path="res://Asset/Anderes/sphinx.png" id="2_kw0qk"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_2thg8"]
@@ -21,7 +22,7 @@ size = Vector2(224, 241)
 size = Vector2(215, 232)
 
 [node name="Sphinx" unique_id=1833400236 instance=ExtResource("1_wly55")]
-script = null
+script = ExtResource("2_866yk")
 
 [node name="AnimatedSprite2D" parent="." index="0" unique_id=30176725]
 sprite_frames = SubResource("SpriteFrames_2thg8")

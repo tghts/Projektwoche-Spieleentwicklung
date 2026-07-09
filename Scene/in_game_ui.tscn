@@ -131,6 +131,10 @@ offset_left = 14.0
 offset_top = 568.0
 offset_right = 121.0
 offset_bottom = 636.0
+focus_neighbor_top = NodePath("../VBoxContainer/Settings")
+focus_next = NodePath("../VBoxContainer/Resume")
+focus_previous = NodePath("../VBoxContainer/Settings")
+theme_override_font_sizes/font_size = 24
 text = "Back to Start"
 
 [node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer/PauseMenu" unique_id=517132756]
@@ -150,14 +154,24 @@ grow_vertical = 2
 [node name="Resume" type="Button" parent="CanvasLayer/PauseMenu/VBoxContainer" unique_id=222142745]
 process_mode = 3
 layout_mode = 2
-theme_override_font_sizes/font_size = 25
+focus_neighbor_bottom = NodePath("../Settings")
+focus_next = NodePath("../Settings")
+focus_previous = NodePath("../../Back to Start")
+theme_override_font_sizes/font_size = 24
 text = "Resume"
 
 [node name="Settings" type="Button" parent="CanvasLayer/PauseMenu/VBoxContainer" unique_id=168545611]
 layout_mode = 2
-theme_override_font_sizes/font_size = 25
+focus_neighbor_top = NodePath("../Resume")
+focus_neighbor_bottom = NodePath("../../Back to Start")
+focus_next = NodePath("../../Back to Start")
+focus_previous = NodePath("../Resume")
+theme_override_font_sizes/font_size = 24
 text = "Settings"
 
 [connection signal="pressed" from="CanvasLayer/PauseMenu/Back to Start" to="." method="_on_back_to_start_pressed"]
+[connection signal="pressed" from="CanvasLayer/PauseMenu/Back to Start" to="CanvasLayer/PauseMenu" method="_on_back_to_start_pressed"]
 [connection signal="pressed" from="CanvasLayer/PauseMenu/VBoxContainer/Resume" to="." method="_on_resume_pressed"]
+[connection signal="pressed" from="CanvasLayer/PauseMenu/VBoxContainer/Resume" to="CanvasLayer/PauseMenu" method="_on_resume_pressed"]
 [connection signal="pressed" from="CanvasLayer/PauseMenu/VBoxContainer/Settings" to="." method="_on_settings_pressed"]
+[connection signal="pressed" from="CanvasLayer/PauseMenu/VBoxContainer/Settings" to="CanvasLayer/PauseMenu" method="_on_settings_pressed"]
