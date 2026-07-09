@@ -7,6 +7,7 @@ var sounds := {
 	"disappear": preload("res://Asset/Sounds//disappear.wav"),
 	"game_over": preload("res://Asset/Sounds//game_over.wav"),
 	"hit": preload("res://Asset/Sounds//hit.wav"),
+	"heart": preload("res://Asset/Sounds/heart.wav"),
 	"pause": preload("res://Asset/Sounds//pause.wav"),
 	"portal": preload("res://Asset/Sounds//portal.wav"),
 	"slider": preload("res://Asset/Sounds//slider.wav"),
