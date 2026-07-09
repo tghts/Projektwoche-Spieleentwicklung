@@ -28,11 +28,7 @@ func _physics_process(delta: float) -> void:
 		breathfire()
 
 	move_and_slide()
-	
-	move_and_slide()
-	
 
-		
 func breathfire():
 	var fire := firebreath.instantiate() as Node2D
 	add_child(fire)
