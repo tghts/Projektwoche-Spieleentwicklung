@@ -132,10 +132,10 @@ anchor_left = 0.96300006
 anchor_top = 0.30900002
 anchor_right = 0.96300006
 anchor_bottom = 0.30900002
-offset_left = -445.3761
-offset_top = -25.23201
-offset_right = -0.37609863
-offset_bottom = 24.76799
+offset_left = -1201.3761
+offset_top = 412.768
+offset_right = -756.3761
+offset_bottom = 462.768
 grow_horizontal = 0
 grow_vertical = 2
 script = ExtResource("6_dviy5")
@@ -147,13 +147,6 @@ offset_top = -33.0
 offset_right = 410.0
 offset_bottom = 7.0
 alignment = 2
-
-[node name="TrackLabel" type="Label" parent="CanvasLayer/Panel/MusicPlayerUI/HBoxContainer" unique_id=514173573]
-layout_mode = 2
-theme_override_font_sizes/font_size = 20
-text = "Track - Artist"
-horizontal_alignment = 2
-vertical_alignment = 1
 
 [node name="Record" type="TextureRect" parent="CanvasLayer/Panel/MusicPlayerUI/HBoxContainer" unique_id=280374176]
 layout_mode = 2
@@ -168,6 +161,13 @@ text = " ◀ "
 [node name="NextButton" type="Button" parent="CanvasLayer/Panel/MusicPlayerUI/HBoxContainer" unique_id=755078831]
 layout_mode = 2
 text = " ▶ "
+
+[node name="TrackLabel" type="Label" parent="CanvasLayer/Panel/MusicPlayerUI/HBoxContainer" unique_id=514173573]
+layout_mode = 2
+theme_override_font_sizes/font_size = 20
+text = "Track - Artist"
+horizontal_alignment = 2
+vertical_alignment = 1
 
 [node name="PauseMenu" type="Panel" parent="CanvasLayer" unique_id=147681151]
 visible = false
