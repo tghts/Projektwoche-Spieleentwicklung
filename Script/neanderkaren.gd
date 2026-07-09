@@ -1,7 +1,5 @@
 extends Enemy
 
-
-
 @onready var trampolin: Area2D = $"../Trampolin/Trampolin"
 @onready var trampolin_2: Area2D = $"../Trampolin/Trampolin2"
 @onready var trampolin_3: Area2D = $"../Trampolin/Trampolin3"
@@ -12,8 +10,10 @@ extends Enemy
 @onready var character: CharacterBody2D = $"../Character"
 var sprint_state:bool
 var velocityc_x = 200
-var lives:int = 3
+var lives:int = 4
 
+@export var dash_cooldown := 5.0
+@export var dash_timer := 0.0
 
 func _process(_delta: float) -> void:
 	animated_sprite_2d.animation = "walk"
@@ -27,8 +27,10 @@ func _process(_delta: float) -> void:
 	
 	if (sprint_state):
 		sprint_angriff()
-		
-	if (Input.is_action_just_pressed("use")):
+	
+	dash_timer -= _delta
+	if dash_timer <= 0.0:
+		dash_timer = dash_cooldown
 		sprint_state = true
 		
 func sprint_angriff():
@@ -69,3 +71,6 @@ func _on_damage_zone_body_entered(body: Node2D) -> void:
 
 func deacrese_lives():
 	lives -= 1
+	
+func get_lives() -> int:
+	return lives

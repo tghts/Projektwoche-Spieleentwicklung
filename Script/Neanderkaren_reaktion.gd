@@ -5,9 +5,11 @@ extends CollisionShape2D
 func _on_rechts_body_entered(body: Node2D) -> void:
 	if (body.name == "Neanderkaren"):
 		neanderkaren.deacrese_lives()
-		SoundManager.play("bonk")
+		if (body.get_lives() != 4):
+			SoundManager.play("bonk")
 
 func _on_links_body_entered(body: Node2D) -> void:
 	if (body.name == "Neanderkaren"):
 		neanderkaren.deacrese_lives()
-		SoundManager.play("bonk")
+		if(body.get_lives() != 4):
+			SoundManager.play("bonk")
