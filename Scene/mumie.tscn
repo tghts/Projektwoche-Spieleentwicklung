@@ -2,6 +2,7 @@
 
 [ext_resource type="PackedScene" uid="uid://diyk3jovtitqb" path="res://Scene/enemy.tscn" id="1_j0qv0"]
 [ext_resource type="Texture2D" uid="uid://bub1d2225trut" path="res://Asset/Enemy/Mumie_00.svg" id="2_ka8eo"]
+[ext_resource type="Script" uid="uid://ddg6ryg68nffn" path="res://Script/mumie.gd" id="2_khlg1"]
 [ext_resource type="Texture2D" uid="uid://bxyglqne377kb" path="res://Asset/Enemy/Mumie_01laufen.svg" id="3_khlg1"]
 [ext_resource type="Texture2D" uid="uid://cwflf0g8jxuli" path="res://Asset/Enemy/Mumie_02laufen.svg" id="4_1cd3m"]
 
@@ -23,7 +24,7 @@ animations = [{
 }]
 
 [node name="Mumie" unique_id=1833400236 instance=ExtResource("1_j0qv0")]
-script = null
+script = ExtResource("2_khlg1")
 
 [node name="AnimatedSprite2D" parent="." index="0" unique_id=30176725]
 texture_filter = 1
