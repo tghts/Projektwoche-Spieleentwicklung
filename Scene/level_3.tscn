@@ -1474,18 +1474,18 @@ texture_filter = 1
 position = Vector2(-4, 84)
 
 [node name="Hintergrund farbe" type="TextureRect" parent="Background" unique_id=1852944832]
-offset_left = -1375.0
-offset_top = -4422.0
-offset_right = 21206.0
-offset_bottom = 17.0
+offset_left = -2369.0
+offset_top = -4410.0
+offset_right = 22460.0
+offset_bottom = 29.0
 texture = ExtResource("1_s6htl")
 metadata/_edit_lock_ = true
 
 [node name="Schwarzer Hintergrund" type="TextureRect" parent="Background" unique_id=537653461]
-offset_left = -2691.0
-offset_top = 124.0
-offset_right = 20965.0
-offset_bottom = 1658.0
+offset_left = -2725.0
+offset_top = 16.0
+offset_right = 22491.0
+offset_bottom = 1550.0
 texture = ExtResource("1_k8ar7")
 stretch_mode = 1
 metadata/_edit_lock_ = true
@@ -1494,7 +1494,7 @@ metadata/_edit_lock_ = true
 texture_filter = 1
 offset_left = -1287.0
 offset_top = -470.0
-offset_right = 21142.0
+offset_right = 22454.0
 offset_bottom = 80.0
 texture = ExtResource("1_3a2ac")
 stretch_mode = 1
