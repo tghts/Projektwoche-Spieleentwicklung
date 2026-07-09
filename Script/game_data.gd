@@ -20,7 +20,7 @@ func reset_character_hp():
 	character_hp_changed.emit(character_hp)
 	
 func kill_character():
-	#SoundManager.play("game_over")
+	SoundManager.play("game_over")
 	reset_character_hp()
 	get_tree().change_scene_to_file("res://Scene/game_over_screen.tscn")
 
