@@ -3,6 +3,7 @@ extends Node
 
 func _ready():
 	$Startknopf.grab_focus()
+	MusicManager.play_title_music()
 
 func _on_startknopf_pressed() -> void:
 	SoundManager.play("click")

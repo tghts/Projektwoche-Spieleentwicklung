@@ -4,6 +4,7 @@ extends Node
 
 func _ready() -> void:
 	$Music.grab_focus()
+	MusicManager.play_title_music()
 	music.value = GameData.music_volume
 	sound_effects.value = GameData.sound_effects_volume
 
