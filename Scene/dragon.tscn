@@ -2,6 +2,7 @@
 
 [ext_resource type="PackedScene" uid="uid://diyk3jovtitqb" path="res://Scene/enemy.tscn" id="1_8e63s"]
 [ext_resource type="Texture2D" uid="uid://c3iuh6qwacf15" path="res://Asset/Enemy/DRACHE.png" id="2_85y56"]
+[ext_resource type="Script" uid="uid://bpq27idra3vs3" path="res://Script/dragon.gd" id="2_g2uo6"]
 [ext_resource type="Texture2D" uid="uid://c1ovvwae0a474" path="res://Asset/Enemy/DRACHE_2.png" id="3_g2uo6"]
 [ext_resource type="Texture2D" uid="uid://cqtipgirh1mka" path="res://Asset/Enemy/DRACHE_3.png" id="4_mn6e4"]
 
@@ -29,6 +30,7 @@ radius = 74.0152
 radius = 70.0
 
 [node name="dragon" unique_id=1833400236 instance=ExtResource("1_8e63s")]
+script = ExtResource("2_g2uo6")
 
 [node name="AnimatedSprite2D" parent="." index="0" unique_id=30176725]
 sprite_frames = SubResource("SpriteFrames_3rcer")
