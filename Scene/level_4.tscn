@@ -5878,6 +5878,9 @@ physics_layer_0/collision_layer = 1
 sources/0 = SubResource("TileSetAtlasSource_ewc76")
 sources/1 = SubResource("TileSetAtlasSource_u0nsa")
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1apdv"]
+size = Vector2(2893.5, 71)
+
 [node name="Level4" type="Node2D" unique_id=543989263]
 
 [node name="Background" type="Node2D" parent="." unique_id=1316054504]
@@ -5996,6 +5999,13 @@ position = Vector2(5377, -318)
 [node name="Trampolin7" parent="Zahnräder" unique_id=2106180752 instance=ExtResource("12_yjmqo")]
 position = Vector2(5540, -519)
 
+[node name="Zahnrad16" parent="Zahnräder" unique_id=1879800194 instance=ExtResource("11_sjlp6")]
+position = Vector2(1967, -259)
+
 [node name="InGameUI" parent="." unique_id=422732831 instance=ExtResource("5_kxdlq")]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=283812958]
+position = Vector2(2066, -11)
+shape = SubResource("RectangleShape2D_1apdv")
 
 [connection signal="body_entered" from="Portal" to="Portal" method="_on_body_entered"]
