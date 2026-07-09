@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_1" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 752 550">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #7da084;
+      }
+
+      .cls-2 {
+        fill: #728775;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3 {
+        fill: #abc9b0;
+      }
+    </style>
+  </defs>
+  <rect class="cls-3" y="0" width="752" height="550"/>
+  <g>
+    <g>
+      <rect class="cls-1" y="0" width="57" height="71"/>
+      <rect class="cls-1" y="284" width="57" height="71"/>
+      <rect class="cls-1" y="142" width="57" height="71"/>
+      <rect class="cls-1" y="426" width="57" height="71"/>
+    </g>
+    <rect class="cls-1" x="57" y="71" width="71" height="71"/>
+    <rect class="cls-1" x="57" y="355" width="71" height="71"/>
+    <rect class="cls-1" x="57" y="213" width="71" height="71"/>
+    <rect class="cls-1" x="57" y="497" width="71" height="53"/>
+    <g>
+      <rect class="cls-1" x="128" y="0" width="71" height="71"/>
+      <rect class="cls-1" x="128" y="284" width="71" height="71"/>
+      <rect class="cls-1" x="128" y="142" width="71" height="71"/>
+      <rect class="cls-1" x="128" y="426" width="71" height="71"/>
+    </g>
+    <g>
+      <rect class="cls-1" x="270" y="0" width="71" height="71"/>
+      <rect class="cls-1" x="270" y="284" width="71" height="71"/>
+      <rect class="cls-1" x="270" y="142" width="71" height="71"/>
+      <rect class="cls-1" x="270" y="426" width="71" height="71"/>
+    </g>
+    <g>
+      <rect class="cls-1" x="341" y="71" width="71" height="71"/>
+      <rect class="cls-1" x="341" y="355" width="71" height="71"/>
+      <rect class="cls-1" x="341" y="213" width="71" height="71"/>
+      <rect class="cls-1" x="341" y="497" width="71" height="53"/>
+    </g>
+    <g>
+      <rect class="cls-1" x="412" y="0" width="71" height="71"/>
+      <rect class="cls-1" x="412" y="284" width="71" height="71"/>
+      <rect class="cls-1" x="412" y="142" width="71" height="71"/>
+      <rect class="cls-1" x="412" y="426" width="71" height="71"/>
+    </g>
+    <g>
+      <rect class="cls-1" x="199" y="71" width="71" height="71"/>
+      <rect class="cls-1" x="199" y="355" width="71" height="71"/>
+      <rect class="cls-1" x="199" y="213" width="71" height="71"/>
+      <rect class="cls-1" x="199" y="497" width="71" height="53"/>
+    </g>
+    <g>
+      <rect class="cls-1" x="483" y="71" width="71" height="71"/>
+      <rect class="cls-1" x="483" y="355" width="71" height="71"/>
+      <rect class="cls-1" x="483" y="213" width="71" height="71"/>
+      <rect class="cls-1" x="483" y="497" width="71" height="53"/>
+    </g>
+    <g>
+      <rect class="cls-1" x="554" y="0" width="71" height="71"/>
+      <rect class="cls-1" x="554" y="284" width="71" height="71"/>
+      <rect class="cls-1" x="554" y="142" width="71" height="71"/>
+      <rect class="cls-1" x="554" y="426" width="71" height="71"/>
+    </g>
+    <g>
+      <rect class="cls-1" x="625" y="71" width="71" height="71"/>
+      <rect class="cls-1" x="625" y="355" width="71" height="71"/>
+      <rect class="cls-1" x="625" y="213" width="71" height="71"/>
+      <rect class="cls-1" x="625" y="497" width="71" height="53"/>
+    </g>
+    <g>
+      <rect class="cls-1" x="696" width="56" height="71"/>
+      <rect class="cls-1" x="696" y="284" width="56" height="71"/>
+      <rect class="cls-1" x="696" y="142" width="56" height="71"/>
+      <rect class="cls-1" x="696" y="426" width="56" height="71"/>
+    </g>
+  </g>
+  <polygon class="cls-2" points="126.36 102.62 83.08 92.53 60.11 130.57 56.33 86.29 13.05 76.2 54 58.92 50.22 14.64 79.31 48.25 120.25 30.97 97.28 69.01 126.36 102.62"/>
+  <polygon class="cls-2" points="192.31 88.97 168.16 83.55 155.03 105.3 153.23 80.21 129.08 74.8 152.12 64.7 150.33 39.61 166.36 58.46 189.41 48.37 176.27 70.11 192.31 88.97"/>
+  <polygon class="cls-2" points="699.5 530.48 669.96 497.27 629.25 515.11 651.7 476.75 622.16 443.55 665.58 453.05 688.03 414.69 692.41 458.92 735.82 468.42 695.12 486.25 699.5 530.48"/>
+  <polygon class="cls-2" points="559.2 521.05 561.28 490.41 532.56 478.76 562.57 471.47 564.66 440.83 581.12 466.97 611.14 459.68 591.3 483.12 607.76 509.25 579.04 497.61 559.2 521.05"/>
+  <polygon class="cls-2" points="667.88 393.13 673.93 362.93 646.3 346.97 677.67 344.27 683.72 314.07 697.06 342.59 728.44 339.88 705.31 360.22 718.65 388.75 691.01 372.79 667.88 393.13"/>
+</svg>
