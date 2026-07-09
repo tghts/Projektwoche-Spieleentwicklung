@@ -5,9 +5,10 @@ extends Panel
 func _ready() -> void:
 	process_mode = Node.PROCESS_MODE_WHEN_PAUSED
 
-func _unhandled_input(event: InputEvent) -> void:
+func _input(event):
 	if event.is_action_pressed("pause"):
 		toggle()
+		get_viewport().set_input_as_handled()
 
 func toggle():
 	SoundManager.play("pause")

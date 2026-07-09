@@ -15,7 +15,7 @@ var Mittelalter_heartbar := load("res://Asset/UI/Mittelalter_heartbar.svg")
 var Ägypten_heartbar := load("res://Asset/UI/Ägypten_heartbar.svg")
 var Altsteinzeit_heartbar := load("res://Asset/UI/Altsteinzeit_heartbar.svg")
 
-func _unhandled_input(event: InputEvent) -> void:
+func _input(event: InputEvent) -> void:
 	if event.is_action_pressed("pause"):
 		pause_menu.toggle()
 
