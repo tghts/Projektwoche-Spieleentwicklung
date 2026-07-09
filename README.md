@@ -24,9 +24,14 @@ In *Sage Versus Time* durchläuft der Hauptcharakter **vier Epochen der Menschhe
 Projekt von **CMB** und **RBK** im Rahmen der Projektwoche.
 
 **Contributors:**
-- [tghts](https://github.com/tghts)
-- [Lucas B](https://github.com/Linuxuser41230)
-- [Simon](https://github.com/vailim)
+
+
+| # | Devs | Artworks & Style |
+|---|--------|------------------|
+| 1 | [Lucas B](https://github.com/Linuxuser41230) | Anna T |
+| 2 | [Simon](https://github.com/vailim) | Stella G |
+| 3 | [tghts](https://github.com/tghts) | Anna S |
+| 4 |  | Maja T |
 
 ## 🛠️ Technologie
 
