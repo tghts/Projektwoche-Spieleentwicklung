@@ -3,8 +3,7 @@ extends Node
 @onready var sound_effects: HSlider = $SoundEffects
 
 func _ready() -> void:
-	$Music.grab_focus()
-	MusicManager.play_title_music()
+	music.grab_focus()
 	music.value = GameData.music_volume
 	sound_effects.value = GameData.sound_effects_volume
 

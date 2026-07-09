@@ -2,6 +2,7 @@ extends Node
 @onready var texture_rect: TextureRect = $CanvasLayer/Panel/TextureRect
 @onready var herz_rahmen: TextureRect = $CanvasLayer/Panel/HerzRahmen
 @onready var pause_menu: Panel = $CanvasLayer/PauseMenu
+@onready var zahnrad_count: Label = $CanvasLayer/Panel/ZahnradCount
 
 # Lädt die Bilder in diesen Variabeln. Diese haben den Typ Texture2D
 var KI_Epoche := load("res://Asset/UI/Textschild KI-Epoche 02.svg")
@@ -16,7 +17,7 @@ var Altsteinzeit_heartbar := load("res://Asset/UI/Altsteinzeit_heartbar.svg")
 
 func _unhandled_input(event: InputEvent) -> void:
 	if event.is_action_pressed("pause"):
-		$CanvasLayer/PauseMenu.toggle()
+		pause_menu.toggle()
 
 # Diese Methode wird immer bei Start einer Scene einmal genutzt.
 func _ready() -> void:
@@ -24,7 +25,7 @@ func _ready() -> void:
 	print(get_tree().current_scene.name) # Debugin Zeugs
 	
 	# Zahnrad-Zähler
-	$CanvasLayer/Panel/ZahnradCount.text = str(GameData.zahnrad_count)
+	zahnrad_count.text = str(GameData.zahnrad_count)
 	GameData.zahnrad_count_changed.connect(_on_zahnrad_count_changed)
 	
 	# Character-HP-Zähler
@@ -104,7 +105,7 @@ func change_character_hp(hp: int):
 			$CanvasLayer/Panel/Heart5.show()
 
 func _on_zahnrad_count_changed(count: int):
-	$CanvasLayer/Panel/ZahnradCount.text = str(count)
+	zahnrad_count.text = str(count)
 
 func _on_character_hp_changed(hp: int):
 	change_character_hp(hp)
