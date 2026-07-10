@@ -10,9 +10,13 @@ config_version=5
 
 [application]
 
-config/name="SageVersusTimes"
+config/name="SageVersusTime"
 run/main_scene="uid://leg0e8417gi"
 config/features=PackedStringArray("4.7", "Forward Plus")
+boot_splash/bg_color=Color(0.14930186, 0.11666543, 0.23825255, 1)
+boot_splash/stretch_mode=0
+boot_splash/image="uid://b6h52m1fgjgls"
+boot_splash/minimum_display_time=2000
 
 [autoload]
 
