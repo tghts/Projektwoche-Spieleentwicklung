@@ -10,7 +10,7 @@ Ein 2D-Platformer in **Godot**, entstanden während der einwöchigen gemeinsamen
 
 ## 🎮 Über das Spiel
 
-In *Sage Versus Time* durchläuft der Hauptcharakter names Sage **vier Epochen der Menschheits- bzw. KI-Geschichte** – von dem Cyberspace bis in die Urzeit. Jede Epoche ist ein eigenes Level mit eigenem visuellem Stil, eigenen Gegnern/Hindernissen und eigener musikalischer Untermalung. Ziel ist es, spielerisch die Rückentwicklung Künstlicher Intelligenz erlebbar zu machen.
+In *Sage Versus Time* durchläuft der Hauptcharakter names Sage **vier Epochen der Menschheits- bzw. KI-Geschichte** – von dem Cyberspace bis in die Urzeit. Jede Epoche ist ein eigenes Level mit eigenem visuellem Stil, eigenen Gegnern/Hindernissen und musikalischer Untermalung. Ziel ist es, spielerisch die Rückentwicklung Künstlicher Intelligenz erlebbar zu machen.
 
 ### Die vier Epochen
 
