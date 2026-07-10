@@ -23,6 +23,17 @@ In *Sage Versus Time* durchläuft der Hauptcharakter names Sage **vier Epochen d
 
 > Die KI hat die Menscheit übernommen, und schickt den Hauptcharacter Sage in einen Ritt durch die Epochen – mit Hindernissen, Portalen, und Secrets. Als letzte Überlebende der Neonstadt reist sie durch vier Zeitalter, mit dem Ziel der KI zu entkommen.
 
+### Input
+
+| Action | Keyboard | Gamepad |
+|--------|----------|---------|
+| Move left | A | Dpad / left stick ← |
+| Move right | D | Dpad / left stick → |
+| Jump | Space | A (XBox layou) |
+| Pause | Escape / Enter | Start |
+| Next track | Page down | RB |
+| Previous track | Page up | LB |
+
 ## 👥 Team
 
 Projekt von **CMB** und **RBK** im Rahmen der Projektwoche.
