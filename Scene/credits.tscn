@@ -365,38 +365,38 @@ horizontal_alignment = 1
 vertical_alignment = 1
 metadata/_edit_lock_ = true
 
-[node name="1" type="Label" parent="Credits/HBoxContainer/Artist/VBoxContainer" unique_id=1337598553]
+[node name="Maja" type="Label" parent="Credits/HBoxContainer/Artist/VBoxContainer" unique_id=1337598553]
 texture_filter = 1
 layout_mode = 2
 theme_override_font_sizes/font_size = 40
-text = "1"
+text = "Maja"
 horizontal_alignment = 1
 vertical_alignment = 1
 metadata/_edit_lock_ = true
 
-[node name="2" type="Label" parent="Credits/HBoxContainer/Artist/VBoxContainer" unique_id=1590402246]
+[node name="Stella" type="Label" parent="Credits/HBoxContainer/Artist/VBoxContainer" unique_id=1590402246]
 texture_filter = 1
 layout_mode = 2
 theme_override_font_sizes/font_size = 40
-text = "2"
+text = "Stella"
 horizontal_alignment = 1
 vertical_alignment = 1
 metadata/_edit_lock_ = true
 
-[node name="3" type="Label" parent="Credits/HBoxContainer/Artist/VBoxContainer" unique_id=877088355]
+[node name="Marian" type="Label" parent="Credits/HBoxContainer/Artist/VBoxContainer" unique_id=877088355]
 texture_filter = 1
 layout_mode = 2
 theme_override_font_sizes/font_size = 40
-text = "3"
+text = "Marian"
 horizontal_alignment = 1
 vertical_alignment = 1
 metadata/_edit_lock_ = true
 
-[node name="4" type="Label" parent="Credits/HBoxContainer/Artist/VBoxContainer" unique_id=1210635868]
+[node name="Nicola" type="Label" parent="Credits/HBoxContainer/Artist/VBoxContainer" unique_id=1210635868]
 texture_filter = 1
 layout_mode = 2
 theme_override_font_sizes/font_size = 40
-text = "4"
+text = "Nicola"
 horizontal_alignment = 1
 vertical_alignment = 1
 metadata/_edit_lock_ = true
