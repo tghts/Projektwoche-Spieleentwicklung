@@ -41,13 +41,12 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_8ko5r"]
-size = Vector2(66, 122)
+size = Vector2(52, 117)
 
 [node name="Character" type="CharacterBody2D" unique_id=983975606]
 collision_layer = 3
 collision_mask = 3
 script = ExtResource("1_yhxg3")
-healt_points = null
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1485759793]
 texture_filter = 1
@@ -56,5 +55,5 @@ animation = &"jumping"
 autoplay = "idle"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1179163459]
-position = Vector2(0, -2)
+position = Vector2(1, 0.5)
 shape = SubResource("RectangleShape2D_8ko5r")

@@ -74,7 +74,7 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_8ko5r"]
-size = Vector2(66, 122)
+size = Vector2(51, 115)
 
 [node name="Character" type="CharacterBody2D" unique_id=983975606]
 script = ExtResource("1_5hsod")
@@ -86,5 +86,5 @@ animation = &"jumping"
 autoplay = "idle"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1179163459]
-position = Vector2(0, -2)
+position = Vector2(-0.5, 1.5)
 shape = SubResource("RectangleShape2D_8ko5r")

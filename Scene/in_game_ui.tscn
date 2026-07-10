@@ -8,6 +8,7 @@
 [ext_resource type="Script" uid="uid://csk5iarvv6l30" path="res://Script/music_player_ui.gd" id="6_dviy5"]
 [ext_resource type="Script" uid="uid://dqccjm2p2luw5" path="res://Script/pause_menu.gd" id="6_o5tdw"]
 [ext_resource type="Texture2D" uid="uid://bmt0n6lrbv33r" path="res://Asset/UI/vinyl_record.png" id="7_brp0j"]
+[ext_resource type="Script" uid="uid://db1s5lxpwdj8n" path="res://Script/Timer.gd" id="8_wckav"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_quy4v"]
 
@@ -171,6 +172,27 @@ theme_override_font_sizes/font_size = 20
 text = "Track - Artist"
 horizontal_alignment = 2
 vertical_alignment = 1
+
+[node name="Timer" type="Control" parent="CanvasLayer/Panel" unique_id=1545956041]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Label" type="Label" parent="CanvasLayer/Panel/Timer" unique_id=1239324251]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 11.093
+anchor_bottom = 6.6450005
+offset_left = 867.0
+offset_top = 590.0
+offset_right = 695.27997
+offset_bottom = 363.19998
+theme_override_font_sizes/font_size = 25
+text = "00m : 00s"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("8_wckav")
 
 [node name="PauseMenu" type="Panel" parent="CanvasLayer" unique_id=147681151]
 visible = false
