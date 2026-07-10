@@ -1,8 +1,14 @@
 extends Node
+
+const SETTINGS_SCENE := preload("res://Scene/settings.tscn")
+
+@onready var canvas_layer: CanvasLayer = $CanvasLayer
 @onready var texture_rect: TextureRect = $CanvasLayer/Panel/TextureRect
 @onready var herz_rahmen: TextureRect = $CanvasLayer/Panel/HerzRahmen
-@onready var pause_menu: Panel = $CanvasLayer/PauseMenu
+@onready var pause_menu = $CanvasLayer/PauseMenu
 @onready var zahnrad_count: Label = $CanvasLayer/Panel/ZahnradCount
+
+var settings_menu = null
 
 # Lädt die Bilder in diesen Variabeln. Diese haben den Typ Texture2D
 var KI_Epoche := load("res://Asset/UI/Textschild KI-Epoche 02.svg")
@@ -21,7 +27,10 @@ func _input(event: InputEvent) -> void:
 
 # Diese Methode wird immer bei Start einer Scene einmal genutzt.
 func _ready() -> void:
-	var current_scene: String = get_tree().current_scene.name # Holt sich den Namen des obersten Nodes aus der Scene.
+	pause_menu.settings_requested.connect(_open_settings)
+
+	var current_scene: String = get_tree().current_scene.name
+
 	print(get_tree().current_scene.name) # Debugin Zeugs
 	
 	# Zahnrad-Zähler
@@ -109,3 +118,24 @@ func _on_zahnrad_count_changed(count: int):
 
 func _on_character_hp_changed(hp: int):
 	change_character_hp(hp)
+
+func _open_settings() -> void:
+	if is_instance_valid(settings_menu):
+		return
+
+	pause_menu.hide_for_settings()
+
+	settings_menu = SETTINGS_SCENE.instantiate()
+	settings_menu.opened_from_pause = true
+	settings_menu.process_mode = Node.PROCESS_MODE_WHEN_PAUSED
+
+	settings_menu.back_requested.connect(_return_to_pause_menu)
+	canvas_layer.add_child(settings_menu)
+
+func _return_to_pause_menu() -> void:
+	if is_instance_valid(settings_menu):
+		settings_menu.process_mode = Node.PROCESS_MODE_DISABLED
+		settings_menu.queue_free()
+
+	settings_menu = null
+	pause_menu.show_after_settings()
