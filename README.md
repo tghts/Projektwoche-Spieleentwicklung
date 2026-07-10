@@ -16,7 +16,7 @@ In *Sage Versus Time* durchläuft der Hauptcharakter names Sage **vier Epochen d
 
 | # | Epoche | Thema / Setting |
 |---|--------|------------------|
-| 1 | Neontown | Moderne / zukünftige KI, vernetzte Welt und fliegende Autos |
+| 1 | Neonstadt | Moderne / zukünftige KI, vernetzte Welt und fliegende Autos |
 | 2 | Mittelalterliche Stadt | Es gibt Fässer und Heu |
 | 3 | Wüste | Die Mumien sowie die Sphinx besichtigen |
 | 4 | Urzeit | Neandertaler |
@@ -44,7 +44,7 @@ Projekt von **CMB** und **RBK** im Rahmen der Projektwoche.
 | # | Devs | Artworks & Style |
 |---|--------|------------------|
 | 1 | [Lucas B](https://github.com/Linuxuser41230) | Marian S |
-| 2 | [Simon C] | Stella G |
+| 2 | Simon C | Stella G |
 | 3 | [tghts](https://github.com/tghts) | Anna S |
 | 4 |  | Maja T |
 
