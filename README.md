@@ -2,7 +2,7 @@
 
 **Von der Urzeit-Keule bis zum Cyber-Netz – KI in verschiedenen Zeitaltern**
 
-Ein 2D-Plattformer in **Godot**, entstanden während der einwöchigen gemeinsamen Projektwoche des **Carl-Miele-Berufskollegs (CMB)** und des **Reckenberg-Berufskollegs (RBK)**.
+Ein 2D-Platformer in **Godot**, entstanden während der einwöchigen gemeinsamen Projektwoche des **Carl-Miele-Berufskollegs (CMB)** und des **Reckenberg-Berufskollegs (RBK)**.
 
 
 <img width="630" height="500" alt="grafik" src="https://github.com/user-attachments/assets/0b4f0773-ac8f-4424-89a8-eb6111b15b9e" />
@@ -16,12 +16,12 @@ In *Sage Versus Time* durchläuft der Hauptcharakter names Sage **vier Epochen d
 
 | # | Epoche | Thema / Setting |
 |---|--------|------------------|
-| 1 | Neontown | Moderne / zukünftige KI, vernetzte Welt und Fliegende Autos |
+| 1 | Neontown | Moderne / zukünftige KI, vernetzte Welt und fliegende Autos |
 | 2 | Mittelalterliche Stadt | Es gibt Fässer und Heu |
 | 3 | Wüste | Die Mumien sowie die Sphinx besichtigen |
-| 4 | Urzeit | Neandertaler |
+| 4 | Urzeit | Neanderthaler |
 
-> Die KI hat die Menscheit übernommen, und schickt den Hauptcharacter Sage in einen ritt durch die Epochen - mit Hindernissen, Portalen, und Secrets. Als Letzte überlebende der Neonstadt reist sie durch vier Zeitalter, mit dem Ziel der AI zu entkommen.
+> Die KI hat die Menscheit übernommen, und schickt den Hauptcharacter Sage in einen Ritt durch die Epochen – mit Hindernissen, Portalen, und Secrets. Als letzte Überlebende der Neonstadt reist sie durch vier Zeitalter, mit dem Ziel der KI zu entkommen.
 
 ## 👥 Team
 
@@ -33,7 +33,7 @@ Projekt von **CMB** und **RBK** im Rahmen der Projektwoche.
 | # | Devs | Artworks & Style |
 |---|--------|------------------|
 | 1 | [Lucas B](https://github.com/Linuxuser41230) | Marian S |
-| 2 | [Simon](https://github.com/vailim) | Stella G |
+| 2 | [Simon C](https://github.com/vailim) | Stella G |
 | 3 | [tghts](https://github.com/tghts) | Anna S |
 | 4 |  | Maja T |
 
@@ -68,8 +68,8 @@ Projektwoche-Spieleentwicklung/
 
 Alternativ steht unter [Releases](https://github.com/tghts/Projektwoche-Spieleentwicklung/releases) ein Precompilter Build jeweils für Linus und Windoofws zur Verfügung.
 
-Alternativ2 ist das Spiel auch auf [itchio](https://sageversustime.itch.io/svt).
+Auch ist das Spiel auf [itchio](https://sageversustime.itch.io/svt) verfügbar.
 
 ## Lizenz
 
-Schulprojekt – nur für Bildungszwecke, nix komerzielles.
+Schulprojekt – nur für Bildungszwecke, nix Kommerzielles.
