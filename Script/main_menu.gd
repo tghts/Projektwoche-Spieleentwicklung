@@ -2,6 +2,7 @@ extends Node
 @onready var sphinx: Control = $Sphinx
 @onready var start: Button = $Startknopf
 
+var level_selector_button_presses: int = 0
 func _ready():
 	start.grab_focus()
 
@@ -33,3 +34,8 @@ func _on_abc_toggled(toggled_on: bool) -> void:
 func _on_credits_pressed() -> void:
 	SoundManager.play("click")
 	get_tree().change_scene_to_file("res://Scene/credits.tscn")
+
+func _on_level_selection_pressed() -> void:
+	level_selector_button_presses += 1
+	if (level_selector_button_presses == 3):
+		get_tree().change_scene_to_file("res://Scene/level_selector.tscn")

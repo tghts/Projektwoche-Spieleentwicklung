@@ -1,0 +1,81 @@
+[gd_scene format=3 uid="uid://dtjk0sx5t6av0"]
+
+[ext_resource type="Script" uid="uid://d1q2swcp6n4nf" path="res://Script/level_selector.gd" id="1_e4ave"]
+[ext_resource type="Texture2D" uid="uid://dxs02ihew18v1" path="res://Asset/Background/Black_background.png" id="1_o3uxb"]
+
+[node name="Level_selector" type="Node" unique_id=1010687569]
+script = ExtResource("1_e4ave")
+
+[node name="Level_selector" type="Panel" parent="." unique_id=450814937]
+texture_filter = 1
+offset_right = 40.0
+offset_bottom = 40.0
+metadata/_edit_lock_ = true
+
+[node name="Background" type="Control" parent="Level_selector" unique_id=1651150325]
+texture_filter = 1
+anchors_preset = 0
+offset_right = 1152.0
+offset_bottom = 648.0
+
+[node name="TextEdit" type="TextureRect" parent="Level_selector/Background" unique_id=48464205]
+texture_filter = 1
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_o3uxb")
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Level_selector" unique_id=272659616]
+texture_filter = 1
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 367.0
+offset_top = 230.0
+offset_right = 703.0
+offset_bottom = 356.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Level1-2" type="VBoxContainer" parent="Level_selector/HBoxContainer" unique_id=1370537632]
+layout_mode = 2
+metadata/_edit_lock_ = true
+
+[node name="Level1" type="Button" parent="Level_selector/HBoxContainer/Level1-2" unique_id=109317323]
+layout_mode = 2
+theme_override_font_sizes/font_size = 35
+text = "Level 1"
+metadata/_edit_lock_ = true
+
+[node name="Level2" type="Button" parent="Level_selector/HBoxContainer/Level1-2" unique_id=133351264]
+layout_mode = 2
+theme_override_font_sizes/font_size = 35
+text = "Level 2"
+metadata/_edit_lock_ = true
+
+[node name="Level3-4" type="VBoxContainer" parent="Level_selector/HBoxContainer" unique_id=1834203259]
+layout_mode = 2
+metadata/_edit_lock_ = true
+
+[node name="Level3" type="Button" parent="Level_selector/HBoxContainer/Level3-4" unique_id=319739944]
+layout_mode = 2
+theme_override_font_sizes/font_size = 35
+text = "Level 3"
+metadata/_edit_lock_ = true
+
+[node name="Level4" type="Button" parent="Level_selector/HBoxContainer/Level3-4" unique_id=400147949]
+layout_mode = 2
+theme_override_font_sizes/font_size = 35
+text = "Level 4"
+metadata/_edit_lock_ = true
+
+[connection signal="pressed" from="Level_selector/HBoxContainer/Level1-2/Level1" to="." method="_on_level_1_pressed"]
+[connection signal="pressed" from="Level_selector/HBoxContainer/Level1-2/Level2" to="." method="_on_level_2_pressed"]
+[connection signal="pressed" from="Level_selector/HBoxContainer/Level3-4/Level3" to="." method="_on_level_3_pressed"]
+[connection signal="pressed" from="Level_selector/HBoxContainer/Level3-4/Level4" to="." method="_on_level_4_pressed"]
