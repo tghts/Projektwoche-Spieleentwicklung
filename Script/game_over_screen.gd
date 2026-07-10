@@ -10,6 +10,7 @@ func _ready() -> void:
 
 func _on_start_again_pressed() -> void:
 	SoundManager.play("click")
+	GameData.reset_character_hp()
 	GameData.reset_zahnrad()
 	get_tree().change_scene_to_file("res://Scene/level_1.scn")
 

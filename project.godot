@@ -12,7 +12,7 @@ config_version=5
 
 config/name="SageVersusTime"
 config/description="In Sage Versus Time durchläuft der Hauptcharakter names Sage vier Epochen der Menschheits- bzw. KI-Geschichte – von dem Cyberspace bis in die Urzeit. Jede Epoche ist ein eigenes Level mit eigenem visuellem Stil, eigenen Gegnern/Hindernissen unds musikalischer Untermalung. Ziel ist es, spielerisch die Rückentwicklung Künstlicher Intelligenz erlebbar zu machen. Das Spiel ist während der einwöchigen gemeinsamen Projektwoche des Carl-Miele-Berufskollegs (CMB) und des Reckenberg-Berufskollegs (RBK) entstanden."
-config/version="1.3"
+config/version="1.4"
 run/main_scene="uid://leg0e8417gi"
 config/features=PackedStringArray("4.7", "Forward Plus")
 boot_splash/bg_color=Color(0.14930186, 0.11666543, 0.23825255, 1)

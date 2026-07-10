@@ -30,7 +30,6 @@ func reset_character_hp():
 
 func kill_character():
 	SoundManager.play("game_over", 0.6)
-	reset_character_hp()
 	get_tree().change_scene_to_file.call_deferred("res://Scene/game_over_screen.tscn")
 
 func add_zahnrad():
