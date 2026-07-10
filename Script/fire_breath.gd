@@ -1,6 +1,6 @@
 extends CharacterBody2D
 
-@export var speed: int = 300.0
+@export var speed: int = 300
 
 func _physics_process(delta: float) -> void:
 	position += transform.x * speed * delta

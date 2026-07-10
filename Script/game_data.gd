@@ -8,6 +8,9 @@ var sound_effects_volume := 1.0
 var character_hp := 5
 var zahnrad_count := 0
 
+func _ready() -> void:
+	MusicManager.play_playlist("title_screen")
+
 func add_character_hp():
 	if character_hp < 5:
 		character_hp += 1

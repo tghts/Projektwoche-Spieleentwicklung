@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="Playlist" format=3 uid="uid://db5i48146y6w8"]
+
+[ext_resource type="Script" uid="uid://caylimcj1m0eu" path="res://Script/playlist.gd" id="1_fhpok"]
+[ext_resource type="AudioStream" uid="uid://dw77lscod6oe2" path="res://Asset/Musik/credits/Holy Sanctuary - HydroGene.wav" id="2_iggjb"]
+
+[resource]
+script = ExtResource("1_fhpok")
+tracks = Array[AudioStream]([ExtResource("2_iggjb")])
+metadata/_custom_type_script = "uid://caylimcj1m0eu"

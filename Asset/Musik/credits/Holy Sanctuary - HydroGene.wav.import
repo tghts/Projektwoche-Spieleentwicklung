@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dw77lscod6oe2"
+path="res://.godot/imported/Holy Sanctuary - HydroGene.wav-d38b87c226d871b303e921a950e6ed7f.sample"
+
+[deps]
+
+source_file="res://Asset/Musik/credits/Holy Sanctuary - HydroGene.wav"
+dest_files=["res://.godot/imported/Holy Sanctuary - HydroGene.wav-d38b87c226d871b303e921a950e6ed7f.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

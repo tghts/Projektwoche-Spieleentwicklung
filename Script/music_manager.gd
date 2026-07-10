@@ -7,23 +7,20 @@ var current_playlist: Playlist = null
 var current_track_index := 0
 
 var music_volume := 0.4
-
 var fade_time := 1.0
 
 var fade_tween: Tween
+var player := AudioStreamPlayer.new()
 
-@onready var player := AudioStreamPlayer.new()
 
 func _ready() -> void:
 	randomize()
 
 	add_child(player)
-
 	player.finished.connect(_on_track_finished)
 
 	_load_playlists()
 
-	play_title_music()
 
 func _process(_delta: float) -> void:
 	if Input.is_action_just_pressed("next_track"):
@@ -32,9 +29,14 @@ func _process(_delta: float) -> void:
 	if Input.is_action_just_pressed("previous_track"):
 		previous_track()
 
+
 func _load_playlists() -> void:
 	playlists["title_screen"] = load(
 		"res://Playlists/title_screen.tres"
+	)
+
+	playlists["credits"] = load(
+		"res://Playlists/credits.tres"
 	)
 
 	playlists["level_1"] = load(
@@ -44,11 +46,11 @@ func _load_playlists() -> void:
 	playlists["level_2"] = load(
 		"res://Playlists/level_2.tres"
 	)
-	
+
 	playlists["level_3"] = load(
 		"res://Playlists/level_3.tres"
 	)
-	
+
 	playlists["level_4"] = load(
 		"res://Playlists/level_4.tres"
 	)
@@ -56,10 +58,16 @@ func _load_playlists() -> void:
 	print("Loaded playlists:")
 	print(playlists.keys())
 
+
 func play_playlist(name: String) -> void:
+	# If this method is called before _ready() has completed,
+	# wait until the MusicManager is ready.
+	if not is_node_ready():
+		await ready
+
 	print("Playing playlist:", name)
 
-	if !playlists.has(name):
+	if not playlists.has(name):
 		push_error("Playlist not found: " + name)
 		return
 
@@ -80,13 +88,12 @@ func play_playlist(name: String) -> void:
 
 	_play_current()
 
-func play_title_music() -> void:
-	play_playlist("title_screen")
-
-func play_level_music(level_name: String) -> void:
-	play_playlist(level_name)
 
 func stop() -> void:
+	# Also wait here in case stop() is called during startup.
+	if not is_node_ready():
+		await ready
+
 	if fade_tween:
 		fade_tween.kill()
 
@@ -104,7 +111,11 @@ func stop() -> void:
 	player.stop()
 	player.stream = null
 
+
 func next_track() -> void:
+	if not is_node_ready():
+		await ready
+
 	if current_playlist == null:
 		return
 
@@ -115,7 +126,11 @@ func next_track() -> void:
 
 	_play_current()
 
+
 func previous_track() -> void:
+	if not is_node_ready():
+		await ready
+
 	if current_playlist == null:
 		return
 
@@ -126,8 +141,10 @@ func previous_track() -> void:
 
 	_play_current()
 
+
 func _on_track_finished() -> void:
 	next_track()
+
 
 func _play_current() -> void:
 	if current_playlist == null:
@@ -160,11 +177,9 @@ func _play_current() -> void:
 		await fade_tween.finished
 
 	player.stop()
-
 	player.stream = stream
 	player.bus = "Music"
 	player.volume_db = -80.0
-
 	player.play()
 
 	fade_tween = create_tween()

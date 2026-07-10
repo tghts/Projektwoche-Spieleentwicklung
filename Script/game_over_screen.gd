@@ -12,5 +12,5 @@ func _on_start_again_pressed() -> void:
 
 func _on_back_to_menu_pressed() -> void:
 	SoundManager.play("click")
-	MusicManager.play_title_music()
+	MusicManager.play_playlist("title_screen")
 	get_tree().change_scene_to_file("res://Scene/main_menu.tscn")

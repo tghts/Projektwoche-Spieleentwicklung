@@ -43,25 +43,25 @@ func _ready() -> void:
 	
 	#Es wird geschaut in welchen Level man ist und das Designe und der Text ändern sich entsprechend.
 	if(current_scene == "Level1"):
-		MusicManager.play_level_music("level_1")
+		MusicManager.play_playlist("level_1")
 		herz_rahmen.texture = KI_Epoche_heartbar
 		change_text("Ki-Epoche")
 		change_textschildDesign(KI_Epoche)
 		
 	if (current_scene == "Level2"):
-		MusicManager.play_level_music("level_2")
+		MusicManager.play_playlist("level_2")
 		herz_rahmen.texture = Mittelalter_heartbar
 		change_text("Mittelalter")
 		change_textschildDesign(Mittelalter)
 		
 	if (current_scene == "Level3"):
-		MusicManager.play_level_music("level_3")
+		MusicManager.play_playlist("level_3")
 		herz_rahmen.texture = Ägypten_heartbar
 		change_text("Ägypten")
 		change_textschildDesign(Ägypten)
 		
 	if (current_scene == "Level4"):
-		MusicManager.play_level_music("level_4")
+		MusicManager.play_playlist("level_4")
 		herz_rahmen.texture = Altsteinzeit_heartbar
 		change_text("Altsteinzeit")
 		change_textschildDesign(Altsteinzeit)

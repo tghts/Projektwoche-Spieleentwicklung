@@ -29,7 +29,6 @@ func _on_abc_toggled(toggled_on: bool) -> void:
 		sphinx.hide()
 		SoundManager.play("disappear")
 
-
 func _on_credits_pressed() -> void:
 	SoundManager.play("click")
 	get_tree().change_scene_to_file("res://Scene/credits.tscn")
