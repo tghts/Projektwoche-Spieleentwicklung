@@ -4,10 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://b26nrukae8n4t" path="res://Asset/Objects/Stachel 1.svg" id="2_hvh0p"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_yem5q"]
-size = Vector2(21, 22.75)
-
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_7emdm"]
-size = Vector2(7, 19)
+size = Vector2(17, 26.375)
 
 [node name="Spikes" type="Area2D" unique_id=2114205352]
 script = ExtResource("1_rclxw")
@@ -17,11 +14,7 @@ scale = Vector2(0.12958717, 0.116421506)
 texture = ExtResource("2_hvh0p")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=85139122]
-position = Vector2(2, 11)
+position = Vector2(1.5, 9.1875)
 shape = SubResource("RectangleShape2D_yem5q")
-
-[node name="CollisionShape2D2" type="CollisionShape2D" parent="." unique_id=1951680389]
-position = Vector2(2, -10)
-shape = SubResource("RectangleShape2D_7emdm")
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]
