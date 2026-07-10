@@ -19,7 +19,7 @@ In *Sage Versus Time* durchläuft der Hauptcharakter names Sage **vier Epochen d
 | 1 | Neontown | Moderne / zukünftige KI, vernetzte Welt und fliegende Autos |
 | 2 | Mittelalterliche Stadt | Es gibt Fässer und Heu |
 | 3 | Wüste | Die Mumien sowie die Sphinx besichtigen |
-| 4 | Urzeit | Neanderthaler |
+| 4 | Urzeit | Neandertaler |
 
 > Die KI hat die Menscheit übernommen, und schickt den Hauptcharacter Sage in einen Ritt durch die Epochen – mit Hindernissen, Portalen, und Secrets. Als letzte Überlebende der Neonstadt reist sie durch vier Zeitalter, mit dem Ziel der KI zu entkommen.
 
