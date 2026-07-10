@@ -29,7 +29,7 @@ In *Sage Versus Time* durchläuft der Hauptcharakter names Sage **vier Epochen d
 |--------|----------|---------|
 | Move left | A | Dpad / left stick ← |
 | Move right | D | Dpad / left stick → |
-| Jump | Space | A (XBox layou) |
+| Jump | Space | A (XBox layout) |
 | Pause | Escape / Enter | Start |
 | Next track | Page down | RB |
 | Previous track | Page up | LB |
