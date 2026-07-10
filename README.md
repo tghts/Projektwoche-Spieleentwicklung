@@ -33,7 +33,7 @@ Projekt von **CMB** und **RBK** im Rahmen der Projektwoche.
 | # | Devs | Artworks & Style |
 |---|--------|------------------|
 | 1 | [Lucas B](https://github.com/Linuxuser41230) | Marian S |
-| 2 | [Simon C](https://github.com/vailim) | Stella G |
+| 2 | [Simon C] | Stella G |
 | 3 | [tghts](https://github.com/tghts) | Anna S |
 | 4 |  | Maja T |
 
