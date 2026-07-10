@@ -21,7 +21,7 @@ In *Sage Versus Time* durchläuft der Hauptcharakter names Sage **vier Epochen d
 | 3 | Wüste | Die Mumien sowie die Sphinx besichtigen |
 | 4 | Urzeit | Neandertaler |
 
-> Details zur Story wird morgen finaliziert.
+> Die KI hat die Menscheit übernommen, und schickt den Hauptcharacter Sage in einen ritt durch die Epochen - mit Hindernissen, Portalen, und Secrets. Als Letzte überlebende der Neonstadt reist sie durch vier Zeitalter, mit dem Ziel der AI zu entkommen.
 
 ## 👥 Team
 
