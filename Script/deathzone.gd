@@ -2,5 +2,6 @@ extends Area2D
 
 func _on_body_entered(body: Node2D) -> void:
 	if(body.name == "Character"):
+		GameData.zahnrad_on_respawn()
 		get_tree().reload_current_scene.call_deferred()
 		GameData.reduce_character_hp()

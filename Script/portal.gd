@@ -5,4 +5,5 @@ extends Area2D
 func _on_body_entered(body: Node2D) -> void:
 	if (body.name == "Character"):
 		SoundManager.play("portal")
+		GameData.zahnrad_count_previous_levels = GameData.zahnrad_count
 		get_tree().change_scene_to_packed.call_deferred(target_level)

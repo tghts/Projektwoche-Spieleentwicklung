@@ -1,8 +1,10 @@
 extends Node2D
 
 @onready var start_again: Button = $Panel/VBoxContainer/StartAgain
+@onready var zahnrad_count: Label = $Panel/ZahnradCount
 
 func _ready() -> void:
+	zahnrad_count.text = str(GameData.zahnrad_count)
 	start_again.grab_focus()
 	MusicManager.stop()
 

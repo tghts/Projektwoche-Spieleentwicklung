@@ -2,11 +2,12 @@
 
 [ext_resource type="Script" uid="uid://ctmryfq4q40t0" path="res://Script/end_screen.gd" id="1_wgtx4"]
 [ext_resource type="Texture2D" uid="uid://d20qvt0y034m3" path="res://Asset/Background/The End Text Schild 02.svg" id="1_xe5h7"]
+[ext_resource type="Texture2D" uid="uid://lxx2hes64j1h" path="res://Asset/Anderes/Kaputes Zahnrad.svg" id="3_wgtx4"]
 
 [node name="EndScreen" type="Node" unique_id=1556613398]
 script = ExtResource("1_wgtx4")
 
-[node name="TextureRect" type="TextureRect" parent="." unique_id=1203559931]
+[node name="Screen" type="TextureRect" parent="." unique_id=1203559931]
 texture_filter = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -20,3 +21,20 @@ grow_vertical = 2
 texture = ExtResource("1_xe5h7")
 expand_mode = 1
 stretch_mode = 5
+
+[node name="Zahnrad" type="TextureRect" parent="." unique_id=2143042113]
+offset_left = 201.0
+offset_top = 461.0
+offset_right = 721.0
+offset_bottom = 722.0
+offset_transform_enabled = true
+offset_transform_scale = Vector2(0.3, 0.3)
+texture = ExtResource("3_wgtx4")
+
+[node name="ZahnradCount" type="Label" parent="." unique_id=1599003426]
+offset_left = 565.0
+offset_top = 575.0
+offset_right = 605.0
+offset_bottom = 617.0
+theme_override_font_sizes/font_size = 28
+text = "0"

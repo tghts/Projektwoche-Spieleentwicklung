@@ -7,6 +7,7 @@ var music_volume := 1.0
 var sound_effects_volume := 1.0
 var character_hp := 5
 var zahnrad_count := 0
+var zahnrad_count_previous_levels := 0
 
 func _ready() -> void:
 	MusicManager.play_playlist("title_screen")
@@ -38,4 +39,9 @@ func add_zahnrad():
 
 func reset_zahnrad():
 	zahnrad_count = 0
+	zahnrad_count_previous_levels = 0
+	zahnrad_count_changed.emit(zahnrad_count)
+
+func zahnrad_on_respawn():
+	zahnrad_count = zahnrad_count_previous_levels
 	zahnrad_count_changed.emit(zahnrad_count)

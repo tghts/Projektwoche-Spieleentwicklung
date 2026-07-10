@@ -49,13 +49,13 @@ func _ready() -> void:
 	if(current_scene == "Level1"):
 		MusicManager.play_playlist("level_1")
 		herz_rahmen.texture = KI_Epoche_heartbar
-		change_text("Ki-Epoche")
+		change_text("AI Age")
 		change_textschildDesign(KI_Epoche)
 		
 	if (current_scene == "Level2"):
 		MusicManager.play_playlist("level_2")
 		herz_rahmen.texture = Mittelalter_heartbar
-		change_text("Mittelalter")
+		change_text("Middle Ages")
 		change_textschildDesign(Mittelalter)
 		
 	if (current_scene == "Level3"):
@@ -63,14 +63,14 @@ func _ready() -> void:
 		herz_rahmen.texture = Ägypten_heartbar
 		text_panel.position.x -= 85.0
 		text_panel.position.y += 38.0
-		change_text("Ägypten")
+		change_text("Egypt")
 		change_textschildDesign(Ägypten)
 		
 	if (current_scene == "Level4"):
 		MusicManager.play_playlist("level_4")
 		herz_rahmen.texture = Altsteinzeit_heartbar
 		text_panel.position.y += 15
-		change_text("Altsteinzeit")
+		change_text("Early Stone Age")
 		change_textschildDesign(Altsteinzeit)
 
 #Ruft das übergebene Bild auf und lädt es in die TextureRect Node.
