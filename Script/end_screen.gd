@@ -1,6 +1,6 @@
 extends Node
 
-@onready var zahnrad_count: Label = $Panel/ZahnradCount
+@onready var zahnrad_count: Label = $ZahnradCount
 
 func _ready() -> void:
 	zahnrad_count.text = str(GameData.zahnrad_count)

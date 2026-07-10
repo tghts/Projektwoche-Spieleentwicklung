@@ -67,6 +67,7 @@ offset_transform_scale = Vector2(0.3, 0.3)
 texture = ExtResource("5_tkk48")
 
 [node name="ZahnradCount" type="Label" parent="CanvasLayer/Panel" unique_id=1118406291]
+unique_name_in_owner = true
 layout_mode = 0
 offset_left = 558.0
 offset_top = 35.0
