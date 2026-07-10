@@ -23,7 +23,7 @@ In *Sage Versus Time* durchläuft der Hauptcharakter names Sage **vier Epochen d
 
 > Die KI hat die Menscheit übernommen, und schickt den Hauptcharacter Sage in einen Ritt durch die Epochen – mit Hindernissen, Portalen, und Secrets. Als letzte Überlebende der Neonstadt reist sie durch vier Zeitalter, mit dem Ziel der KI zu entkommen.
 
-### Input
+### Controls
 
 | Action | Keyboard | Gamepad |
 |--------|----------|---------|
