@@ -52,7 +52,7 @@ Projektwoche-Spieleentwicklung/
 ├── Scene/                    # Godot-Szenen (Levels, Player, UI, ...)
 ├── Script/                   # GDScript-Dateien
 ├── default_bus_layout.tres   # Audio-Bus-Konfiguration
-├── project.godot              # Godot-Projektdatei
+├── project.godot             # Godot-Projektdatei
 └── README.md
 ```
 
