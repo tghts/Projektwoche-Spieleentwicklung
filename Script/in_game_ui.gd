@@ -7,6 +7,7 @@ const SETTINGS_SCENE := preload("res://Scene/settings.tscn")
 @onready var herz_rahmen: TextureRect = $CanvasLayer/Panel/HerzRahmen
 @onready var pause_menu = $CanvasLayer/PauseMenu
 @onready var zahnrad_count: Label = $CanvasLayer/Panel/ZahnradCount
+@onready var text_panel: Label = $CanvasLayer/Panel/TextureRect/Panel
 
 var settings_menu = null
 
@@ -28,7 +29,10 @@ func _input(event: InputEvent) -> void:
 # Diese Methode wird immer bei Start einer Scene einmal genutzt.
 func _ready() -> void:
 	pause_menu.settings_requested.connect(_open_settings)
-
+	
+	text_panel.position.x = 24.0
+	text_panel.position.y = 35.0
+	
 	var current_scene: String = get_tree().current_scene.name
 
 	print(get_tree().current_scene.name) # Debugin Zeugs
@@ -57,12 +61,15 @@ func _ready() -> void:
 	if (current_scene == "Level3"):
 		MusicManager.play_level_music("level_3")
 		herz_rahmen.texture = Ägypten_heartbar
+		text_panel.position.x -= 85.0
+		text_panel.position.y += 38.0
 		change_text("Ägypten")
 		change_textschildDesign(Ägypten)
 		
 	if (current_scene == "Level4"):
 		MusicManager.play_level_music("level_4")
 		herz_rahmen.texture = Altsteinzeit_heartbar
+		text_panel.position.y += 15
 		change_text("Altsteinzeit")
 		change_textschildDesign(Altsteinzeit)
 

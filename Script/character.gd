@@ -6,11 +6,8 @@ extends CharacterBody2D
 const SPEED = 400.0
 const JUMP_VELOCITY = -500.0
 var jump_counter = 0
-var current_scene:String
 
-func _ready() -> void:
-	current_scene = get_tree().current_scene.name
-	
+
 func _physics_process(delta: float) -> void:
 	if (velocity.x > 1 || velocity.x < -1):
 		animated_sprite_2d.animation = "walking"
