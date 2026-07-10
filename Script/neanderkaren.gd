@@ -1,11 +1,12 @@
 extends Enemy
 
-@onready var trampolin: Area2D = $"../Trampolin/Trampolin"
-@onready var trampolin_2: Area2D = $"../Trampolin/Trampolin2"
-@onready var trampolin_3: Area2D = $"../Trampolin/Trampolin3"
-@onready var trampolin_4: Area2D = $"../Trampolin/Trampolin4"
-@onready var trampolin_5: Area2D = $"../Trampolin/Trampolin5"
-@onready var trampolin_6: Area2D = $"../Trampolin/Trampolin6"
+@onready var trampolin: Area2D = $"../Trampolin/TrampolineBossKampf/Trampolin"
+@onready var trampolin_2: Area2D = $"../Trampolin/TrampolineBossKampf/Trampolin2"
+@onready var trampolin_3: Area2D = $"../Trampolin/TrampolineBossKampf/Trampolin3"
+@onready var trampolin_4: Area2D = $"../Trampolin/TrampolineBossKampf/Trampolin4"
+@onready var trampolin_5: Area2D = $"../Trampolin/TrampolineBossKampf/Trampolin5"
+@onready var trampolin_6: Area2D = $"../Trampolin/TrampolineBossKampf/Trampolin6"
+
 
 @onready var character: CharacterBody2D = $"../Character"
 var sprint_state:bool
@@ -14,6 +15,14 @@ var lives:int = 4
 
 @export var dash_cooldown := 5.0
 @export var dash_timer := 0.0
+
+func _ready() -> void:
+		trampolin.monitoring = false
+		trampolin_2.monitoring = false
+		trampolin_3.monitoring = false
+		trampolin_4.monitoring = false
+		trampolin_5.monitoring = false
+		trampolin_6.monitoring = false
 
 func _process(_delta: float) -> void:
 	animated_sprite_2d.animation = "walk"
@@ -45,11 +54,17 @@ func sprint_angriff():
 	if (lives == 0):
 		queue_free()
 		trampolin.show()
+		trampolin.monitoring = true
 		trampolin_2.show()
+		trampolin_2.monitoring = true
 		trampolin_3.show()
+		trampolin_3.monitoring = true
 		trampolin_4.show()
+		trampolin_4.monitoring = true
 		trampolin_5.show()
+		trampolin_5.monitoring = true
 		trampolin_6.show()
+		trampolin_6.monitoring = true
 		
 	await get_tree().create_timer(1.5).timeout
 	velocityc_x = 200

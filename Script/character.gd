@@ -50,11 +50,3 @@ func jump_side(x):
 	velocity.y = JUMP_VELOCITY
 	velocity.x = x
 	
-func play_kämpfen():
-	animated_sprite_2d.animation = "kämpfen"
-	animated_sprite_2d.frame = 0
-	animated_sprite_2d.frame = 1
-	animated_sprite_2d.frame = 2
-	animated_sprite_2d.frame = 3
-	animated_sprite_2d.frame = 4
-	animated_sprite_2d.frame = 5
