@@ -3,7 +3,7 @@ extends Node
 @onready var credits: Panel = $Credits
 @onready var h_box_container: HBoxContainer = $Credits/HBoxContainer
 @onready var thanksfor_playing: Label = $Credits/ThanksforPlaying
-
+#var last_scene: PackedScene
 
 func _ready() -> void:
 	move_text()
