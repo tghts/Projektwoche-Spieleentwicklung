@@ -8,7 +8,7 @@
 [ext_resource type="Script" uid="uid://csk5iarvv6l30" path="res://Script/music_player_ui.gd" id="6_dviy5"]
 [ext_resource type="Script" uid="uid://dqccjm2p2luw5" path="res://Script/pause_menu.gd" id="6_o5tdw"]
 [ext_resource type="Texture2D" uid="uid://bmt0n6lrbv33r" path="res://Asset/UI/vinyl_record.png" id="7_brp0j"]
-[ext_resource type="Script" uid="uid://db1s5lxpwdj8n" path="res://Script/Timer.gd" id="8_wckav"]
+[ext_resource type="Script" uid="uid://db1s5lxpwdj8n" path="res://Script/timer.gd" id="8_wckav"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_quy4v"]
 

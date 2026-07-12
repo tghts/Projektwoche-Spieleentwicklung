@@ -413,11 +413,11 @@ offset_top = 704.0
 offset_right = 964.0
 offset_bottom = 972.0
 
-[node name="Developer" type="Label" parent="Credits/HBoxContainer/Developer/VBoxContainer" unique_id=1714612232]
+[node name="Developers" type="Label" parent="Credits/HBoxContainer/Developer/VBoxContainer" unique_id=1714612232]
 texture_filter = 1
 layout_mode = 2
 theme_override_font_sizes/font_size = 50
-text = "Developer"
+text = "Developers"
 horizontal_alignment = 1
 vertical_alignment = 1
 metadata/_edit_lock_ = true

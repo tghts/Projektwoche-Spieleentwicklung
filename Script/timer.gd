@@ -16,7 +16,7 @@ func _process(delta: float) -> void:
 		minutes += 1
 	text = str(minutes)+"m : " +str("%d" % int(seconds))+"s"
 
-func reset_time():
+static func reset_time():
 	minutes = 0
 	seconds = 0
 
