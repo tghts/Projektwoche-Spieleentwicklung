@@ -1,8 +1,6 @@
 extends Node
 
 @onready var zahnrad_count: Label = $ZahnradCount
-@onready var label_timer: Label = %Label
-
 
 func _ready() -> void:
 	

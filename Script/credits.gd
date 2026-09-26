@@ -16,3 +16,8 @@ func move_text():
 	await get_tree().create_timer(5).timeout
 	MusicManager.play_playlist("title_screen")
 	get_tree().change_scene_to_file("res://Scene/main_menu.tscn")
+
+
+func _on_skip_button_pressed() -> void:
+	MusicManager.play_playlist("title_screen")
+	get_tree().change_scene_to_file("res://Scene/main_menu.tscn")

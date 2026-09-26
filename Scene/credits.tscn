@@ -341,8 +341,9 @@ metadata/_edit_lock_ = true
 
 [node name="HBoxContainer" type="HBoxContainer" parent="Credits" unique_id=13517011]
 layout_mode = 0
-offset_right = 40.0
-offset_bottom = 40.0
+offset_right = 1152.0
+offset_bottom = 648.0
+metadata/_edit_lock_ = true
 
 [node name="Artist" type="Control" parent="Credits/HBoxContainer" unique_id=1309147877]
 texture_filter = 1
@@ -468,6 +469,11 @@ offset_bottom = 361.0
 theme_override_font_sizes/font_size = 75
 text = "Thanks for Playing"
 
+[node name="Skip_Button" type="Button" parent="." unique_id=1447525285]
+offset_right = 56.0
+offset_bottom = 32.0
+text = "Skip"
+
 [node name="Character_sprites" type="Node2D" parent="." unique_id=1670925372]
 
 [node name="KI" type="AnimatedSprite2D" parent="Character_sprites" unique_id=608888460]
@@ -499,3 +505,5 @@ sprite_frames = SubResource("SpriteFrames_pgfrw")
 animation = &"walking"
 autoplay = "walking"
 flip_h = true
+
+[connection signal="pressed" from="Skip_Button" to="." method="_on_skip_button_pressed"]
